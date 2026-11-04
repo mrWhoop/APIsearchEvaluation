@@ -1,0 +1,7 @@
+component_a,component_b,n_queries,mean_a,mean_b,mean_difference,ci_lower,ci_upper,bootstrap_significant,statistic,p_value,p_significant,p_adjusted,significant
+Meilisearch,MeilisearchEmbed,40,0.22000000000000003,0.37,-0.15,-0.21000000000000002,-0.095,True,0.0,3.164162633060216e-05,True,0.00018928899295255755,True
+Meilisearch,OpenAIPrompt,40,0.22000000000000003,0.2,0.019999999999999997,0.0,0.05,False,0.0,0.15729920705028502,False,0.4718976211508551,False
+Meilisearch,GeminiPrompt,40,0.22000000000000003,0.2,0.019999999999999997,0.0,0.05,False,0.0,0.15729920705028502,False,0.4718976211508551,False
+MeilisearchEmbed,OpenAIPrompt,40,0.37,0.2,0.17,0.10500000000000001,0.24000000000000005,True,0.0,3.154816549209293e-05,True,0.00018928899295255755,True
+MeilisearchEmbed,GeminiPrompt,40,0.37,0.2,0.17,0.10500000000000001,0.24000000000000005,True,0.0,3.154816549209293e-05,True,0.00018928899295255755,True
+OpenAIPrompt,GeminiPrompt,40,0.2,0.2,0.0,0.0,0.0,False,0.0,1.0,False,1.0,False

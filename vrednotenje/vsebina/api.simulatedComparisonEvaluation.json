@@ -1,0 +1,720 @@
+[{
+  "_id": {
+    "$oid": "6af70a20c212c5faf07c072f"
+  },
+  "query": "animal shelter",
+  "model": "GPT",
+  "summary": "<section>&#10;  <h2>Recommendation</h2>&#10;  <p><strong>Petfinder</strong> is the best match for &#8220;animal shelter&#8221;: its API provides access to adoptable pets and animal welfare organizations.</p>&#10;</section>&#10;&#10;<section>&#10;  <h2>Similarities</h2>&#10;  <ul>&#10;    <li>All five documents describe REST APIs in the Animals category.</li>&#10;    <li>Each Dog API listing and Petfinder support HTTPS; the dog-picture Dog API, Petfinder, and RandomDog also support CORS.</li>&#10;  </ul>&#10;</section>&#10;&#10;<section>&#10;  <h2>Differences</h2>&#10;  <ul>&#10;    <li>Petfinder focuses on adoptable pets and animal welfare organizations; the other APIs focus on dog breeds, pictures, or HTTP status codes.</li>&#10;    <li>The breed-information Dog API does not support HTTPS. The other four listings do.</li>&#10;    <li>CORS support is specified only for the dog-picture Dog API, Petfinder, and RandomDog.</li>&#10;  </ul>&#10;</section>&#10;&#10;<section>&#10;  <h2>Unique points per document</h2>&#10;  <ul>&#10;    <li><strong>Dog API (breed information):</strong> Covers over 340 breeds, 20 breed groups, and dog facts.</li>&#10;    <li><strong>Dog API (pictures):</strong> Described as the internet&#8217;s biggest collection of open-source dog pictures.</li>&#10;    <li><strong>HTTP Status Dogs:</strong> Provides dogs for HTTP response status codes.</li>&#10;    <li><strong>Petfinder:</strong> Offers data on hundreds of thousands of adoptable pets and over ten thousand animal welfare organizations.</li>&#10;    <li><strong>RandomDog:</strong> Provides random dog pictures.</li>&#10;  </ul>&#10;</section>",
+  "grades": {
+    "fluency": 4,
+    "groundness": 3,
+    "faithfulness": 3
+  },
+  "resultIds": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab707b",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab707c",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7078",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7075",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7076",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6af70a22c212c5faf07c0730"
+  },
+  "query": "animal shelter",
+  "model": "Gemini",
+  "summary": "<section>&#10;  <h2>Recommendation</h2>&#10;  <p>Based on the query &#34;animal shelter&#34;, <strong>Petfinder</strong> is recommended. It is the only API providing access to a database of pets ready for adoption and over ten thousand animal welfare organizations.</p>&#10;</section>&#10;&#10;<section>&#10;  <h2>Similarities</h2>&#10;  <ul>&#10;    <li>All documents describe services that are <strong>REST APIs</strong>.</li>&#10;    <li>All services belong to the <strong>&#34;Animals&#34;</strong> category.</li>&#10;  </ul>&#10;</section>&#10;&#10;<section>&#10;  <h2>Differences</h2>&#10;  <ul>&#10;    <li><strong>HTTPS Support:</strong> Supported by the second Dog API, HTTP Status Dogs, Petfinder, and RandomDog, but explicitly not supported by the first Dog API.</li>&#10;    <li><strong>CORS Support:</strong> Explicitly supported by the second Dog API, Petfinder, and RandomDog; not stated for the first Dog API or HTTP Status Dogs.</li>&#10;    <li><strong>Functional Focus:</strong> The APIs serve varied purposes, ranging from dog breed data and HTTP status illustrations to image collections and pet adoption.</li>&#10;  </ul>&#10;</section>&#10;&#10;<section>&#10;  <h2>Unique Points per Document</h2>&#10;  <ul>&#10;    <li><strong>Dog API (Breed Information):</strong> Provides data on over 340 dog breeds, 20 breed groups, and fun facts; the only listed API that does not support HTTPS.</li>&#10;    <li><strong>Dog API (Open Source Pictures):</strong> Features the internet's biggest collection of open source dog pictures.</li>&#10;    <li><strong>HTTP Status Dogs:</strong> Associates dogs with HyperText Transfer Protocol (HTTP) response status codes.</li>&#10;    <li><strong>Petfinder:</strong> Contains data on hundreds of thousands of adoptable pets and over ten thousand animal welfare organizations.</li>&#10;    <li><strong>RandomDog:</strong> Dedicated specifically to delivering random pictures of dogs.</li>&#10;  </ul>&#10;</section>",
+  "grades": {
+    "fluency": 4,
+    "groundness": 4,
+    "faithfulness": 4
+  },
+  "resultIds": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab707b",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab707c",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7078",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7075",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7076",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6af70bcfc212c5faf07c0731"
+  },
+  "query": "data analysis",
+  "model": "GPT",
+  "summary": "<section>&#10;  <h2>Recommendation</h2>&#10;  <p><strong>Google Analytics</strong> is the closest match for &#8220;data analysis&#8221;: its description focuses on understanding website and app performance and optimizing digital strategy.</p>&#10;</section>&#10;&#10;<section>&#10;  <h2>Similarities</h2>&#10;  <ul>&#10;    <li>All five are REST APIs.</li>&#10;    <li>Google Analytics, enigma, CORE, and THE WORLD BANK support HTTPS.</li>&#10;  </ul>&#10;</section>&#10;&#10;<section>&#10;  <h2>Differences</h2>&#10;  <ul>&#10;    <li>The APIs cover different subjects: website and app performance, U.S. businesses, research, development, and policing.</li>&#10;    <li>Google Analytics uses OAuth; enigma and CORE use API-key authentication. Authentication is not specified for the other two.</li>&#10;    <li>THE WORLD BANK is stated not to support HTTPS; enigma supports CORS.</li>&#10;  </ul>&#10;</section>&#10;&#10;<section>&#10;  <h2>Unique points per document</h2>&#10;  <ul>&#10;    <li><strong>Google Analytics:</strong> Focuses on website and app performance and digital strategy.</li>&#10;    <li><strong>enigma:</strong> Aims to provide actionable information about the health and identity of U.S. businesses.</li>&#10;    <li><strong>CORE:</strong> Supports access to open research and services for managing and discovering research papers.</li>&#10;    <li><strong>THE WORLD BANK:</strong> Covers indicators, datasets, projects, finances, and climate data.</li>&#10;    <li><strong>DATA.POLICE.UK:</strong> Provides crime and policing data for England, Wales, and Northern Ireland, including downloadable CSVs.</li>&#10;  </ul>&#10;</section>",
+  "grades": {
+    "fluency": 4,
+    "groundness": 3,
+    "faithfulness": 4
+  },
+  "resultIds": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7178",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab715e",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab716f",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7137",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7098",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6af70bd0c212c5faf07c0732"
+  },
+  "query": "data analysis",
+  "model": "Gemini",
+  "summary": "<section>&#10;  <h2>1. Recommendation</h2>&#10;  <p>For the query <strong>&#34;data analysis&#34;</strong>, <strong>CORE</strong> is recommended. It explicitly provides services allowing users to process and analyse the largest structured collection of open research papers and their full texts, while supporting secure access via HTTPS and API key authentication.</p>&#10;</section>&#10;&#10;<section>&#10;  <h2>2. Similarities</h2>&#10;  <ul>&#10;    <li><strong>Architecture:</strong> All five documented services are REST APIs.</li>&#10;    <li><strong>Data Focus:</strong> All documents provide data services, datasets, or intelligence for external users (e.g., businesses, researchers, public governance).</li>&#10;    <li><strong>HTTPS Support:</strong> The majority of the APIs (Google Analytics, enigma, CORE, and DATA.POLICE.UK) support HTTPS.</li>&#10;    <li><strong>Shared Categories:</strong> Both CORE and THE WORLD BANK fall under the &#34;Science &amp; Math&#34; category.</li>&#10;  </ul>&#10;</section>&#10;&#10;<section>&#10;  <h2>3. Differences</h2>&#10;  <ul>&#10;    <li><strong>Category:</strong> Google Analytics belongs to &#34;Business&#34;, enigma to &#34;Open Data&#34;, CORE and THE WORLD BANK to &#34;Science &amp; Math&#34;, and DATA.POLICE.UK to &#34;Security&#34;.</li>&#10;    <li><strong>Authentication Methods:</strong> Google Analytics requires OAuth; enigma and CORE require an apiKey; authentication requirements are not specified for THE WORLD BANK or DATA.POLICE.UK.</li>&#10;    <li><strong>HTTPS Support:</strong> THE WORLD BANK does not support HTTPS, whereas the other four APIs do.</li>&#10;    <li><strong>CORS Support:</strong> Enigma explicitly states support for CORS, which is not mentioned for any of the other APIs.</li>&#10;    <li><strong>Licensing:</strong> Only DATA.POLICE.UK explicitly mentions being licensed under the Open Government Licence v3.0.</li>&#10;  </ul>&#10;</section>&#10;&#10;<section>&#10;  <h2>4. Unique Points per Document</h2>&#10;  <ul>&#10;    <li><strong>Google Analytics:</strong> The only service using OAuth; specifically focused on website and app performance analysis and digital campaign optimization.</li>&#10;    <li><strong>enigma:</strong> The only API explicitly noting CORS support; specializes strictly in intelligence and data on U.S. businesses.</li>&#10;    <li><strong>CORE:</strong> Uniquely enables users to manage research papers, make them discoverable, comply with funder mandates, and analyse full-text open research collections.</li>&#10;    <li><strong>THE WORLD BANK:</strong> The only API lacking HTTPS support; encompasses several specialized sub-APIs (Indicators, Data Catalog, Projects, Finances, and Climate Data APIs).</li>&#10;    <li><strong>DATA.POLICE.UK:</strong> Focuses specifically on crime, policing, and stop-and-search data for England, Wales, and Northern Ireland, offering data via both API and CSV formats under the Open Government Licence v3.0.</li>&#10;  </ul>&#10;</section>",
+  "grades": {
+    "fluency": 4,
+    "groundness": 4,
+    "faithfulness": 4
+  },
+  "resultIds": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7178",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab715e",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab716f",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7137",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7098",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6af70d37c212c5faf07c0733"
+  },
+  "query": "Bitquery",
+  "model": "GPT",
+  "summary": "<section>&#10;  <h2>Recommendation</h2>&#10;  <p><strong>Bitquery</strong> is the best match for the query. It provides GraphQL APIs for historical and real-time indexed data across 40+ blockchains, including token trades, transfers, holders, transactions, balances, and smart contract data.</p>&#10;</section>&#10;&#10;<section>&#10;  <h2>Similarities</h2>&#10;  <ul>&#10;    <li>Bitquery and BitMEX are both in the Cryptocurrency category and use API-key authentication.</li>&#10;    <li>Bitquery, BitMEX, CARTO, and Libraries.io support HTTPS.</li>&#10;  </ul>&#10;</section>&#10;&#10;<section>&#10;  <h2>Differences</h2>&#10;  <ul>&#10;    <li>Bitquery uses GraphQL; BitMEX uses WebSocket; CARTO, Libraries.io, and SUREDBITS use REST.</li>&#10;    <li>The documents cover different areas: cryptocurrency, spatial analytics, open-source packages, and sports data.</li>&#10;    <li>SUREDBITS does not support HTTPS or CORS. The other documents do not specify CORS support.</li>&#10;  </ul>&#10;</section>&#10;&#10;<section>&#10;  <h2>Unique Points per Document</h2>&#10;  <ul>&#10;    <li><strong>Bitquery:</strong> Offers indexed blockchain data through GraphQL, Websockets, SQL, and cloud providers.</li>&#10;    <li><strong>BitMEX:</strong> Offers REST and streaming WebSocket APIs for real-time market and user data.</li>&#10;    <li><strong>CARTO:</strong> Provides cloud-first spatial analysis and visualization on cloud data warehouses.</li>&#10;    <li><strong>Libraries.io:</strong> Supports searching open-source packages by license or language and exploring popular or trending packages.</li>&#10;    <li><strong>SUREDBITS:</strong> Provides NFL, NBA, and crypto exchange data, including trades, tickers, and order books.</li>&#10;  </ul>&#10;</section>",
+  "grades": {
+    "fluency": 4,
+    "groundness": 4,
+    "faithfulness": 4
+  },
+  "resultIds": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70b3",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70b5",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7142",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7188",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7136",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6af70d39c212c5faf07c0734"
+  },
+  "query": "Bitquery",
+  "model": "Gemini",
+  "summary": "<section>&#10;  <h2>Recommendation</h2>&#10;  <p>Based on your query for <strong>Bitquery</strong>, the recommended document is <strong>Bitquery</strong>. It specifically fulfills the search by offering a GraphQL API that provides historical and real-time indexed data for over 40 blockchains, covering transactions, smart contract events, balances, and NFT trades.</p>&#10;</section>&#10;&#10;<section>&#10;  <h2>Similarities</h2>&#10;  <ul>&#10;    <li><strong>Authentication:</strong> Bitquery, BitMEX, CARTO, and Libraries.io all utilize the <code>apiKey</code> method for authentication.</li>&#10;    <li><strong>Protocol Security:</strong> Bitquery, BitMEX, CARTO, and Libraries.io all support HTTPS.</li>&#10;    <li><strong>Domain Focus:</strong> Bitquery, BitMEX, and SUREDBITS all provide cryptocurrency-related data.</li>&#10;  </ul>&#10;</section>&#10;&#10;<section>&#10;  <h2>Differences</h2>&#10;  <ul>&#10;    <li><strong>API Architecture:</strong> Bitquery is primarily a GraphQL API; BitMEX is a WebSocket API; CARTO, Libraries.io, and SUREDBITS are REST APIs.</li>&#10;    <li><strong>Categories:</strong> Bitquery and BitMEX fall under &#34;Cryptocurrency&#34;, CARTO belongs to &#34;Open Data&#34;, Libraries.io is classified as &#34;Open Source Projects&#34;, and SUREDBITS falls under &#34;Sports &amp; Fitness&#34;.</li>&#10;    <li><strong>HTTPS and CORS Support:</strong> SUREDBITS does not support HTTPS or CORS, unlike the other APIs which support HTTPS.</li>&#10;  </ul>&#10;</section>&#10;&#10;<section>&#10;  <h2>Unique Points per Document</h2>&#10;  <ul>&#10;    <li><strong>Bitquery:</strong> Indexes data across 40+ blockchains with access through GraphQL, WebSockets, SQL, and major cloud providers (AWS, Snowflake, Google, Azure, Kafka).</li>&#10;    <li><strong>BitMEX:</strong> Exposes every function used by its website via the API, providing streaming WebSocket market and user data for full application control.</li>&#10;    <li><strong>CARTO:</strong> A cloud-first spatial platform designed for GIS that runs natively on cloud data warehouses such as Google BigQuery, Snowflake, and AWS Redshift.</li>&#10;    <li><strong>Libraries.io:</strong> A free service cataloging 9.96M open-source packages, allowing searches by license, language, or popularity.</li>&#10;    <li><strong>SUREDBITS:</strong> Integrates sports data (NFL and NBA scores, stats, teams, and players) alongside crypto exchange data via the Lightning App API.</li>&#10;  </ul>&#10;</section>",
+  "grades": {
+    "fluency": 4,
+    "groundness": 4,
+    "faithfulness": 4
+  },
+  "resultIds": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70b3",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70b5",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7142",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7188",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7136",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6af70e87c212c5faf07c0735"
+  },
+  "query": "Mailgun",
+  "model": "GPT",
+  "summary": "<section>&#10;  <h2>Recommendation</h2>&#10;  <p><strong>Mailgun</strong> is the best match for the query: it provides a transactional email delivery service and API for developers.</p>&#10;</section>&#10;&#10;<section>&#10;  <h2>Similarities</h2>&#10;  <ul>&#10;    <li>All five documents describe REST APIs that support HTTPS.</li>&#10;    <li>Gmail, Mailgun, Mailjet, and MailboxValidator are categorized as Business.</li>&#10;  </ul>&#10;</section>&#10;&#10;<section>&#10;  <h2>Differences</h2>&#10;  <ul>&#10;    <li>Gmail uses OAuth authentication; the other four use an API key.</li>&#10;    <li>Gmail, Mailgun, and Mailjet focus on email access or delivery, while MailboxValidator and mailboxlayer focus on email validation.</li>&#10;    <li>mailboxlayer is categorized as Data Validation; the other listed services are categorized as Business.</li>&#10;  </ul>&#10;</section>&#10;&#10;<section>&#10;  <h2>Unique Points per Document</h2>&#10;  <ul>&#10;    <li><strong>Gmail:</strong> Supports mailbox access, message sending, extraction, migration, and email organization.</li>&#10;    <li><strong>MailboxValidator:</strong> Checks whether an email mailbox exists to help reduce bounce rates and costs.</li>&#10;    <li><strong>Mailgun:</strong> Offers transactional email delivery designed for developers.</li>&#10;    <li><strong>Mailjet:</strong> Supports email marketing campaigns, newsletters, and automated emails.</li>&#10;    <li><strong>mailboxlayer:</strong> Provides syntax, MX-record, SMTP, catch-all, disposable-address, and typo checks, plus a quality score.</li>&#10;  </ul>&#10;</section>",
+  "grades": {
+    "fluency": 4,
+    "groundness": 4,
+    "faithfulness": 4
+  },
+  "resultIds": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab709a",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab709b",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7099",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70c1",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7097",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6af70e88c212c5faf07c0736"
+  },
+  "query": "Mailgun",
+  "model": "Gemini",
+  "summary": "<section>&#10;  <h2>Recommendation</h2>&#10;  <p>Based on the query &#34;Mailgun&#34;, the recommended service is <strong>Mailgun</strong>. It directly matches the query and provides a dedicated transactional email delivery service and API tailored specifically for developers.</p>&#10;</section>&#10;&#10;<section>&#10;  <h2>Similarities</h2>&#10;  <ul>&#10;    <li><strong>Architecture:</strong> All five services operate as REST APIs.</li>&#10;    <li><strong>Security:</strong> All five services support HTTPS.</li>&#10;    <li><strong>Authentication:</strong> MailboxValidator, Mailgun, Mailjet, and mailboxlayer all utilize <code>apiKey</code> authentication.</li>&#10;    <li><strong>Category:</strong> Gmail, MailboxValidator, Mailgun, and Mailjet all belong to the &#34;Business&#34; category.</li>&#10;  </ul>&#10;</section>&#10;&#10;<section>&#10;  <h2>Differences</h2>&#10;  <ul>&#10;    <li><strong>Authentication Method:</strong> Gmail uses <code>OAuth</code>, whereas the other four APIs rely on <code>apiKey</code>.</li>&#10;    <li><strong>Category:</strong> mailboxlayer is categorized under &#34;Data Validation&#34;, while the remaining four services are categorized under &#34;Business&#34;.</li>&#10;    <li><strong>Core Functionality:</strong> &#10;      <ul>&#10;        <li>Gmail handles personal/organizational mailbox management, extraction, and sending.</li>&#10;        <li>Mailgun specializes in transactional email delivery for developers.</li>&#10;        <li>Mailjet focuses on email marketing campaigns, newsletters, and automated emails.</li>&#10;        <li>MailboxValidator and mailboxlayer focus on email verification and invalid address detection.</li>&#10;      </ul>&#10;    </li>&#10;  </ul>&#10;</section>&#10;&#10;<section>&#10;  <h2>Unique Points per Document</h2>&#10;  <ul>&#10;    <li><strong>Gmail:</strong> The only service using OAuth; uniquely supports authorized access to user mailbox data, email backup/migration, and email signature standardization across organizations.</li>&#10;    <li><strong>MailboxValidator:</strong> Explicitly highlights connecting to mail servers to confirm mailbox existence to lower bounce rates, reduce costs, and improve conversion rate and sender reputation.</li>&#10;    <li><strong>Mailgun:</strong> Specifically targeted at developers seeking to enhance transactional email delivery capabilities.</li>&#10;    <li><strong>Mailjet:</strong> Designed as an easy-to-use platform with tools specifically for email marketing campaigns and newsletters.</li>&#10;    <li><strong>mailboxlayer:</strong> The only service categorized under &#34;Data Validation&#34;; uniquely evaluates MX-records, SMTP, catch-all settings, disposable vs. free providers, typo checks, &#34;did-you-mean&#34; suggestions, and numeric quality scores.</li>&#10;  </ul>&#10;</section>",
+  "grades": {
+    "fluency": 4,
+    "groundness": 4,
+    "faithfulness": 4
+  },
+  "resultIds": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab709a",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab709b",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7099",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70c1",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7097",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6af70fd1c212c5faf07c0737"
+  },
+  "query": "UV index API free tier",
+  "model": "GPT",
+  "summary": "<section>&#10;  <h2>Recommendation</h2>&#10;  <p><strong>OpenUV</strong> is the best match: it offers a real-time UV index API described as 100% free. It requires an API key; the provided information does not specify usage limits or tier details.</p>&#10;</section>&#10;&#10;<section>&#10;  <h2>Similarities</h2>&#10;  <ul>&#10;    <li>All five documents describe REST APIs in the Weather category.</li>&#10;    <li>OpenUV, Open-Meteo, weatherstack, and Weatherbit support HTTPS; OpenWeather does not.</li>&#10;  </ul>&#10;</section>&#10;&#10;<section>&#10;  <h2>Differences</h2>&#10;  <ul>&#10;    <li>OpenUV specifically provides real-time UV index data and requires an API key.</li>&#10;    <li>Open-Meteo offers free access for non-commercial use without an API key, but UV data is not mentioned.</li>&#10;    <li>weatherstack, OpenWeather, and Weatherbit require API keys; their descriptions do not specifically mention UV data.</li>&#10;  </ul>&#10;</section>&#10;&#10;<section>&#10;  <h2>Unique points per document</h2>&#10;  <ul>&#10;    <li><strong>OpenUV:</strong> Global, real-time UV index API, described as 100% free.</li>&#10;    <li><strong>Open-Meteo:</strong> Open-source, no-key access for non-commercial use; supports CORS and provides weather data at 1&#8211;11 km resolution.</li>&#10;    <li><strong>weatherstack:</strong> Real-time and historical weather information for locations worldwide.</li>&#10;    <li><strong>OpenWeather:</strong> Offers forecasts, alerts, historical archives, and weather summaries.</li>&#10;    <li><strong>Weatherbit:</strong> Provides observations from over 50,000 stations, long-term historical data, and localized forecasts.</li>&#10;  </ul>&#10;</section>",
+  "grades": {
+    "fluency": 4,
+    "groundness": 3,
+    "faithfulness": 4
+  },
+  "resultIds": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71b8",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71b7",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71bb",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71b9",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71b2",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6af70fd2c212c5faf07c0738"
+  },
+  "query": "UV index API free tier",
+  "model": "Gemini",
+  "summary": "<section>&#10;  <h2>Recommendation</h2>&#10;  <p><strong>OpenUV</strong> is recommended for your query. It explicitly provides a &#34;100% Free Real-Time UV Index JSON API,&#34; directly matching the need for UV index data with a free tier.</p>&#10;</section>&#10;&#10;<section>&#10;  <h2>Similarities</h2>&#10;  <ul>&#10;    <li><strong>Architecture:</strong> All five services are REST APIs.</li>&#10;    <li><strong>Category:</strong> All belong to the &#34;Weather&#34; category.</li>&#10;    <li><strong>Authentication:</strong> The majority (weatherstack, OpenUV, OpenWeather, Weatherbit) use an <code>apiKey</code> method for authentication.</li>&#10;    <li><strong>Protocol:</strong> Most services (weatherstack, Open-Meteo, OpenUV, Weatherbit) support HTTPS.</li>&#10;  </ul>&#10;</section>&#10;&#10;<section>&#10;  <h2>Differences</h2>&#10;  <ul>&#10;    <li><strong>Data Focus:</strong> OpenUV is specialized specifically for UV Index data, whereas weatherstack, Open-Meteo, OpenWeather, and Weatherbit provide general weather forecasts, historical data, and observations.</li>&#10;    <li><strong>API Key Requirement:</strong> Open-Meteo requires no API key, whereas all other services require an <code>apiKey</code>.</li>&#10;    <li><strong>HTTPS Support:</strong> OpenWeather does not support HTTPS, unlike the other four APIs which do.</li>&#10;    <li><strong>CORS Support:</strong> Open-Meteo is the only service that explicitly lists support for CORS.</li>&#10;    <li><strong>Free Tier Mentions:</strong> Only OpenUV (100% Free) and Open-Meteo (free for non-commercial use) explicitly mention free offerings in their descriptions.</li>&#10;  </ul>&#10;</section>&#10;&#10;<section>&#10;  <h2>Unique Points per Document</h2>&#10;  <ul>&#10;    <li><strong>weatherstack:</strong> Highlights instant retrieval of global weather information specifically in lightweight JSON format.</li>&#10;    <li><strong>Open-Meteo:</strong> Open-source API requiring no API key; explicitly supports CORS and partners with national weather services for high resolution (1 to 11 km) forecasts.</li>&#10;    <li><strong>OpenUV:</strong> Exclusively focuses on real-time UV index data, targeted at developers, innovators, and smart home enthusiasts.</li>&#10;    <li><strong>OpenWeather:</strong> Features specific detailed forecast spans (minute forecast for 1 hour, hourly for 48 hours, daily for 8 days), weather alerts, human-readable summaries, and a 46+ year historical archive; does not support HTTPS.</li>&#10;    <li><strong>Weatherbit:</strong> Highlights retrieval of current observations from over 50,000 live weather stations and 20+ years of historical data utilizing radar, satellite, and machine learning.</li>&#10;  </ul>&#10;</section>",
+  "grades": {
+    "fluency": 4,
+    "groundness": 4,
+    "faithfulness": 4
+  },
+  "resultIds": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71b8",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71b7",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71bb",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71b9",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71b2",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6af71159c212c5faf07c0739"
+  },
+  "query": "stock picture provider or picture generator",
+  "model": "GPT",
+  "summary": "<section>&#10;  <h2>Recommendation</h2>&#10;  <p><strong>Getty Images</strong> is the best fit for a stock picture provider: its API offers images, videos, and illustrations from Getty Images and iStock. For random photos, Lorem Picsum is an alternative.</p>&#10;</section>&#10;&#10;<section>&#10;  <h2>Similarities</h2>&#10;  <ul>&#10;    <li>All listed services are REST APIs and support HTTPS.</li>&#10;    <li>Getty Images, Lorem Picsum, and the unnamed image-processing API are categorized under Photography.</li>&#10;  </ul>&#10;</section>&#10;&#10;<section>&#10;  <h2>Differences</h2>&#10;  <ul>&#10;    <li>Getty Images provides visual content for integration; Lorem Picsum serves random photos.</li>&#10;    <li>ICONFINDER and Noun Project focus on graphics and visual-language resources, not photography.</li>&#10;    <li>The unnamed API removes image backgrounds or foregrounds rather than providing pictures.</li>&#10;    <li>Getty Images, ICONFINDER, and Noun Project use OAuth; the unnamed API uses an API key. No authentication method is specified for Lorem Picsum.</li>&#10;  </ul>&#10;</section>&#10;&#10;<section>&#10;  <h2>Unique Points per Document</h2>&#10;  <ul>&#10;    <li><strong>Getty Images:</strong> Offers Getty Images and iStock content, including images, videos, and illustrations.</li>&#10;    <li><strong>Lorem Picsum:</strong> Serves random photos.</li>&#10;    <li><strong>ICONFINDER:</strong> Provides graphics created by independent designers.</li>&#10;    <li><strong>Noun Project:</strong> Offers visual-language resources for services or applications.</li>&#10;    <li><strong>Unnamed API:</strong> Removes image backgrounds or foregrounds without requiring image resizing and supports CORS.</li>&#10;  </ul>&#10;</section>",
+  "grades": {
+    "fluency": 3,
+    "groundness": 3,
+    "faithfulness": 3
+  },
+  "resultIds": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7158",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab708c",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7154",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7159",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab708d",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6af7115bc212c5faf07c073a"
+  },
+  "query": "stock picture provider or picture generator",
+  "model": "Gemini",
+  "summary": "<section>&#10;  <h2>Recommendation</h2>&#10;  <p>Based on your query for a stock picture provider, <strong>gettyimages</strong> is the recommended API. It specifically provides access to world-class visual content, letting users integrate stock images, videos, and illustrations directly from Getty Images and iStock.</p>&#10;</section>&#10;&#10;<section>&#10;  <h2>Similarities</h2>&#10;  <ul>&#10;    <li><strong>Architecture:</strong> All five options are REST APIs.</li>&#10;    <li><strong>Security:</strong> All five APIs support HTTPS.</li>&#10;    <li><strong>Domain:</strong> All services are classified under visual categories (&#34;Art and Design&#34; or &#34;Photography&#34;).</li>&#10;  </ul>&#10;</section>&#10;&#10;<section>&#10;  <h2>Differences</h2>&#10;  <ul>&#10;    <li><strong>Category:</strong> ICONFINDER and Noun Project fall under &#34;Art and Design,&#34; whereas gettyimages, Lorem Picsum., and the unnamed service belong to &#34;Photography.&#34;</li>&#10;    <li><strong>Authentication Method:</strong> ICONFINDER, Noun Project, and gettyimages use OAuth; the unnamed API uses apiKey; Lorem Picsum. lists no authentication method.</li>&#10;    <li><strong>CORS Support:</strong> Only the unnamed API explicitly indicates support for CORS.</li>&#10;    <li><strong>Functionality:</strong> Services range from graphic and icon libraries (ICONFINDER, Noun Project) and stock/random image providers (gettyimages, Lorem Picsum.) to image editing via background/foreground removal (the unnamed API).</li>&#10;  </ul>&#10;</section>&#10;&#10;<section>&#10;  <h2>Unique Points per Document</h2>&#10;  <ul>&#10;    <li><strong>ICONFINDER:</strong> Offers millions of graphics created specifically by independent designers.</li>&#10;    <li><strong>Noun Project:</strong> Promotes itself as providing access to the &#34;World&#8217;s Visual Language.&#34;</li>&#10;    <li><strong>gettyimages:</strong> Integrates visual content, videos, and illustrations sourced directly from Getty Images and iStock.</li>&#10;    <li><strong>Lorem Picsum.:</strong> Functions as the &#34;Lorem Ipsum for photos,&#34; serving random photos.</li>&#10;    <li><strong>Unnamed API:</strong> Provides an AI solution specifically for background or foreground removal without resizing the original image.</li>&#10;  </ul>&#10;</section>",
+  "grades": {
+    "fluency": 3,
+    "groundness": 2,
+    "faithfulness": 3
+  },
+  "resultIds": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7158",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab708c",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7154",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7159",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab708d",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6af71496c212c5faf07c073b"
+  },
+  "query": "free, unlimited link shortener service",
+  "model": "Gemini",
+  "summary": "<section>&#10;  <h2>Recommendation</h2>&#10;  <p>Based on your query for a &#34;free, unlimited link shortener service,&#34; <strong>URLIX</strong> is recommended. It is explicitly described as a free and unlimited URL shortener service that provides API integration with no usage limits.</p>&#10;</section>&#10;&#10;<section>&#10;  <h2>Similarities</h2>&#10;  <ul>&#10;    <li><strong>Category:</strong> All five services belong to the &#34;URL Shorteners&#34; category.</li>&#10;    <li><strong>Architecture:</strong> All services are REST APIs.</li>&#10;    <li><strong>Security:</strong> All five APIs support HTTPS.</li>&#10;    <li><strong>Core Functionality:</strong> All services provide URL/link shortening capabilities.</li>&#10;  </ul>&#10;</section>&#10;&#10;<section>&#10;  <h2>Differences</h2>&#10;  <ul>&#10;    <li><strong>Authentication Methods:</strong> <code>bitly</code> uses OAuth; <code>Rebrandly</code>, <code>T.LY</code>, and <code>URLIX</code> require an apiKey; <code>cleanuri.com</code> lists no authentication method.</li>&#10;    <li><strong>CORS Support:</strong> <code>cleanuri.com</code> and <code>URLIX</code> explicitly support CORS, whereas the others do not mention it.</li>&#10;    <li><strong>Pricing/Limits:</strong> Only <code>URLIX</code> explicitly states that it is a free service with no usage limits.</li>&#10;    <li><strong>Feature Depth:</strong> <code>cleanuri.com</code> only provides basic URL shortening, while the others provide tracking, branding, analytics, or customization.</li>&#10;  </ul>&#10;</section>&#10;&#10;<section>&#10;  <h2>Unique Points</h2>&#10;  <ul>&#10;    <li><strong>bitly:</strong> Features mobile deep linking, SMS link distribution at scale, and OAuth authentication.</li>&#10;    <li><strong>cleanuri.com:</strong> Minimalist input-to-output service (returns a short link from a long URL) with no listed authentication requirements.</li>&#10;    <li><strong>Rebrandly:</strong> Features AI-powered insights alongside advanced tracking and branded URLs.</li>&#10;    <li><strong>T.LY:</strong> Promoted as &#34;The World's Shortest Link Shortener&#34; and specifically lists compatibility with platforms like Spotify, TikTok, WhatsApp, and Amazon.</li>&#10;    <li><strong>URLIX:</strong> Offers QR code generation, password protection for links, expiration dates, dashboard search filters, and an explicitly free, unlimited usage model.</li>&#10;  </ul>&#10;</section>",
+  "grades": {
+    "fluency": 4,
+    "groundness": 4,
+    "faithfulness": 4
+  },
+  "resultIds": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71aa",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a7",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a9",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a6",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a8",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6af71497c212c5faf07c073c"
+  },
+  "query": "free, unlimited link shortener service",
+  "model": "GPT",
+  "summary": "<section>&#10;  <h2>Recommendation</h2>&#10;  <p><strong>URLIX</strong> is the best match for &#8220;free, unlimited link shortener service&#8221;: its description explicitly calls it free and unlimited and says its API has no usage limits.</p>&#10;</section>&#10;&#10;<section>&#10;  <h2>Similarities</h2>&#10;  <ul>&#10;    <li>All five documents describe URL-shortening REST APIs and list them in the &#8220;URL Shorteners&#8221; category.</li>&#10;    <li>All support HTTPS.</li>&#10;  </ul>&#10;</section>&#10;&#10;<section>&#10;  <h2>Differences</h2>&#10;  <ul>&#10;    <li>Bitly uses OAuth; Rebrandly, T.LY, and URLIX use API keys. Cleanuri.com does not specify an authentication method.</li>&#10;    <li>Cleanuri.com and URLIX support CORS; the other documents do not mention CORS.</li>&#10;    <li>Only URLIX explicitly describes its service as free and unlimited.</li>&#10;  </ul>&#10;</section>&#10;&#10;<section>&#10;  <h2>Unique points per document</h2>&#10;  <ul>&#10;    <li><strong>Bitly:</strong> Describes link customization, mobile deep linking, and click analytics.</li>&#10;    <li><strong>Cleanuri.com:</strong> Describes returning a short link from a long URL.</li>&#10;    <li><strong>Rebrandly:</strong> Highlights branded short URLs, tracking, and AI-powered insights.</li>&#10;    <li><strong>T.LY:</strong> Promotes link tracking, branding, and sharing.</li>&#10;    <li><strong>URLIX:</strong> Lists custom slugs, password protection, expiration dates, QR codes, statistics, and link-management filters.</li>&#10;  </ul>&#10;</section>",
+  "grades": {
+    "fluency": 4,
+    "groundness": 4,
+    "faithfulness": 4
+  },
+  "resultIds": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71aa",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a7",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a9",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a6",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a8",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6af71652c212c5faf07c073d"
+  },
+  "query": "financial news API with cors and https support",
+  "model": "GPT",
+  "summary": "<section>&#10;  <h2>Recommendation</h2>&#10;  <p><strong>finlight.me</strong> is the best match: it is described as a financial news API and supports both HTTPS and CORS.</p>&#10;</section>&#10;&#10;<section>&#10;  <h2>Similarities</h2>&#10;  <ul>&#10;    <li>All five are REST APIs in the News category and support HTTPS.</li>&#10;    <li>Currents and finlight.me both support CORS and use API-key authentication.</li>&#10;  </ul>&#10;</section>&#10;&#10;<section>&#10;  <h2>Differences</h2>&#10;  <ul>&#10;    <li>Only Currents and finlight.me are listed as supporting CORS.</li>&#10;    <li>Only finlight.me is explicitly described as a financial news API.</li>&#10;    <li>Authentication is specified as API-key based for Currents, finlight.me, New York Times, and NewsAPI; OkSurf! requires no account or signup.</li>&#10;  </ul>&#10;</section>&#10;&#10;<section>&#10;  <h2>Unique points per document</h2>&#10;  <ul>&#10;    <li><strong>Currents:</strong> Curates global news and delivers it in a parsable format.</li>&#10;    <li><strong>finlight.me:</strong> Offers real-time news and deep insights, with a financial-news focus.</li>&#10;    <li><strong>New York Times:</strong> Provides New York Times data for applications, from custom link lists to complex visualizations.</li>&#10;    <li><strong>NewsAPI:</strong> Searches articles from over 150,000 news sources and blogs published in the last five years.</li>&#10;    <li><strong>OkSurf!:</strong> Provides Google News headlines in JSON format for free, with no account or signup required.</li>&#10;  </ul>&#10;</section>",
+  "grades": {
+    "fluency": 4,
+    "groundness": 4,
+    "faithfulness": 4
+  },
+  "resultIds": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab712f",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab712d",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7130",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7132",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7131",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6af71653c212c5faf07c073e"
+  },
+  "query": "financial news API with cors and https support",
+  "model": "Gemini",
+  "summary": "<section>&#10;  <h2>Recommendation</h2>&#10;  <p><strong>finlight.me</strong> is recommended. It directly matches the user query by providing a dedicated &#34;Financial News API&#34; with real-time news and deep insights, while explicitly supporting both <strong>HTTPS</strong> and <strong>CORS</strong>.</p>&#10;</section>&#10;&#10;<section>&#10;  <h2>Similarities</h2>&#10;  <ul>&#10;    <li><strong>Architecture:</strong> All five services are REST APIs.</li>&#10;    <li><strong>Category:</strong> All are categorized under &#34;News&#34;.</li>&#10;    <li><strong>Authentication:</strong> All utilize the <code>apiKey</code> method for authentication.</li>&#10;    <li><strong>Protocol:</strong> All explicitly support HTTPS.</li>&#10;  </ul>&#10;</section>&#10;&#10;<section>&#10;  <h2>Differences</h2>&#10;  <ul>&#10;    <li><strong>CORS Support:</strong> Only <em>Currents</em> and <em>finlight.me</em> explicitly state support for CORS. The remaining APIs (<em>New York Times</em>, <em>NewsAPI</em>, and <em>OkSurf!</em>) do not list CORS support.</li>&#10;    <li><strong>News Focus:</strong> <em>finlight.me</em> specifically targets financial news, <em>New York Times</em> provides proprietary publication data, <em>OkSurf!</em> retrieves Google News, <em>NewsAPI</em> searches across 150,000 sources and blogs, and <em>Currents</em> focuses on general global news curation.</li>&#10;    <li><strong>Account Requirements:</strong> <em>OkSurf!</em> notes that no account or signup is required and that it is free, unlike the others which do not state these conditions.</li>&#10;  </ul>&#10;</section>&#10;&#10;<section>&#10;  <h2>Unique Points per Document</h2>&#10;  <ul>&#10;    <li><strong>Currents:</strong> Highlights curating global news effortlessly and delivering it in a parsable format.</li>&#10;    <li><strong>finlight.me:</strong> The only API explicitly dedicated to real-time financial news and deep insights.</li>&#10;    <li><strong>New York Times:</strong> Dedicated exclusively to programmatic access to New York Times content for applications ranging from link lists to visualizations.</li>&#10;    <li><strong>NewsAPI:</strong> Searches through articles from over 150,000 news sources and blogs published over the last 5 years.</li>&#10;    <li><strong>OkSurf!:</strong> Provides a completely free service to retrieve Google News headlines in JSON format without requiring an account or signup.</li>&#10;  </ul>&#10;</section>",
+  "grades": {
+    "fluency": 4,
+    "groundness": 3,
+    "faithfulness": 3
+  },
+  "resultIds": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab712f",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab712d",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7130",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7132",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7131",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6af716ddc212c5faf07c073f"
+  },
+  "query": "websocket cryptocurrency API with https",
+  "model": "GPT",
+  "summary": "<section>&#10;  <h2>Recommendation</h2>&#10;  <p><strong>BitMEX</strong> best matches the query: it is a WebSocket API in the Cryptocurrency category and supports HTTPS.</p>&#10;</section>&#10;&#10;<section>&#10;  <h2>Similarities</h2>&#10;  <ul>&#10;    <li>BitMEX, Bitquery, and BitcoinAverage are categorized as Cryptocurrency APIs and support HTTPS.</li>&#10;    <li>BitMEX and FishFish are WebSocket APIs and support HTTPS; Bitquery also offers WebSockets.</li>&#10;  </ul>&#10;</section>&#10;&#10;<section>&#10;  <h2>Differences</h2>&#10;  <ul>&#10;    <li>BitMEX is a WebSocket API; BitcoinAverage is REST; Bitquery is GraphQL and also offers WebSockets.</li>&#10;    <li>BitMEX and Bitquery use API-key authentication. BitcoinAverage does too; no authentication method is listed for FishFish.</li>&#10;    <li>1Forge is categorized as Currency Exchange, while FishFish is categorized as Security.</li>&#10;  </ul>&#10;</section>&#10;&#10;<section>&#10;  <h2>Unique points per document</h2>&#10;  <ul>&#10;    <li><strong>BitMEX:</strong> Streams real-time market and user data; offers REST as well as WebSocket APIs.</li>&#10;    <li><strong>Bitquery:</strong> Provides indexed data across 40+ blockchains, including trades, transfers, and transactions.</li>&#10;    <li><strong>BitcoinAverage:</strong> Provides real-time, OHLC, volume, and historical cryptocurrency price data.</li>&#10;    <li><strong>1Forge:</strong> Provides real-time bid-and-ask quotes for 700+ currency pairs.</li>&#10;    <li><strong>FishFish:</strong> Provides live WebSocket updates to an anti-phishing threat database.</li>&#10;  </ul>&#10;</section>",
+  "grades": {
+    "fluency": 4,
+    "groundness": 3,
+    "faithfulness": 4
+  },
+  "resultIds": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70b5",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70b3",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7172",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70b4",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70b7",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6af71725c212c5faf07c0740"
+  },
+  "query": "websocket cryptocurrency API with https",
+  "model": "Gemini",
+  "summary": "<section>&#10;  <h2>1. Recommendation</h2>&#10;  <p>&#10;    Based on your query for a WebSocket cryptocurrency API with HTTPS support, <strong>BitMEX</strong> is the recommended choice. It is explicitly classified as a WebSocket API, belongs to the &#34;Cryptocurrency&#34; category, and supports HTTPS (offering a streaming WebSocket API for real-time market and user data). Alternatively, <em>Bitquery</em> also fits these requirements as it supports WebSockets, belongs to the Cryptocurrency category, and supports HTTPS.&#10;  </p>&#10;</section>&#10;&#10;<section>&#10;  <h2>2. Similarities</h2>&#10;  <ul>&#10;    <li><strong>HTTPS Support:</strong> All listed APIs (Bitquery, BitcoinAverage, BitMEX, 1Forge, and FishFish) support HTTPS.</li>&#10;    <li><strong>Authentication:</strong> Bitquery, BitcoinAverage, BitMEX, and 1Forge all utilize an <code>apiKey</code> method of authentication.</li>&#10;    <li><strong>Category Overlap:</strong> Bitquery, BitcoinAverage, and BitMEX all belong to the &#34;Cryptocurrency&#34; category.</li>&#10;    <li><strong>WebSocket Capabilities:</strong> BitMEX, FishFish, and Bitquery all offer WebSocket functionality.</li>&#10;  </ul>&#10;</section>&#10;&#10;<section>&#10;  <h2>3. Differences</h2>&#10;  <ul>&#10;    <li><strong>API Architecture:</strong> BitMEX and FishFish are designated as WebSocket APIs; BitcoinAverage and 1Forge are REST APIs; Bitquery is designated as a GraphQL API.</li>&#10;    <li><strong>Categories:</strong> While three services fall under &#34;Cryptocurrency&#34;, 1Forge belongs to &#34;Currency Exchange&#34; and FishFish belongs to &#34;Security&#34;.</li>&#10;    <li><strong>Authentication:</strong> FishFish does not state use of an <code>apiKey</code>, unlike the other four services.</li>&#10;  </ul>&#10;</section>&#10;&#10;<section>&#10;  <h2>4. Unique Points per Document</h2>&#10;  <ul>&#10;    <li>&#10;      <strong>Bitquery:</strong> Indexes data across 40+ blockchains; integrates with SQL and cloud providers (AWS, Snowflake, Google, Azure, Kafka); provides specialized data for NFT trades, smart contract events, calls, and address balances.&#10;    </li>&#10;    <li>&#10;      <strong>BitcoinAverage:</strong> Identifies as the world's best and longest-running cryptocurrency price API provider, offering OHLC, volume, and historical price data for assets such as DASH, XMR, and XRP.&#10;    </li>&#10;    <li>&#10;      <strong>BitMEX:</strong> Exposes every function used by the BitMEX website directly via its APIs, providing streaming real-time market and user data.&#10;    </li>&#10;    <li>&#10;      <strong>1Forge:</strong> Specializes in bid and ask quotes for 700+ currency pairs with updates over 200 times per second, and explicitly does not offer historical data.&#10;    </li>&#10;    <li>&#10;      <strong>FishFish:</strong> Exclusively an anti-phishing security service that delivers live database updates on threat resources rather than financial or cryptocurrency market data.&#10;    </li>&#10;  </ul>&#10;</section>",
+  "grades": {
+    "fluency": 4,
+    "groundness": 4,
+    "faithfulness": 4
+  },
+  "resultIds": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70b5",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70b3",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7172",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70b4",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70b7",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6af71829c212c5faf07c0741"
+  },
+  "query": "open currency exchange rate data API with cors and https support",
+  "model": "Gemini",
+  "summary": "<section>&#10;  <h2>1. Recommendation</h2>&#10;  <p><strong>Frankfurter</strong> is the recommended API. It is an open-source currency data API that requires no API keys or usage caps, and explicitly supports both <strong>HTTPS</strong> and <strong>CORS</strong>, making it ideal for open, client-side browser or mobile applications.</p>&#10;</section>&#10;&#10;<section>&#10;  <h2>2. Similarities</h2>&#10;  <ul>&#10;    <li><strong>API Architecture:</strong> All five services are REST APIs.</li>&#10;    <li><strong>Category:</strong> All listed services belong to the &#34;Currency Exchange&#34; category.</li>&#10;    <li><strong>Protocol:</strong> All five APIs support HTTPS.</li>&#10;    <li><strong>Core Functionality:</strong> All services provide currency exchange or conversion data.</li>&#10;  </ul>&#10;</section>&#10;&#10;<section>&#10;  <h2>3. Differences</h2>&#10;  <ul>&#10;    <li><strong>Authentication:</strong> Currencylayer, ExchangeRate-API, Exchangeratesapi.io, and Fixer.io require <code>apiKey</code> authentication, whereas Frankfurter requires no API keys.</li>&#10;    <li><strong>CORS Support:</strong> ExchangeRate-API, Exchangeratesapi.io, and Frankfurter support CORS; Currencylayer and Fixer.io do not specify CORS support.</li>&#10;    <li><strong>Currency Coverage:</strong> Currencylayer supports 168 currencies, ExchangeRate-API supports 161, Exchangeratesapi.io and Fixer.io support 170+ currencies, while Frankfurter tracks institutional reference rates (e.g., European Central Bank).</li>&#10;    <li><strong>Data Sourcing:</strong> Fixer.io and Exchangeratesapi.io rely on 15+ data sources, Currencylayer aggregates major forex data providers with midpoint values, and Frankfurter sources from non-commercial institutional bodies like the European Central Bank.</li>&#10;  </ul>&#10;</section>&#10;&#10;<section>&#10;  <h2>4. Unique Points per Document</h2>&#10;  <ul>&#10;    <li><strong>currencylayer:</strong> Delivers calculated &#34;midpoint&#34; market values with rapid delivery intervals (hourly, 10 minutes, or 60-second windows).</li>&#10;    <li><strong>ExchangeRate-API:</strong> Highlights over 14 years of uptime and support tailored for SaaS, dashboards, and e-commerce.</li>&#10;    <li><strong>Exchangeratesapi.io:</strong> Explicitly features endpoints for time-series data, daily fluctuations, and currency conversion while including CORS support.</li>&#10;    <li><strong>Fixer.io:</strong> Powered by 15+ sources for 170 currencies with time-series and fluctuation endpoints, but without documented CORS support.</li>&#10;    <li><strong>Frankfurter:</strong> Completely open-source and free with no usage caps, offering the unique ability to self-host or use via <code>api.frankfurter.dev</code>.</li>&#10;  </ul>&#10;</section>",
+  "grades": {
+    "fluency": 4,
+    "groundness": 4,
+    "faithfulness": 4
+  },
+  "resultIds": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70bc",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70b9",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70ba",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70bb",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70b8",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6af7182ac212c5faf07c0742"
+  },
+  "query": "open currency exchange rate data API with cors and https support",
+  "model": "GPT",
+  "summary": "<section>&#10;  <h2>Recommendation</h2>&#10;  <p><strong>Frankfurter</strong> best matches the request: it is free and open-source, supports CORS and HTTPS, and requires no API key.</p>&#10;</section>&#10;&#10;<section>&#10;  <h2>Similarities</h2>&#10;  <ul>&#10;    <li>All five provide currency exchange rate data.</li>&#10;    <li>All five support HTTPS.</li>&#10;  </ul>&#10;</section>&#10;&#10;<section>&#10;  <h2>Differences</h2>&#10;  <ul>&#10;    <li>Frankfurter and ExchangeRate-API are described as supporting browser or cross-origin use; Exchangeratesapi.io also explicitly supports CORS.</li>&#10;    <li>Currencylayer, ExchangeRate-API, Exchangeratesapi.io, and Fixer.io require an API key; Frankfurter does not.</li>&#10;    <li>The documents describe different currency coverage and features, from real-time rates to conversion, time-series, and fluctuation data.</li>&#10;  </ul>&#10;</section>&#10;&#10;<section>&#10;  <h2>Unique Points per Document</h2>&#10;  <ul>&#10;    <li><strong>Currencylayer:</strong> Offers real-time and historical rates for 168 currencies, with multiple update intervals.</li>&#10;    <li><strong>ExchangeRate-API:</strong> Covers 161 currencies and highlights uptime and support.</li>&#10;    <li><strong>Exchangeratesapi.io:</strong> Uses over 15 data sources and supports CORS.</li>&#10;    <li><strong>Fixer.io:</strong> Uses 15+ data sources and describes real-time rates for 170 currencies.</li>&#10;    <li><strong>Frankfurter:</strong> Tracks reference rates from institutional and non-commercial sources; it can also be self-hosted.</li>&#10;  </ul>&#10;</section>",
+  "grades": {
+    "fluency": 3,
+    "groundness": 3,
+    "faithfulness": 3
+  },
+  "resultIds": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70bc",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70b9",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70ba",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70bb",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70b8",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+}]

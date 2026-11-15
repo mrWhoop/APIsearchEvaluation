@@ -1,0 +1,9156 @@
+[{
+  "_id": {
+    "$oid": "6ad76475e635c2d598a697c7"
+  },
+  "query": "calendar",
+  "component": "OpenAISimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70a6",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70a5",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70a3",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70a2",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70a7",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76475e635c2d598a697c8"
+  },
+  "query": "calendar",
+  "component": "OpenAIDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70a6",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70a3",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70a2",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70a5",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70a7",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76475e635c2d598a697c9"
+  },
+  "query": "calendar",
+  "component": "OpenAIPrompt",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70a2",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70a0",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70a8",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70a7",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70a5",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76475e635c2d598a697ca"
+  },
+  "query": "calendar",
+  "component": "GeminiSimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70a5",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70a6",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70a3",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70a9",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70a1",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76475e635c2d598a697cb"
+  },
+  "query": "calendar",
+  "component": "GeminiDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70a5",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70a6",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70a4",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70a1",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70a8",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76475e635c2d598a697cc"
+  },
+  "query": "calendar",
+  "component": "Meilisearch",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70a0",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70a1",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70a2",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70a3",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70a4",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76475e635c2d598a697cd"
+  },
+  "query": "calendar",
+  "component": "MeilisearchEmbed",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70a0",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70a1",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70a2",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70a3",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70a4",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76475e635c2d598a697ce"
+  },
+  "query": "calendar",
+  "component": "GeminiPrompt",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70a2",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70a0",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70a8",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70a7",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70a5",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76475e635c2d598a697cf"
+  },
+  "query": "calendar",
+  "component": "GeminiStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70a6",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70a5",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70a3",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70a4",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70a1",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76475e635c2d598a697d0"
+  },
+  "query": "calendar",
+  "component": "OpenAIStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70a6",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70a3",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70a2",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70a5",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70a9",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76539e635c2d598a697d1"
+  },
+  "query": "ticket purchase",
+  "component": "OpenAIDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70ea",
+      "position": 1
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70eb",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7126",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7119",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70f4",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76539e635c2d598a697d2"
+  },
+  "query": "ticket purchase",
+  "component": "MeilisearchEmbed",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70ea",
+      "position": 2
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7119",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70eb",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7126",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7100",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76539e635c2d598a697d3"
+  },
+  "query": "ticket purchase",
+  "component": "OpenAIStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70ea",
+      "position": 1
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70eb",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7126",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7119",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab711f",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76539e635c2d598a697d4"
+  },
+  "query": "ticket purchase",
+  "component": "OpenAISimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70ea",
+      "position": 1
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70eb",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7126",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7119",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71ae",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76539e635c2d598a697d5"
+  },
+  "query": "ticket purchase",
+  "component": "GeminiDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70ea",
+      "position": 1
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70eb",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70fa",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7119",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab713b",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76539e635c2d598a697d6"
+  },
+  "query": "ticket purchase",
+  "component": "OpenAIPrompt",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70ea",
+      "position": 3
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70eb",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab717b",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab717c",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7119",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76539e635c2d598a697d7"
+  },
+  "query": "ticket purchase",
+  "component": "Meilisearch",
+  "accepted": [],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7119",
+      "position": 1
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76539e635c2d598a697d8"
+  },
+  "query": "ticket purchase",
+  "component": "GeminiSimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70ea",
+      "position": 1
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7119",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70eb",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7126",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab714d",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76539e635c2d598a697d9"
+  },
+  "query": "ticket purchase",
+  "component": "GeminiPrompt",
+  "accepted": [],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76539e635c2d598a697da"
+  },
+  "query": "ticket purchase",
+  "component": "GeminiStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70ea",
+      "position": 1
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70eb",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7119",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70fa",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71ab",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76589e635c2d598a697db"
+  },
+  "query": "URL shortener",
+  "component": "GeminiStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a7",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71aa",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a9",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a6",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a8",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76589e635c2d598a697dc"
+  },
+  "query": "URL shortener",
+  "component": "Meilisearch",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a9",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71aa",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a6",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a7",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a8",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76589e635c2d598a697dd"
+  },
+  "query": "URL shortener",
+  "component": "OpenAISimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a7",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71aa",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a9",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a6",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a8",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76589e635c2d598a697de"
+  },
+  "query": "URL shortener",
+  "component": "GeminiDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71aa",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a7",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a9",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a6",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a8",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76589e635c2d598a697df"
+  },
+  "query": "URL shortener",
+  "component": "MeilisearchEmbed",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a9",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71aa",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a6",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a7",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a8",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76589e635c2d598a697e0"
+  },
+  "query": "URL shortener",
+  "component": "OpenAIPrompt",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71aa",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a7",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a9",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a8",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a6",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76589e635c2d598a697e1"
+  },
+  "query": "URL shortener",
+  "component": "GeminiPrompt",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71aa",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a7",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a9",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a8",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a6",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76589e635c2d598a697e2"
+  },
+  "query": "URL shortener",
+  "component": "OpenAIDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a7",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71aa",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a6",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a9",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a8",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76589e635c2d598a697e3"
+  },
+  "query": "URL shortener",
+  "component": "GeminiSimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71aa",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a7",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a9",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a6",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a8",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76589e635c2d598a697e4"
+  },
+  "query": "URL shortener",
+  "component": "OpenAIStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71aa",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a7",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a6",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a9",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a8",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad765dce635c2d598a697e5"
+  },
+  "query": "books",
+  "component": "OpenAIPrompt",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab708e",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7090",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab708f",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7091",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7092",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad765dce635c2d598a697e6"
+  },
+  "query": "books",
+  "component": "GeminiStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7091",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab708f",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7092",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab708e",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7090",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad765dce635c2d598a697e7"
+  },
+  "query": "books",
+  "component": "GeminiSimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab708f",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7091",
+      "position": 2
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7150",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70e0",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7078",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad765dce635c2d598a697e8"
+  },
+  "query": "books",
+  "component": "OpenAIDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7091",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab708f",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7092",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7090",
+      "position": 4
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70fd",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad765dce635c2d598a697e9"
+  },
+  "query": "books",
+  "component": "GeminiDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7091",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab708f",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab708e",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7092",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7090",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad765dce635c2d598a697ea"
+  },
+  "query": "books",
+  "component": "GeminiPrompt",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab708e",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7090",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab708f",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7091",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7092",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad765dce635c2d598a697eb"
+  },
+  "query": "books",
+  "component": "OpenAIStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab708f",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7091",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7092",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7090",
+      "position": 4
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab714d",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad765dce635c2d598a697ec"
+  },
+  "query": "books",
+  "component": "MeilisearchEmbed",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab708e",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab708f",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7090",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7091",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7092",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad765dce635c2d598a697ed"
+  },
+  "query": "books",
+  "component": "OpenAISimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab708f",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7091",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7092",
+      "position": 3
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab714d",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab711a",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad765dce635c2d598a697ee"
+  },
+  "query": "books",
+  "component": "Meilisearch",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab708e",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab708f",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7090",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7091",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7092",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad766ffe635c2d598a697ef"
+  },
+  "query": "profanity filter",
+  "component": "OpenAIDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70c5",
+      "position": 1
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7141",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab719f",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7085",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7090",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad766ffe635c2d598a697f0"
+  },
+  "query": "profanity filter",
+  "component": "MeilisearchEmbed",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70c5",
+      "position": 1
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7073",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7074",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7075",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7076",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad766ffe635c2d598a697f1"
+  },
+  "query": "profanity filter",
+  "component": "GeminiStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70c5",
+      "position": 1
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7141",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab719f",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab719b",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab714b",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad766ffe635c2d598a697f2"
+  },
+  "query": "profanity filter",
+  "component": "OpenAIPrompt",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70c5",
+      "position": 2
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab719e",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab711d",
+      "position": 3
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad766ffe635c2d598a697f3"
+  },
+  "query": "profanity filter",
+  "component": "Meilisearch",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70c5",
+      "position": 1
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad766ffe635c2d598a697f4"
+  },
+  "query": "profanity filter",
+  "component": "GeminiSimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70c5",
+      "position": 1
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7141",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab719f",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7086",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7087",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad766ffe635c2d598a697f5"
+  },
+  "query": "profanity filter",
+  "component": "GeminiDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70c5",
+      "position": 1
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab719f",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7141",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab719b",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7148",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad766ffe635c2d598a697f6"
+  },
+  "query": "profanity filter",
+  "component": "GeminiPrompt",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70c5",
+      "position": 1
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad766ffe635c2d598a697f7"
+  },
+  "query": "profanity filter",
+  "component": "OpenAISimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70c5",
+      "position": 1
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7141",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7172",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7085",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7094",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad766ffe635c2d598a697f8"
+  },
+  "query": "profanity filter",
+  "component": "OpenAIStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70c5",
+      "position": 1
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7141",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab719f",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7090",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab714f",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad7675be635c2d598a697f9"
+  },
+  "query": "climate",
+  "component": "OpenAIPrompt",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70e8",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71b5",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab716f",
+      "position": 3
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad7675be635c2d598a697fa"
+  },
+  "query": "climate",
+  "component": "GeminiPrompt",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70e8",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71b5",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab716f",
+      "position": 3
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad7675be635c2d598a697fb"
+  },
+  "query": "climate",
+  "component": "OpenAIDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71b5",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70e8",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70e9",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71b3",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71b2",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad7675be635c2d598a697fc"
+  },
+  "query": "climate",
+  "component": "Meilisearch",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71b5",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70e8",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab716f",
+      "position": 3
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad7675be635c2d598a697fd"
+  },
+  "query": "climate",
+  "component": "GeminiStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71b5",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70e8",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71b9",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70e9",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71b3",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad7675be635c2d598a697fe"
+  },
+  "query": "climate",
+  "component": "GeminiSimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71b5",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71b9",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70e8",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71bb",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71b6",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad7675be635c2d598a697ff"
+  },
+  "query": "climate",
+  "component": "GeminiDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71b9",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71b5",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70e8",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71b6",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71b3",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad7675be635c2d598a69800"
+  },
+  "query": "climate",
+  "component": "OpenAISimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71b5",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71b3",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70e8",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71b2",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70e9",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad7675be635c2d598a69801"
+  },
+  "query": "climate",
+  "component": "MeilisearchEmbed",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71b5",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70e8",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab716f",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70e9",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71b2",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad7675be635c2d598a69802"
+  },
+  "query": "climate",
+  "component": "OpenAIStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71b5",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70e8",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70e9",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71b1",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71bb",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad767eee635c2d598a69803"
+  },
+  "query": "malware",
+  "component": "OpenAISimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7086",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7172",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7088",
+      "position": 4
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70c5",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7171",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad767eee635c2d598a69804"
+  },
+  "query": "malware",
+  "component": "OpenAIDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7086",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab708a",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7085",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7088",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70c5",
+      "position": 1
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad767eee635c2d598a69805"
+  },
+  "query": "malware",
+  "component": "OpenAIPrompt",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7088",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7089",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab708a",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7085",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7087",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad767eee635c2d598a69806"
+  },
+  "query": "malware",
+  "component": "GeminiSimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7087",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab708a",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7089",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7174",
+      "position": 4
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7171",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad767eee635c2d598a69807"
+  },
+  "query": "malware",
+  "component": "GeminiDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab708a",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7089",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7086",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7088",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7087",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad767eee635c2d598a69808"
+  },
+  "query": "malware",
+  "component": "MeilisearchEmbed",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7085",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7086",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7087",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7088",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7089",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad767eee635c2d598a69809"
+  },
+  "query": "malware",
+  "component": "OpenAIStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7086",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7087",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7088",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7085",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70c5",
+      "position": 1
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad767eee635c2d598a6980a"
+  },
+  "query": "malware",
+  "component": "GeminiPrompt",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7088",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7089",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab708a",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7085",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7087",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad767eee635c2d598a6980b"
+  },
+  "query": "malware",
+  "component": "Meilisearch",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7085",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7086",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7087",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7088",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7089",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad767eee635c2d598a6980c"
+  },
+  "query": "malware",
+  "component": "GeminiStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab708a",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7089",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7088",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7087",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7086",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76891e635c2d598a6980d"
+  },
+  "query": "streaming",
+  "component": "GeminiDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7122",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7128",
+      "position": 3
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7115",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab711f",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70f3",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76891e635c2d598a6980e"
+  },
+  "query": "streaming",
+  "component": "GeminiPrompt",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7125",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7128",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70f3",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70b5",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7115",
+      "position": 4
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76891e635c2d598a6980f"
+  },
+  "query": "streaming",
+  "component": "OpenAISimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7120",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7122",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7128",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7115",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70f3",
+      "position": 3
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76891e635c2d598a69810"
+  },
+  "query": "streaming",
+  "component": "OpenAIPrompt",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7125",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7128",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70f3",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70b5",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7115",
+      "position": 4
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76891e635c2d598a69811"
+  },
+  "query": "streaming",
+  "component": "OpenAIStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7125",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7120",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7128",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7122",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7115",
+      "position": 1
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76891e635c2d598a69812"
+  },
+  "query": "streaming",
+  "component": "OpenAIDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7125",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7128",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7120",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7122",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7115",
+      "position": 1
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76891e635c2d598a69813"
+  },
+  "query": "streaming",
+  "component": "Meilisearch",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7125",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7128",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7115",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70b5",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70f3",
+      "position": 4
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76891e635c2d598a69814"
+  },
+  "query": "streaming",
+  "component": "GeminiStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7122",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7120",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7125",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7128",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7115",
+      "position": 1
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76892e635c2d598a69815"
+  },
+  "query": "streaming",
+  "component": "GeminiSimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7122",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7128",
+      "position": 3
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7115",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab711f",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70f3",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76892e635c2d598a69816"
+  },
+  "query": "streaming",
+  "component": "MeilisearchEmbed",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7125",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7128",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7115",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70b5",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70f3",
+      "position": 4
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad768ede635c2d598a69817"
+  },
+  "query": "security",
+  "component": "GeminiDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7179",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7174",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7172",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7178",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7173",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad768ede635c2d598a69818"
+  },
+  "query": "security",
+  "component": "Meilisearch",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7170",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7171",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7172",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7173",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7174",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad768ede635c2d598a69819"
+  },
+  "query": "security",
+  "component": "GeminiSimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7174",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7087",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7086",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7172",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7173",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad768ede635c2d598a6981a"
+  },
+  "query": "security",
+  "component": "OpenAISimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7176",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7170",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7172",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7086",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70af",
+      "position": 2
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad768ede635c2d598a6981b"
+  },
+  "query": "security",
+  "component": "OpenAIPrompt",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab719f",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7170",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7174",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7173",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71b0",
+      "position": 2
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad768ede635c2d598a6981c"
+  },
+  "query": "security",
+  "component": "OpenAIStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7176",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7179",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7170",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7175",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7178",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad768ede635c2d598a6981d"
+  },
+  "query": "security",
+  "component": "OpenAIDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7176",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7170",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7172",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7178",
+      "position": 4
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70af",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad768ede635c2d598a6981e"
+  },
+  "query": "security",
+  "component": "MeilisearchEmbed",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7170",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7171",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7172",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7173",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7174",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad768ede635c2d598a6981f"
+  },
+  "query": "security",
+  "component": "GeminiPrompt",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7170",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7176",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7171",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7173",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7174",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad768ede635c2d598a69820"
+  },
+  "query": "security",
+  "component": "GeminiStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7178",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7179",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7172",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7174",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7175",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76997e635c2d598a69821"
+  },
+  "query": "advice",
+  "component": "GeminiDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7145",
+      "position": 2
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70d5",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7112",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7077",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab714a",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76997e635c2d598a69822"
+  },
+  "query": "advice",
+  "component": "MeilisearchEmbed",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7145",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7129",
+      "position": 4
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70d5",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70c6",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70ec",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76997e635c2d598a69823"
+  },
+  "query": "advice",
+  "component": "Meilisearch",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7145",
+      "position": 1
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70d5",
+      "position": 2
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76997e635c2d598a69824"
+  },
+  "query": "advice",
+  "component": "OpenAISimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7145",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7129",
+      "position": 4
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70d5",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab710b",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70c0",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76997e635c2d598a69825"
+  },
+  "query": "advice",
+  "component": "GeminiSimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7145",
+      "position": 2
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70d5",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7196",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7175",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70e2",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76997e635c2d598a69826"
+  },
+  "query": "advice",
+  "component": "GeminiStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7145",
+      "position": 1
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70d5",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7148",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7175",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7150",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76997e635c2d598a69827"
+  },
+  "query": "advice",
+  "component": "OpenAIStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7145",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7129",
+      "position": 4
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70d5",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab710b",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70c0",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76997e635c2d598a69828"
+  },
+  "query": "advice",
+  "component": "GeminiPrompt",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7145",
+      "position": 2
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70d5",
+      "position": 1
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76997e635c2d598a69829"
+  },
+  "query": "advice",
+  "component": "OpenAIPrompt",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7145",
+      "position": 2
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70d5",
+      "position": 1
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76997e635c2d598a6982a"
+  },
+  "query": "advice",
+  "component": "OpenAIDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7145",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7129",
+      "position": 4
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70d5",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab710b",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab714b",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76a0ce635c2d598a6982b"
+  },
+  "query": "Tomba",
+  "component": "GeminiStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab709e",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab709e",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7187",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7189",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7175",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab713f",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76a0ce635c2d598a6982c"
+  },
+  "query": "Tomba",
+  "component": "OpenAISimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab709e",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab709e",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a0",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70de",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a9",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70df",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76a0ce635c2d598a6982d"
+  },
+  "query": "Tomba",
+  "component": "OpenAIPrompt",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab709e",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab709e",
+    "position": 1
+  },
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76a0ce635c2d598a6982e"
+  },
+  "query": "Tomba",
+  "component": "GeminiPrompt",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab709e",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab709e",
+    "position": 1
+  },
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76a0ce635c2d598a6982f"
+  },
+  "query": "Tomba",
+  "component": "OpenAIStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab709e",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab709e",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a0",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a9",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70dc",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7181",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76a0ce635c2d598a69830"
+  },
+  "query": "Tomba",
+  "component": "Meilisearch",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab709e",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab709e",
+    "position": 1
+  },
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76a0ce635c2d598a69831"
+  },
+  "query": "Tomba",
+  "component": "MeilisearchEmbed",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab709e",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab709e",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70dc",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab709d",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70c5",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70c0",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76a0ce635c2d598a69832"
+  },
+  "query": "Tomba",
+  "component": "OpenAIDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab709e",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab709e",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a0",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70de",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a9",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7158",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76a0ce635c2d598a69833"
+  },
+  "query": "Tomba",
+  "component": "GeminiSimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab709e",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab709e",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7134",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7187",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70fc",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70ae",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76a0ce635c2d598a69834"
+  },
+  "query": "Tomba",
+  "component": "GeminiDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab709e",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab709e",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a0",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7187",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7189",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70fc",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76ae0e635c2d598a6983f"
+  },
+  "query": "TheCocktailDB",
+  "component": "GeminiPrompt",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70fb",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70fb",
+    "position": 1
+  },
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76ae0e635c2d598a69840"
+  },
+  "query": "TheCocktailDB",
+  "component": "MeilisearchEmbed",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70fb",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70f7",
+      "position": 2
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70fb",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70fc",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70fe",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70f8",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76ae0e635c2d598a69841"
+  },
+  "query": "TheCocktailDB",
+  "component": "OpenAIPrompt",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70fb",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70fb",
+    "position": 1
+  },
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76ae0e635c2d598a69842"
+  },
+  "query": "TheCocktailDB",
+  "component": "OpenAISimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70fb",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70f7",
+      "position": 3
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70fb",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70fc",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab712a",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7189",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76ae0e635c2d598a69843"
+  },
+  "query": "TheCocktailDB",
+  "component": "Meilisearch",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70fb",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70fb",
+    "position": 1
+  },
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76ae0e635c2d598a69844"
+  },
+  "query": "TheCocktailDB",
+  "component": "OpenAIStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70fb",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70f7",
+      "position": 2
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70fb",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70fc",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70fe",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70f8",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76ae0e635c2d598a69845"
+  },
+  "query": "TheCocktailDB",
+  "component": "OpenAIDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70fb",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70f7",
+      "position": 2
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70fb",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70fc",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70fd",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70fe",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76ae0e635c2d598a69846"
+  },
+  "query": "TheCocktailDB",
+  "component": "GeminiStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70fb",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70f7",
+      "position": 5
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70fb",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70fc",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70fa",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70f8",
+      "position": 4
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76ae0e635c2d598a69847"
+  },
+  "query": "TheCocktailDB",
+  "component": "GeminiDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70fb",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70f7",
+      "position": 3
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70fb",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70fc",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70fa",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7189",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76ae0e635c2d598a69848"
+  },
+  "query": "TheCocktailDB",
+  "component": "GeminiSimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70fb",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70f7",
+      "position": 4
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70fb",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70fc",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70f8",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70fa",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76af0e635c2d598a69849"
+  },
+  "query": "chucnorris.io",
+  "component": "MeilisearchEmbed",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7146",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab7146",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a7",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7139",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab712c",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7197",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76af0e635c2d598a6984a"
+  },
+  "query": "chucnorris.io",
+  "component": "GeminiDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7146",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab7146",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7077",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab714b",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a7",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7074",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76af0e635c2d598a6984b"
+  },
+  "query": "chucnorris.io",
+  "component": "GeminiSimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7146",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab7146",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7074",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7079",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7077",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7168",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76af0e635c2d598a6984c"
+  },
+  "query": "chucnorris.io",
+  "component": "OpenAIPrompt",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7146",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab7146",
+    "position": 1
+  },
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76af0e635c2d598a6984d"
+  },
+  "query": "chucnorris.io",
+  "component": "OpenAISimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7146",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab7146",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7179",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab714c",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab714b",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab714f",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76af0e635c2d598a6984e"
+  },
+  "query": "chucnorris.io",
+  "component": "Meilisearch",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7146",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab7146",
+    "position": 1
+  },
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76af0e635c2d598a6984f"
+  },
+  "query": "chucnorris.io",
+  "component": "OpenAIStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7146",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab7146",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab714f",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab714b",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab718e",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7179",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76af0e635c2d598a69850"
+  },
+  "query": "chucnorris.io",
+  "component": "GeminiStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7146",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab7146",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7077",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7079",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7175",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7078",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76af0e635c2d598a69851"
+  },
+  "query": "chucnorris.io",
+  "component": "GeminiPrompt",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7146",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab7146",
+    "position": 1
+  },
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76af0e635c2d598a69852"
+  },
+  "query": "chucnorris.io",
+  "component": "OpenAIDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7146",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab7146",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab714b",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a7",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7194",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab714f",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76b45e635c2d598a69853"
+  },
+  "query": "PASTEBIN",
+  "component": "MeilisearchEmbed",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70ae",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70ae",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab712e",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab718c",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a2",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7129",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76b45e635c2d598a69854"
+  },
+  "query": "PASTEBIN",
+  "component": "GeminiStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70ae",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70ae",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7175",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab712e",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70e2",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab718d",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76b45e635c2d598a69855"
+  },
+  "query": "PASTEBIN",
+  "component": "OpenAISimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70ae",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70ae",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab712e",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab718c",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7190",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7175",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76b45e635c2d598a69856"
+  },
+  "query": "PASTEBIN",
+  "component": "GeminiSimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70ae",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70ae",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70e2",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7175",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab712e",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7190",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76b45e635c2d598a69857"
+  },
+  "query": "PASTEBIN",
+  "component": "GeminiDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70ae",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70ae",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab712e",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7190",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7175",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab718d",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76b45e635c2d598a69858"
+  },
+  "query": "PASTEBIN",
+  "component": "Meilisearch",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70ae",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70ae",
+    "position": 1
+  },
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76b45e635c2d598a69859"
+  },
+  "query": "PASTEBIN",
+  "component": "OpenAIPrompt",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70ae",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70ae",
+    "position": 1
+  },
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76b45e635c2d598a6985a"
+  },
+  "query": "PASTEBIN",
+  "component": "GeminiPrompt",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70ae",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70ae",
+    "position": 1
+  },
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76b45e635c2d598a6985b"
+  },
+  "query": "PASTEBIN",
+  "component": "OpenAIStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70ae",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70ae",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab718c",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7190",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7175",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7193",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76b45e635c2d598a6985c"
+  },
+  "query": "PASTEBIN",
+  "component": "OpenAIDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70ae",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70ae",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab718c",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7190",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab712e",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70d9",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76b7ce635c2d598a6985d"
+  },
+  "query": "Ticketmaster",
+  "component": "GeminiSimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70ea",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7119",
+      "position": 2
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70ea",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70eb",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7126",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70fa",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76b7ce635c2d598a6985e"
+  },
+  "query": "Ticketmaster",
+  "component": "GeminiDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70ea",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7119",
+      "position": 3
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70ea",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70eb",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7126",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7118",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76b7ce635c2d598a6985f"
+  },
+  "query": "Ticketmaster",
+  "component": "GeminiPrompt",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70ea",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70ea",
+    "position": 1
+  },
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76b7ce635c2d598a69860"
+  },
+  "query": "Ticketmaster",
+  "component": "OpenAISimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70ea",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7119",
+      "position": 4
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70ea",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7126",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70eb",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71ae",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76b7ce635c2d598a69861"
+  },
+  "query": "Ticketmaster",
+  "component": "MeilisearchEmbed",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70ea",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7119",
+      "position": 2
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70ea",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70eb",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7126",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab709c",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76b7ce635c2d598a69862"
+  },
+  "query": "Ticketmaster",
+  "component": "OpenAIDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70ea",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7119",
+      "position": 2
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70ea",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7126",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70eb",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab709c",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76b7ce635c2d598a69863"
+  },
+  "query": "Ticketmaster",
+  "component": "GeminiStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70ea",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7119",
+      "position": 3
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70ea",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70eb",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7126",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7118",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76b7ce635c2d598a69864"
+  },
+  "query": "Ticketmaster",
+  "component": "OpenAIPrompt",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70ea",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70ea",
+    "position": 1
+  },
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76b7ce635c2d598a69865"
+  },
+  "query": "Ticketmaster",
+  "component": "Meilisearch",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70ea",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70ea",
+    "position": 1
+  },
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76b7ce635c2d598a69866"
+  },
+  "query": "Ticketmaster",
+  "component": "OpenAIStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70ea",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7119",
+      "position": 4
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70ea",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7126",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70eb",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab711f",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76b9fe635c2d598a69867"
+  },
+  "query": "PunkAPI",
+  "component": "GeminiSimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70f8",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70f7",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70fb",
+      "position": 4
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70f8",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70fa",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab713e",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76b9fe635c2d598a69868"
+  },
+  "query": "PunkAPI",
+  "component": "GeminiStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70f8",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70f7",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70fb",
+      "position": 4
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70f8",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70fa",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab713e",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76b9fe635c2d598a69869"
+  },
+  "query": "PunkAPI",
+  "component": "OpenAISimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70f8",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70f8",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a5",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7106",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab716b",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab714c",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76b9fe635c2d598a6986a"
+  },
+  "query": "PunkAPI",
+  "component": "GeminiDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70f8",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70f7",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70fb",
+      "position": 3
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70f8",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70fa",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7075",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76b9fe635c2d598a6986b"
+  },
+  "query": "PunkAPI",
+  "component": "OpenAIDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70f8",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70f8",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a5",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7092",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab712b",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7131",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76b9fe635c2d598a6986c"
+  },
+  "query": "PunkAPI",
+  "component": "GeminiPrompt",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70f8",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70f8",
+    "position": 1
+  },
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76b9fe635c2d598a6986d"
+  },
+  "query": "PunkAPI",
+  "component": "OpenAIPrompt",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70f8",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70f8",
+    "position": 1
+  },
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76b9fe635c2d598a6986e"
+  },
+  "query": "PunkAPI",
+  "component": "Meilisearch",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70f8",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70f8",
+    "position": 1
+  },
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76b9fe635c2d598a6986f"
+  },
+  "query": "PunkAPI",
+  "component": "MeilisearchEmbed",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70f8",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70f8",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70b5",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7106",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7175",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7197",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76b9fe635c2d598a69870"
+  },
+  "query": "PunkAPI",
+  "component": "OpenAIStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70f8",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70f8",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a5",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab708b",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70e5",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7186",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76bf6e635c2d598a69871"
+  },
+  "query": "Imgur",
+  "component": "GeminiPrompt",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7157",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab7157",
+    "position": 1
+  },
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76bf6e635c2d598a69872"
+  },
+  "query": "Imgur",
+  "component": "GeminiStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7157",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab7157",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7078",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7158",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab707c",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab707d",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76bf6e635c2d598a69873"
+  },
+  "query": "Imgur",
+  "component": "Meilisearch",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7157",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab7157",
+    "position": 1
+  },
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76bf6e635c2d598a69874"
+  },
+  "query": "Imgur",
+  "component": "GeminiDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7157",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7155",
+      "position": 2
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab7157",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7158",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7077",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7159",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76bf6e635c2d598a69875"
+  },
+  "query": "Imgur",
+  "component": "GeminiSimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7157",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab7157",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7077",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab707c",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab707d",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7158",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76bf6e635c2d598a69876"
+  },
+  "query": "Imgur",
+  "component": "OpenAIPrompt",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7157",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab7157",
+    "position": 1
+  },
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76bf6e635c2d598a69877"
+  },
+  "query": "Imgur",
+  "component": "MeilisearchEmbed",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7157",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7153",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7155",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7156",
+      "position": 5
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab7157",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7158",
+      "position": 4
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76bf6e635c2d598a69878"
+  },
+  "query": "Imgur",
+  "component": "OpenAIDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7157",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7156",
+      "position": 3
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab7157",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7158",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab714e",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab707d",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76bf6e635c2d598a69879"
+  },
+  "query": "Imgur",
+  "component": "OpenAISimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7157",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7156",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7155",
+      "position": 4
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab7157",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab707d",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab707c",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76bf6e635c2d598a6987a"
+  },
+  "query": "Imgur",
+  "component": "OpenAIStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7157",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7156",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7153",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7155",
+      "position": 5
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab7157",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7158",
+      "position": 3
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76c3fe635c2d598a6987b"
+  },
+  "query": "Lingua Robot",
+  "component": "OpenAIDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70cb",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70cb",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70bf",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7193",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7117",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab719c",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76c3fe635c2d598a6987c"
+  },
+  "query": "Lingua Robot",
+  "component": "Meilisearch",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70cb",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70cb",
+    "position": 1
+  },
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76c3fe635c2d598a6987d"
+  },
+  "query": "Lingua Robot",
+  "component": "OpenAIStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70cb",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70cb",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70bf",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7117",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7193",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7139",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76c3fe635c2d598a6987e"
+  },
+  "query": "Lingua Robot",
+  "component": "OpenAISimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70cb",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70cb",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70bf",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7117",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7193",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab708b",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76c3fe635c2d598a6987f"
+  },
+  "query": "Lingua Robot",
+  "component": "MeilisearchEmbed",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70cb",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70cb",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7117",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70bf",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab719c",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab719b",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76c3fe635c2d598a69880"
+  },
+  "query": "Lingua Robot",
+  "component": "GeminiSimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70cb",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70cb",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab719c",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70bf",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7117",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7105",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76c3fe635c2d598a69881"
+  },
+  "query": "Lingua Robot",
+  "component": "GeminiPrompt",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70cb",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70cb",
+    "position": 1
+  },
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76c3fe635c2d598a69882"
+  },
+  "query": "Lingua Robot",
+  "component": "OpenAIPrompt",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70cb",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70cb",
+    "position": 1
+  },
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76c3fe635c2d598a69883"
+  },
+  "query": "Lingua Robot",
+  "component": "GeminiStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70cb",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70cb",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab719c",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70bf",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7117",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7105",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76c3fe635c2d598a69884"
+  },
+  "query": "Lingua Robot",
+  "component": "GeminiDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70cb",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70cb",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab719c",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70bf",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7105",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7117",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76c91e635c2d598a69885"
+  },
+  "query": "MEGA",
+  "component": "GeminiDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70af",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70af",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab713f",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70ee",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7076",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7083",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76c91e635c2d598a69886"
+  },
+  "query": "MEGA",
+  "component": "GeminiSimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70af",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70af",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7084",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab708b",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70ae",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7083",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76c91e635c2d598a69887"
+  },
+  "query": "MEGA",
+  "component": "OpenAIStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70af",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70af",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab714e",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7083",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab714d",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab711c",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76c91e635c2d598a69888"
+  },
+  "query": "MEGA",
+  "component": "GeminiStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70af",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70af",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab713f",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab714e",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7083",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70ee",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76c91e635c2d598a69889"
+  },
+  "query": "MEGA",
+  "component": "OpenAIDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70af",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70af",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab714e",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7083",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab711c",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab715f",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76c91e635c2d598a6988a"
+  },
+  "query": "MEGA",
+  "component": "OpenAIPrompt",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70af",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70af",
+    "position": 1
+  },
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76c91e635c2d598a6988b"
+  },
+  "query": "MEGA",
+  "component": "GeminiPrompt",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70af",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70af",
+    "position": 1
+  },
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76c91e635c2d598a6988c"
+  },
+  "query": "MEGA",
+  "component": "Meilisearch",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70af",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70af",
+    "position": 1
+  },
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76c91e635c2d598a6988d"
+  },
+  "query": "MEGA",
+  "component": "MeilisearchEmbed",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70af",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70af",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7137",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70b5",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab714e",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7083",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76c91e635c2d598a6988e"
+  },
+  "query": "MEGA",
+  "component": "OpenAISimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70af",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab70af",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab708b",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71b4",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab716a",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7083",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76ce8e635c2d598a6988f"
+  },
+  "query": "last.fm",
+  "component": "Meilisearch",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7120",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab7120",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7131",
+      "position": 2
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76ce8e635c2d598a69890"
+  },
+  "query": "last.fm",
+  "component": "OpenAISimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7120",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7127",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7122",
+      "position": 4
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab7120",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab711e",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab712a",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76ce8e635c2d598a69891"
+  },
+  "query": "last.fm",
+  "component": "GeminiPrompt",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7120",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab7120",
+    "position": 1
+  },
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76ce8e635c2d598a69892"
+  },
+  "query": "last.fm",
+  "component": "OpenAIDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7120",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7127",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7122",
+      "position": 3
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab7120",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab711e",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7125",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76ce8e635c2d598a69893"
+  },
+  "query": "last.fm",
+  "component": "GeminiStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7120",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7127",
+      "position": 4
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab7120",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7123",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7129",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab712a",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76ce8e635c2d598a69894"
+  },
+  "query": "last.fm",
+  "component": "OpenAIPrompt",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7120",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab7120",
+    "position": 1
+  },
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76ce8e635c2d598a69895"
+  },
+  "query": "last.fm",
+  "component": "GeminiDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7120",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7127",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7126",
+      "position": 5
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab7120",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7123",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7129",
+      "position": 4
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76ce8e635c2d598a69896"
+  },
+  "query": "last.fm",
+  "component": "GeminiSimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7120",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7126",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7127",
+      "position": 5
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab7120",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab711a",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7123",
+      "position": 4
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76ce8e635c2d598a69897"
+  },
+  "query": "last.fm",
+  "component": "MeilisearchEmbed",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7120",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7126",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7128",
+      "position": 5
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab7120",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7131",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab711e",
+      "position": 3
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76ce8e635c2d598a69898"
+  },
+  "query": "last.fm",
+  "component": "OpenAIStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7120",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7127",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7122",
+      "position": 4
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab7120",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab711e",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7123",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76d5ae635c2d598a69899"
+  },
+  "query": "free simple fitness and meal tracking API",
+  "component": "GeminiSimple",
+  "accepted": [],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7187",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70f6",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70fc",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab718a",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71b8",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76d5ae635c2d598a6989a"
+  },
+  "query": "free simple fitness and meal tracking API",
+  "component": "Meilisearch",
+  "accepted": [],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab717f",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70c5",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7132",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab716c",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70c1",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76d5ae635c2d598a6989b"
+  },
+  "query": "free simple fitness and meal tracking API",
+  "component": "GeminiDescriptive",
+  "accepted": [],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab718a",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7187",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70f6",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7109",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab717f",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76d5ae635c2d598a6989c"
+  },
+  "query": "free simple fitness and meal tracking API",
+  "component": "GeminiStructured",
+  "accepted": [],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab718a",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7187",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7109",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70f6",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab717f",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76d5ae635c2d598a6989d"
+  },
+  "query": "free simple fitness and meal tracking API",
+  "component": "GeminiPrompt",
+  "accepted": [],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70fc",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70f6",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab718a",
+      "position": 3
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76d5ae635c2d598a6989e"
+  },
+  "query": "free simple fitness and meal tracking API",
+  "component": "OpenAISimple",
+  "accepted": [],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70fc",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7187",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70f6",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7109",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab718a",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76d5ae635c2d598a6989f"
+  },
+  "query": "free simple fitness and meal tracking API",
+  "component": "MeilisearchEmbed",
+  "accepted": [],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab717f",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70fc",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab718a",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7187",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70f6",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76d5be635c2d598a698a0"
+  },
+  "query": "free simple fitness and meal tracking API",
+  "component": "OpenAIPrompt",
+  "accepted": [],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76d5be635c2d598a698a1"
+  },
+  "query": "free simple fitness and meal tracking API",
+  "component": "OpenAIStructured",
+  "accepted": [],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70fc",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7109",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab718a",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7187",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70f6",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76d5be635c2d598a698a2"
+  },
+  "query": "free simple fitness and meal tracking API",
+  "component": "OpenAIDescriptive",
+  "accepted": [],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7109",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70fc",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab718a",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7187",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70f6",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76dcde635c2d598a698a3"
+  },
+  "query": "virus scanning or unsafe website list provider",
+  "component": "OpenAISimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7087",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab708a",
+      "position": 2
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7088",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7172",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7086",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76dcde635c2d598a698a4"
+  },
+  "query": "virus scanning or unsafe website list provider",
+  "component": "OpenAIStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7087",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab708a",
+      "position": 2
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7086",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7088",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab719f",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76dcde635c2d598a698a5"
+  },
+  "query": "virus scanning or unsafe website list provider",
+  "component": "Meilisearch",
+  "accepted": [],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76dcde635c2d598a698a6"
+  },
+  "query": "virus scanning or unsafe website list provider",
+  "component": "GeminiStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7087",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab708a",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7089",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7085",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7088",
+      "position": 3
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76dcde635c2d598a698a7"
+  },
+  "query": "virus scanning or unsafe website list provider",
+  "component": "MeilisearchEmbed",
+  "accepted": [],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7073",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7074",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7075",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7076",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7077",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76dcde635c2d598a698a8"
+  },
+  "query": "virus scanning or unsafe website list provider",
+  "component": "GeminiDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7087",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab708a",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7089",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7085",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7088",
+      "position": 3
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76dcde635c2d598a698a9"
+  },
+  "query": "virus scanning or unsafe website list provider",
+  "component": "OpenAIPrompt",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7089",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab708a",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7085",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7087",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7088",
+      "position": 1
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76dcde635c2d598a698aa"
+  },
+  "query": "virus scanning or unsafe website list provider",
+  "component": "GeminiSimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7087",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab708a",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7085",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7089",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7174",
+      "position": 4
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76dcde635c2d598a698ab"
+  },
+  "query": "virus scanning or unsafe website list provider",
+  "component": "OpenAIDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7087",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab708a",
+      "position": 2
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7086",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7088",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7172",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76dcde635c2d598a698ac"
+  },
+  "query": "virus scanning or unsafe website list provider",
+  "component": "GeminiPrompt",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7089",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab708a",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7085",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7170",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7088",
+      "position": 2
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76e20e635c2d598a698ad"
+  },
+  "query": "free open API for song lyrics and trivia",
+  "component": "GeminiDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7124",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7121",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab711c",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7123",
+      "position": 4
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab714c",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76e20e635c2d598a698ae"
+  },
+  "query": "free open API for song lyrics and trivia",
+  "component": "OpenAIPrompt",
+  "accepted": [],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76e20e635c2d598a698af"
+  },
+  "query": "free open API for song lyrics and trivia",
+  "component": "GeminiStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7121",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7124",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab711c",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7123",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab714c",
+      "position": 4
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76e20e635c2d598a698b0"
+  },
+  "query": "free open API for song lyrics and trivia",
+  "component": "MeilisearchEmbed",
+  "accepted": [],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab707a",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab718f",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab713a",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7192",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71b7",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76e20e635c2d598a698b1"
+  },
+  "query": "free open API for song lyrics and trivia",
+  "component": "OpenAIDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7121",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7124",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab711c",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7123",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7125",
+      "position": 4
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76e20e635c2d598a698b2"
+  },
+  "query": "free open API for song lyrics and trivia",
+  "component": "GeminiSimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7124",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7121",
+      "position": 2
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab714c",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab711e",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab712a",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76e20e635c2d598a698b3"
+  },
+  "query": "free open API for song lyrics and trivia",
+  "component": "GeminiPrompt",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7121",
+      "position": 1
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76e20e635c2d598a698b4"
+  },
+  "query": "free open API for song lyrics and trivia",
+  "component": "Meilisearch",
+  "accepted": [],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab707a",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab718f",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab713a",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7192",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71b7",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76e20e635c2d598a698b5"
+  },
+  "query": "free open API for song lyrics and trivia",
+  "component": "OpenAIStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7121",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab711c",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7124",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7123",
+      "position": 4
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7125",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76e20e635c2d598a698b6"
+  },
+  "query": "free open API for song lyrics and trivia",
+  "component": "OpenAISimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7121",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7124",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab711c",
+      "position": 3
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70eb",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7126",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76e63e635c2d598a698b7"
+  },
+  "query": "PDF generation from HTML",
+  "component": "OpenAISimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70d7",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70db",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70d8",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70da",
+      "position": 4
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70d5",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76e63e635c2d598a698b8"
+  },
+  "query": "PDF generation from HTML",
+  "component": "GeminiSimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70db",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70d7",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70d8",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70da",
+      "position": 4
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70d5",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76e63e635c2d598a698b9"
+  },
+  "query": "PDF generation from HTML",
+  "component": "MeilisearchEmbed",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70d7",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70da",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70d8",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70db",
+      "position": 4
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70d5",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76e63e635c2d598a698ba"
+  },
+  "query": "PDF generation from HTML",
+  "component": "GeminiDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70d7",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70d8",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70da",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70db",
+      "position": 4
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70d5",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76e63e635c2d598a698bb"
+  },
+  "query": "PDF generation from HTML",
+  "component": "GeminiPrompt",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70da",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70db",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70d8",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70d7",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70d9",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76e63e635c2d598a698bc"
+  },
+  "query": "PDF generation from HTML",
+  "component": "OpenAIDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70da",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70d7",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70db",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70d8",
+      "position": 4
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70d5",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76e63e635c2d598a698bd"
+  },
+  "query": "PDF generation from HTML",
+  "component": "Meilisearch",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70db",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70d7",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70da",
+      "position": 4
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70d5",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab710e",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76e63e635c2d598a698be"
+  },
+  "query": "PDF generation from HTML",
+  "component": "GeminiStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70d7",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70d8",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70da",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70db",
+      "position": 4
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70d5",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76e63e635c2d598a698bf"
+  },
+  "query": "PDF generation from HTML",
+  "component": "OpenAIPrompt",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70db",
+      "position": 1
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76e63e635c2d598a698c0"
+  },
+  "query": "PDF generation from HTML",
+  "component": "OpenAIStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70da",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70db",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70d8",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70d7",
+      "position": 4
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70d5",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76ea1e635c2d598a698c1"
+  },
+  "query": "ticket purchase, event promotion and venue reservation",
+  "component": "OpenAIStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70ea",
+      "position": 1
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70eb",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7119",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7126",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab709b",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76ea1e635c2d598a698c2"
+  },
+  "query": "ticket purchase, event promotion and venue reservation",
+  "component": "GeminiPrompt",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70ea",
+      "position": 1
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70eb",
+      "position": 2
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76ea1e635c2d598a698c3"
+  },
+  "query": "ticket purchase, event promotion and venue reservation",
+  "component": "GeminiDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70ea",
+      "position": 1
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7119",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70eb",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7126",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7185",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76ea1e635c2d598a698c4"
+  },
+  "query": "ticket purchase, event promotion and venue reservation",
+  "component": "MeilisearchEmbed",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70ea",
+      "position": 1
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70eb",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7119",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7126",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71ad",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76ea1e635c2d598a698c5"
+  },
+  "query": "ticket purchase, event promotion and venue reservation",
+  "component": "OpenAIDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70ea",
+      "position": 1
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7119",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70eb",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7126",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab709b",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76ea1e635c2d598a698c6"
+  },
+  "query": "ticket purchase, event promotion and venue reservation",
+  "component": "GeminiSimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70ea",
+      "position": 1
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7119",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70eb",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7126",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7122",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76ea1e635c2d598a698c7"
+  },
+  "query": "ticket purchase, event promotion and venue reservation",
+  "component": "GeminiStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70ea",
+      "position": 1
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7119",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70eb",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7126",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7185",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76ea1e635c2d598a698c8"
+  },
+  "query": "ticket purchase, event promotion and venue reservation",
+  "component": "OpenAISimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70ea",
+      "position": 1
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7119",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70eb",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7126",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71ae",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76ea1e635c2d598a698c9"
+  },
+  "query": "ticket purchase, event promotion and venue reservation",
+  "component": "Meilisearch",
+  "accepted": [],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7119",
+      "position": 1
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76ea1e635c2d598a698ca"
+  },
+  "query": "ticket purchase, event promotion and venue reservation",
+  "component": "OpenAIPrompt",
+  "accepted": [],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70ca",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70c6",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70d0",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70b3",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7087",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76ee2e635c2d598a698cb"
+  },
+  "query": "spam and profanity filter free API",
+  "component": "OpenAIDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab719f",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70c5",
+      "position": 2
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7085",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7141",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab708b",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76ee2e635c2d598a698cc"
+  },
+  "query": "spam and profanity filter free API",
+  "component": "GeminiStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70c5",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab719f",
+      "position": 2
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab719b",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab719c",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab714a",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76ee2e635c2d598a698cd"
+  },
+  "query": "spam and profanity filter free API",
+  "component": "OpenAISimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70c5",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab719f",
+      "position": 2
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab708b",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7085",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab714a",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76ee2e635c2d598a698ce"
+  },
+  "query": "spam and profanity filter free API",
+  "component": "GeminiPrompt",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70c5",
+      "position": 1
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76ee2e635c2d598a698cf"
+  },
+  "query": "spam and profanity filter free API",
+  "component": "OpenAIStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70c5",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab719f",
+      "position": 2
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7085",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab708b",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7094",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76ee2e635c2d598a698d0"
+  },
+  "query": "spam and profanity filter free API",
+  "component": "Meilisearch",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab719f",
+      "position": 1
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76ee2e635c2d598a698d1"
+  },
+  "query": "spam and profanity filter free API",
+  "component": "OpenAIPrompt",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab719f",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70c5",
+      "position": 3
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7085",
+      "position": 2
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76ee2e635c2d598a698d2"
+  },
+  "query": "spam and profanity filter free API",
+  "component": "GeminiSimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70c5",
+      "position": 1
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab719c",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7087",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab719b",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab719e",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76ee2e635c2d598a698d3"
+  },
+  "query": "spam and profanity filter free API",
+  "component": "MeilisearchEmbed",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab719f",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70c5",
+      "position": 2
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab708b",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7085",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70c1",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76ee2e635c2d598a698d4"
+  },
+  "query": "spam and profanity filter free API",
+  "component": "GeminiDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70c5",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab719f",
+      "position": 2
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab719b",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab714a",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab719c",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76f20e635c2d598a698d5"
+  },
+  "query": "cryptocurrency price API with WebSocket",
+  "component": "GeminiStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70b5",
+      "position": 1
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70b4",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70b7",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70b3",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70ec",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76f20e635c2d598a698d6"
+  },
+  "query": "cryptocurrency price API with WebSocket",
+  "component": "MeilisearchEmbed",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70b5",
+      "position": 2
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70b4",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70ba",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70bc",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70b8",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76f20e635c2d598a698d7"
+  },
+  "query": "cryptocurrency price API with WebSocket",
+  "component": "OpenAIPrompt",
+  "accepted": [],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76f20e635c2d598a698d8"
+  },
+  "query": "cryptocurrency price API with WebSocket",
+  "component": "OpenAISimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70b5",
+      "position": 1
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70b4",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70ec",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70b9",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70f4",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76f20e635c2d598a698d9"
+  },
+  "query": "cryptocurrency price API with WebSocket",
+  "component": "OpenAIDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70b5",
+      "position": 1
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7172",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70b4",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70ba",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70b7",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76f20e635c2d598a698da"
+  },
+  "query": "cryptocurrency price API with WebSocket",
+  "component": "GeminiSimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70b5",
+      "position": 2
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70b4",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70ec",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7188",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70b3",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76f20e635c2d598a698db"
+  },
+  "query": "cryptocurrency price API with WebSocket",
+  "component": "Meilisearch",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70b5",
+      "position": 3
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70b4",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70b3",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70b6",
+      "position": 4
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76f21e635c2d598a698dc"
+  },
+  "query": "cryptocurrency price API with WebSocket",
+  "component": "OpenAIStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70b5",
+      "position": 1
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7172",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70b4",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70b9",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70b7",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76f21e635c2d598a698dd"
+  },
+  "query": "cryptocurrency price API with WebSocket",
+  "component": "GeminiPrompt",
+  "accepted": [],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76f21e635c2d598a698de"
+  },
+  "query": "cryptocurrency price API with WebSocket",
+  "component": "GeminiDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70b5",
+      "position": 1
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70b4",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70b7",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7172",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70ec",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76fa7e635c2d598a698df"
+  },
+  "query": "air quality API Europe",
+  "component": "GeminiStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70e5",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70e3",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70e4",
+      "position": 3
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70e9",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71b7",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76fa7e635c2d598a698e0"
+  },
+  "query": "air quality API Europe",
+  "component": "Meilisearch",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70e5",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70e4",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70e3",
+      "position": 3
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76fa7e635c2d598a698e1"
+  },
+  "query": "air quality API Europe",
+  "component": "OpenAIStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70e4",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70e5",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70e3",
+      "position": 3
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70e7",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71b8",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76fa7e635c2d598a698e2"
+  },
+  "query": "air quality API Europe",
+  "component": "GeminiPrompt",
+  "accepted": [],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76fa7e635c2d598a698e3"
+  },
+  "query": "air quality API Europe",
+  "component": "OpenAISimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70e4",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70e5",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70e3",
+      "position": 3
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71b8",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71b3",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76fa7e635c2d598a698e4"
+  },
+  "query": "air quality API Europe",
+  "component": "GeminiSimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70e5",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70e4",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70e3",
+      "position": 3
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71b7",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71b8",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76fa7e635c2d598a698e5"
+  },
+  "query": "air quality API Europe",
+  "component": "MeilisearchEmbed",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70e5",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70e4",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70e3",
+      "position": 3
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76fa7e635c2d598a698e6"
+  },
+  "query": "air quality API Europe",
+  "component": "OpenAIDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70e3",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70e5",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70e4",
+      "position": 3
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70e7",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71b8",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76fa7e635c2d598a698e7"
+  },
+  "query": "air quality API Europe",
+  "component": "GeminiDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70e5",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70e3",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70e4",
+      "position": 3
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71b7",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71b3",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad76fa7e635c2d598a698e8"
+  },
+  "query": "air quality API Europe",
+  "component": "OpenAIPrompt",
+  "accepted": [],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad77003e635c2d598a698e9"
+  },
+  "query": "email validation API free",
+  "component": "Meilisearch",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70c1",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7099",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70be",
+      "position": 4
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab713d",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70c7",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad77003e635c2d598a698ea"
+  },
+  "query": "email validation API free",
+  "component": "OpenAIStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70be",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70c1",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7099",
+      "position": 3
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70c3",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70c8",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad77003e635c2d598a698eb"
+  },
+  "query": "email validation API free",
+  "component": "OpenAIPrompt",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70c1",
+      "position": 1
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab713d",
+      "position": 2
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad77003e635c2d598a698ec"
+  },
+  "query": "email validation API free",
+  "component": "GeminiDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70c1",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7099",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70be",
+      "position": 3
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70c0",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70c7",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad77003e635c2d598a698ed"
+  },
+  "query": "email validation API free",
+  "component": "OpenAISimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7099",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70be",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70c1",
+      "position": 3
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70c3",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab709a",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad77003e635c2d598a698ee"
+  },
+  "query": "email validation API free",
+  "component": "GeminiPrompt",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70be",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70c1",
+      "position": 5
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70c8",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70c7",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70c0",
+      "position": 4
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad77003e635c2d598a698ef"
+  },
+  "query": "email validation API free",
+  "component": "GeminiSimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70c1",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70be",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7099",
+      "position": 3
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab709a",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab717a",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad77003e635c2d598a698f0"
+  },
+  "query": "email validation API free",
+  "component": "MeilisearchEmbed",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70c1",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7099",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70be",
+      "position": 4
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab713d",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70c7",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad77003e635c2d598a698f1"
+  },
+  "query": "email validation API free",
+  "component": "OpenAIDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7099",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70be",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70c1",
+      "position": 3
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70c8",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70c3",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad77003e635c2d598a698f2"
+  },
+  "query": "email validation API free",
+  "component": "GeminiStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70c1",
+      "position": 1
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7099",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70be",
+      "position": 3
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70ca",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70c7",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad77043e635c2d598a698f3"
+  },
+  "query": "free tokenizer for language research",
+  "component": "GeminiDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a0",
+      "position": 1
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70bf",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab719d",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab719c",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7105",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad77043e635c2d598a698f4"
+  },
+  "query": "free tokenizer for language research",
+  "component": "OpenAIPrompt",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a0",
+      "position": 1
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad77043e635c2d598a698f5"
+  },
+  "query": "free tokenizer for language research",
+  "component": "OpenAISimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a0",
+      "position": 1
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70bf",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70cb",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70cd",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab719b",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad77043e635c2d598a698f6"
+  },
+  "query": "free tokenizer for language research",
+  "component": "OpenAIDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a0",
+      "position": 1
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70bf",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70cb",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab709c",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab719c",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad77043e635c2d598a698f7"
+  },
+  "query": "free tokenizer for language research",
+  "component": "Meilisearch",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a0",
+      "position": 1
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70dd",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab715f",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab718b",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7190",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad77043e635c2d598a698f8"
+  },
+  "query": "free tokenizer for language research",
+  "component": "OpenAIStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a0",
+      "position": 1
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70bf",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab719b",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70cb",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab709c",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad77043e635c2d598a698f9"
+  },
+  "query": "free tokenizer for language research",
+  "component": "GeminiStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a0",
+      "position": 1
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70bf",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab719c",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab719b",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab719d",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad77043e635c2d598a698fa"
+  },
+  "query": "free tokenizer for language research",
+  "component": "GeminiPrompt",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a0",
+      "position": 1
+    }
+  ],
+  "marked": null,
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad77043e635c2d598a698fb"
+  },
+  "query": "free tokenizer for language research",
+  "component": "GeminiSimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a0",
+      "position": 1
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab719c",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70cd",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70cb",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7105",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6ad77043e635c2d598a698fc"
+  },
+  "query": "free tokenizer for language research",
+  "component": "MeilisearchEmbed",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab71a0",
+      "position": 1
+    }
+  ],
+  "marked": null,
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab719c",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70dd",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab715f",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab718b",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+}]

@@ -1,0 +1,16 @@
+{
+    "query": "languagelayer",
+    "distinctResponseCount": 2,
+    "responses": [
+        "{\"name\":{\"$regex\":\"languagelayer\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"languagelayer\",\"$options\":\"i\"}}",
+        "{\"name\":\"languagelayer\"}",
+        "{\"name\":{\"$regex\":\"languagelayer\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"languagelayer\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"languagelayer\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"languagelayer\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"languagelayer\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"languagelayer\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"languagelayer\",\"$options\":\"i\"}}"
+    ]
+}

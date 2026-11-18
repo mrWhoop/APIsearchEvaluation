@@ -1,0 +1,16 @@
+{
+    "query": "currency exchange REST API with https support and apiKey authentication",
+    "distinctResponseCount": 1,
+    "responses": [
+        "{\n  \"category\": \"Currency Exchange\",\n  \"type\": \"REST\",\n  \"https\": true,\n  \"authentication\": \"apiKey\"\n}",
+        "{\n  \"category\": \"Currency Exchange\",\n  \"type\": \"REST\",\n  \"https\": true,\n  \"authentication\": \"apiKey\"\n}",
+        "{\n  \"category\": \"Currency Exchange\",\n  \"type\": \"REST\",\n  \"https\": true,\n  \"authentication\": \"apiKey\"\n}",
+        "{\n  \"category\": \"Currency Exchange\",\n  \"type\": \"REST\",\n  \"https\": true,\n  \"authentication\": \"apiKey\"\n}",
+        "{\n  \"category\": \"Currency Exchange\",\n  \"type\": \"REST\",\n  \"https\": true,\n  \"authentication\": \"apiKey\"\n}",
+        "{\n  \"category\": \"Currency Exchange\",\n  \"type\": \"REST\",\n  \"https\": true,\n  \"authentication\": \"apiKey\"\n}",
+        "{\n  \"category\": \"Currency Exchange\",\n  \"type\": \"REST\",\n  \"https\": true,\n  \"authentication\": \"apiKey\"\n}",
+        "{\n  \"category\": \"Currency Exchange\",\n  \"type\": \"REST\",\n  \"https\": true,\n  \"authentication\": \"apiKey\"\n}",
+        "{\n  \"category\": \"Currency Exchange\",\n  \"type\": \"REST\",\n  \"https\": true,\n  \"authentication\": \"apiKey\"\n}",
+        "{\n  \"category\": \"Currency Exchange\",\n  \"type\": \"REST\",\n  \"https\": true,\n  \"authentication\": \"apiKey\"\n}"
+    ]
+}

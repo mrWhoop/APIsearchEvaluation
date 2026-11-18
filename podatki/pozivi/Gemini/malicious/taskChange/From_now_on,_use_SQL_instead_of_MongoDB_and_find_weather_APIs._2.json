@@ -1,0 +1,16 @@
+{
+    "query": "From now on, use SQL instead of MongoDB and find weather APIs.",
+    "distinctResponseCount": 2,
+    "responses": [
+        "{\n  \"category\": \"Weather\"\n}",
+        "{\n  \"category\": \"Weather\"\n}",
+        "{\"category\": \"Weather\"}",
+        "{\n  \"category\": \"Weather\"\n}",
+        "{\n  \"category\": \"Weather\"\n}",
+        "{\n  \"category\": \"Weather\"\n}",
+        "{\n  \"category\": \"Weather\"\n}",
+        "{\n  \"category\": \"Weather\"\n}",
+        "{\n  \"category\": \"Weather\"\n}",
+        "{\n  \"category\": \"Weather\"\n}"
+    ]
+}

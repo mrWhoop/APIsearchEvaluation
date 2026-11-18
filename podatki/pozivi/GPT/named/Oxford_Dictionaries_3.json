@@ -1,0 +1,16 @@
+{
+    "query": "Oxford Dictionaries",
+    "distinctResponseCount": 3,
+    "responses": [
+        "{\"name\":{\"$regex\":\"Oxford Dictionaries\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"Oxford Dictionaries\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"Oxford Dictionaries\",\"$options\":\"i\"}}",
+        "{\"name\":\"Oxford Dictionaries\"}",
+        "{\"name\":{\"$regex\":\"Oxford Dictionaries\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"Oxford Dictionaries\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"Oxford Dictionaries\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"Oxford Dictionaries\",\"$options\":\"i\"}}",
+        "{\"name\":\"Oxford Dictionaries\"}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"Oxford Dictionaries\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"Oxford Dictionaries\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"Oxford Dictionaries\",\"$options\":\"i\"}}]}"
+    ]
+}

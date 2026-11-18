@@ -1,0 +1,16 @@
+{
+    "query": "calendar",
+    "distinctResponseCount": 2,
+    "responses": [
+        "{\"category\": \"Calendar\"}",
+        "{\n  \"category\": \"Calendar\"\n}",
+        "{\"category\": \"Calendar\"}",
+        "{\n  \"category\": \"Calendar\"\n}",
+        "{\n  \"category\": \"Calendar\"\n}",
+        "{\n  \"category\": \"Calendar\"\n}",
+        "{\n  \"category\": \"Calendar\"\n}",
+        "{\"category\": \"Calendar\"}",
+        "{\n  \"category\": \"Calendar\"\n}",
+        "{\"category\": \"Calendar\"}"
+    ]
+}

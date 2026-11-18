@@ -1,0 +1,16 @@
+{
+    "query": "specialised dictionary API with https and apiKey",
+    "distinctResponseCount": 5,
+    "responses": [
+        "{\"category\":\"Dictionaries\",\"https\":true,\"authentication\":\"apiKey\"}",
+        "{\"category\":\"Dictionaries\",\"https\":true,\"authentication\":\"apiKey\"}",
+        "{\"category\":\"Dictionaries\",\"https\":true,\"authentication\":\"apiKey\",\"$or\":[{\"name\":{\"$regex\":\"dictionary\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"dictionary\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"dictionary\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Dictionaries\",\"https\":true,\"authentication\":\"apiKey\"}",
+        "{\"category\":\"Dictionaries\",\"https\":true,\"authentication\":\"apiKey\",\"$or\":[{\"name\":{\"$regex\":\"speciali[sz]ed\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"speciali[sz]ed\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"speciali[sz]ed\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Dictionaries\",\"https\":true,\"authentication\":\"apiKey\"}",
+        "{\"category\":\"Dictionaries\",\"https\":true,\"authentication\":\"apiKey\"}",
+        "{\"category\":\"Dictionaries\",\"https\":true,\"authentication\":\"apiKey\"}",
+        "{\"https\":true,\"authentication\":\"apiKey\",\"category\":\"Dictionaries\"}",
+        "{\"category\":\"Dictionaries\",\"https\":true,\"authentication\":\"apiKey\",\"$or\":[{\"name\":{\"$regex\":\"speciali[sz]ed|dictionary\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"speciali[sz]ed|dictionary\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"speciali[sz]ed|dictionary\",\"$options\":\"i\"}}]}"
+    ]
+}

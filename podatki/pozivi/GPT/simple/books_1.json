@@ -1,0 +1,16 @@
+{
+    "query": "books",
+    "distinctResponseCount": 1,
+    "responses": [
+        "{\"category\":\"Books\"}",
+        "{\"category\":\"Books\"}",
+        "{\"category\":\"Books\"}",
+        "{\"category\":\"Books\"}",
+        "{\"category\":\"Books\"}",
+        "{\"category\":\"Books\"}",
+        "{\"category\":\"Books\"}",
+        "{\"category\":\"Books\"}",
+        "{\"category\":\"Books\"}",
+        "{\"category\":\"Books\"}"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "query": "MEGA",
+    "distinctResponseCount": 3,
+    "responses": [
+        "{\"$or\":[{\"name\":{\"$regex\":\"MEGA\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"MEGA\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"MEGA\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"MEGA\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"MEGA\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"MEGA\",\"$options\":\"i\"}}]}",
+        "{\"name\":{\"$regex\":\"MEGA\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"MEGA\",\"$options\":\"i\"}}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"MEGA\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"MEGA\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"MEGA\",\"$options\":\"i\"}},{\"category\":\"Cloud storage and File Sharing\"}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"MEGA\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"MEGA\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"MEGA\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"MEGA\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"MEGA\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"MEGA\",\"$options\":\"i\"}}]}",
+        "{\"name\":{\"$regex\":\"MEGA\",\"$options\":\"i\"}}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"MEGA\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"MEGA\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"MEGA\",\"$options\":\"i\"}}]}",
+        "{\"name\":{\"$regex\":\"MEGA\",\"$options\":\"i\"}}"
+    ]
+}

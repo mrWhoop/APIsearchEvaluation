@@ -1,0 +1,16 @@
+{
+    "query": "package tracking API with apiKey authentication and no https support",
+    "distinctResponseCount": 5,
+    "responses": [
+        "{\"category\":\"Tracking\",\"authentication\":\"apiKey\",\"https\":false}",
+        "{\"category\":\"Tracking\",\"authentication\":\"apiKey\",\"https\":false,\"$or\":[{\"name\":{\"$regex\":\"package\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"package\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"package\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Tracking\",\"authentication\":\"apiKey\",\"https\":false}",
+        "{\"category\":\"Tracking\",\"authentication\":\"apiKey\",\"https\":false}",
+        "{\"category\":\"Tracking\",\"authentication\":\"apiKey\",\"https\":false,\"$or\":[{\"name\":{\"$regex\":\"package\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"package\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"package\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Tracking\",\"authentication\":\"apiKey\",\"https\":false}",
+        "{\"$and\":[{\"authentication\":\"apiKey\"},{\"https\":false},{\"$or\":[{\"category\":\"Tracking\"},{\"name\":{\"$regex\":\"package tracking\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"package tracking\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"package tracking\",\"$options\":\"i\"}}]}]}",
+        "{\"authentication\":\"apiKey\",\"https\":false,\"category\":\"Tracking\",\"$or\":[{\"name\":{\"$regex\":\"package|tracking\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"package|tracking\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"package|tracking\",\"$options\":\"i\"}}]}",
+        "{\"authentication\":\"apiKey\",\"https\":false,\"category\":\"Tracking\",\"$or\":[{\"name\":{\"$regex\":\"package|parcel\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"package|parcel\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"package|parcel\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Tracking\",\"authentication\":\"apiKey\",\"https\":false,\"$or\":[{\"name\":{\"$regex\":\"package\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"package\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"package\",\"$options\":\"i\"}}]}"
+    ]
+}

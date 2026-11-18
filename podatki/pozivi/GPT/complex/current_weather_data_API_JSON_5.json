@@ -1,0 +1,16 @@
+{
+    "query": "current weather data API JSON",
+    "distinctResponseCount": 5,
+    "responses": [
+        "{\"category\":\"Weather\",\"$or\":[{\"name\":{\"$regex\":\"current weather\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"current weather\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"current weather\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Weather\",\"$or\":[{\"name\":{\"$regex\":\"current\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"current\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"current\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Weather\",\"$or\":[{\"name\":{\"$regex\":\"current|weather\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"current|weather\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"current|weather\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Weather\",\"$or\":[{\"name\":{\"$regex\":\"current\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"current\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"current\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Weather\",\"$or\":[{\"name\":{\"$regex\":\"current weather\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"current weather\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"current weather\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Weather\",\"$and\":[{\"$or\":[{\"name\":{\"$regex\":\"current\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"current\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"current\",\"$options\":\"i\"}}]},{\"$or\":[{\"name\":{\"$regex\":\"JSON\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"JSON\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"JSON\",\"$options\":\"i\"}}]}]}",
+        "{\"category\":\"Weather\",\"$or\":[{\"name\":{\"$regex\":\"current\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"current\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"current\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Weather\",\"$and\":[{\"$or\":[{\"name\":{\"$regex\":\"current\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"current\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"current\",\"$options\":\"i\"}}]},{\"$or\":[{\"description\":{\"$regex\":\"json\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"json\",\"$options\":\"i\"}}]}]}",
+        "{\"category\":\"Weather\",\"$or\":[{\"name\":{\"$regex\":\"current\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"current\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"current\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Weather\",\"$or\":[{\"name\":{\"$regex\":\"current|weather\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"current|weather\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"current|weather\",\"$options\":\"i\"}}]}"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "query": "Oxford Dictionaries",
+    "distinctResponseCount": 2,
+    "responses": [
+        "{\n  \"name\": {\n    \"$regex\": \"Oxford Dictionaries\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\"name\": {\"$regex\": \"Oxford Dictionaries\", \"$options\": \"i\"}}",
+        "{\n  \"name\": {\n    \"$regex\": \"Oxford Dictionaries\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Oxford Dictionaries\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Oxford Dictionaries\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\"name\": {\"$regex\": \"Oxford Dictionaries\", \"$options\": \"i\"}}",
+        "{\n  \"name\": {\n    \"$regex\": \"Oxford Dictionaries\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Oxford Dictionaries\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Oxford Dictionaries\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Oxford Dictionaries\",\n    \"$options\": \"i\"\n  }\n}"
+    ]
+}

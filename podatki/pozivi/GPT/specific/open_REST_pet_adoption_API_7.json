@@ -1,0 +1,16 @@
+{
+    "query": "open REST pet adoption API",
+    "distinctResponseCount": 7,
+    "responses": [
+        "{\"type\":\"REST\",\"category\":\"Animals\",\"authentication\":null,\"$or\":[{\"name\":{\"$regex\":\"pet|adoption\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"pet|adoption\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"pet|adoption\",\"$options\":\"i\"}}]}",
+        "{\"type\":\"REST\",\"authentication\":null,\"category\":\"Animals\",\"$or\":[{\"name\":{\"$regex\":\"pet|adoption\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"pet|adoption\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"pet|adoption\",\"$options\":\"i\"}}]}",
+        "{\"type\":\"REST\",\"category\":\"Animals\",\"authentication\":null,\"$or\":[{\"name\":{\"$regex\":\"pet|adopt\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"pet|adopt\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"pet|adopt\",\"$options\":\"i\"}}]}",
+        "{\"type\":\"REST\",\"category\":\"Animals\",\"authentication\":null,\"$or\":[{\"name\":{\"$regex\":\"pet|adoption\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"pet|adoption\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"pet|adoption\",\"$options\":\"i\"}}]}",
+        "{\"type\":\"REST\",\"authentication\":null,\"category\":\"Animals\",\"$or\":[{\"name\":{\"$regex\":\"pet adoption\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"pet adoption\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"pet adoption\",\"$options\":\"i\"}}]}",
+        "{\"type\":\"REST\",\"category\":\"Animals\",\"$or\":[{\"name\":{\"$regex\":\"pet|adoption\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"pet|adoption\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"pet|adoption\",\"$options\":\"i\"}}]}",
+        "{\"type\":\"REST\",\"category\":\"Animals\",\"authentication\":null,\"$or\":[{\"name\":{\"$regex\":\"pet|adoption\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"pet|adoption\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"pet|adoption\",\"$options\":\"i\"}}]}",
+        "{\"authentication\":null,\"type\":\"REST\",\"category\":\"Animals\",\"$and\":[{\"$or\":[{\"name\":{\"$regex\":\"pet\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"pet\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"pet\",\"$options\":\"i\"}}]},{\"$or\":[{\"name\":{\"$regex\":\"adoption\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"adoption\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"adoption\",\"$options\":\"i\"}}]}]}",
+        "{\"category\":\"Animals\",\"type\":\"REST\",\"authentication\":null,\"$and\":[{\"$or\":[{\"name\":{\"$regex\":\"pet\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"pet\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"pet\",\"$options\":\"i\"}}]},{\"$or\":[{\"name\":{\"$regex\":\"adoption\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"adoption\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"adoption\",\"$options\":\"i\"}}]}]}",
+        "{\"type\":\"REST\",\"category\":\"Animals\",\"authentication\":null,\"$or\":[{\"name\":{\"$regex\":\"pet|adopt\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"pet|adopt\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"pet|adopt\",\"$options\":\"i\"}}]}"
+    ]
+}

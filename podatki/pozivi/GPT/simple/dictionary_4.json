@@ -1,0 +1,16 @@
+{
+    "query": "dictionary",
+    "distinctResponseCount": 4,
+    "responses": [
+        "{\"$or\":[{\"category\":\"Dictionaries\"},{\"name\":{\"$regex\":\"dictionary\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"dictionary\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"dictionary\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Dictionaries\"}",
+        "{\"$or\":[{\"category\":\"Dictionaries\"},{\"name\":{\"$regex\":\"dictionary\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"dictionary\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"dictionary\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Dictionaries\"}",
+        "{\"category\":\"Dictionaries\"}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"dictionar\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"dictionar\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"dictionar\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"dictionar\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Dictionaries\"}",
+        "{\"$or\":[{\"category\":\"Dictionaries\"},{\"name\":{\"$regex\":\"dictionary\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"dictionary\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"dictionary\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Dictionaries\"}",
+        "{\"category\":{\"$regex\":\"dictionary\",\"$options\":\"i\"}}"
+    ]
+}

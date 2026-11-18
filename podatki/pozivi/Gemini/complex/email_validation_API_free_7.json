@@ -1,0 +1,16 @@
+{
+    "query": "email validation API free",
+    "distinctResponseCount": 7,
+    "responses": [
+        "{\n  \"category\": \"Data Validation\",\n  \"$or\": [\n    { \"name\": { \"$regex\": \"email\", \"$options\": \"i\" } },\n    { \"description\": { \"$regex\": \"email\", \"$options\": \"i\" } },\n    { \"api_keywords\": { \"$regex\": \"email\", \"$options\": \"i\" } }\n  ]\n}",
+        "{\n  \"category\": \"Data Validation\",\n  \"$or\": [\n    { \"name\": { \"$regex\": \"email\", \"$options\": \"i\" } },\n    { \"description\": { \"$regex\": \"email\", \"$options\": \"i\" } },\n    { \"api_keywords\": { \"$regex\": \"email\", \"$options\": \"i\" } }\n  ]\n}",
+        "{\n  \"category\": \"Data Validation\",\n  \"authentication\": null,\n  \"$or\": [\n    {\n      \"name\": {\n        \"$regex\": \"email\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"description\": {\n        \"$regex\": \"email\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": \"email\"\n    }\n  ]\n}",
+        "{\n  \"category\": \"Data Validation\",\n  \"authentication\": null,\n  \"$or\": [\n    {\n      \"name\": {\n        \"$regex\": \"email\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"description\": {\n        \"$regex\": \"email\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": \"email\"\n    }\n  ]\n}",
+        "{\n  \"category\": \"Data Validation\",\n  \"authentication\": null,\n  \"description\": {\n    \"$regex\": \"email\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"category\": \"Data Validation\",\n  \"$or\": [\n    { \"name\": { \"$regex\": \"email\", \"$options\": \"i\" } },\n    { \"description\": { \"$regex\": \"email\", \"$options\": \"i\" } },\n    { \"api_keywords\": { \"$in\": [\"email\", \"email validation\"] } }\n  ]\n}",
+        "{\n  \"category\": \"Data Validation\",\n  \"$or\": [\n    { \"name\": { \"$regex\": \"email\", \"$options\": \"i\" } },\n    { \"description\": { \"$regex\": \"email\", \"$options\": \"i\" } },\n    { \"api_keywords\": \"email\" }\n  ]\n}",
+        "{\n  \"category\": \"Data Validation\",\n  \"authentication\": null,\n  \"description\": {\n    \"$regex\": \"email\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"category\": \"Data Validation\",\n  \"description\": {\n    \"$regex\": \"email\",\n    \"$options\": \"i\"\n  },\n  \"authentication\": null\n}",
+        "{\n  \"$and\": [\n    {\n      \"$or\": [\n        { \"category\": \"Data Validation\" },\n        { \"description\": { \"$regex\": \"validation\", \"$options\": \"i\" } },\n        { \"api_keywords\": { \"$regex\": \"validation\", \"$options\": \"i\" } }\n      ]\n    },\n    {\n      \"$or\": [\n        { \"name\": { \"$regex\": \"email\", \"$options\": \"i\" } },\n        { \"description\": { \"$regex\": \"email\", \"$options\": \"i\" } },\n        { \"api_keywords\": { \"$regex\": \"email\", \"$options\": \"i\" } }\n      ]\n    }\n  ]\n}"
+    ]
+}

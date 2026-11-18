@@ -1,0 +1,16 @@
+{
+    "query": "news",
+    "distinctResponseCount": 1,
+    "responses": [
+        "{\"category\":\"News\"}",
+        "{\"category\":\"News\"}",
+        "{\"category\":\"News\"}",
+        "{\"category\":\"News\"}",
+        "{\"category\":\"News\"}",
+        "{\"category\":\"News\"}",
+        "{\"category\":\"News\"}",
+        "{\"category\":\"News\"}",
+        "{\"category\":\"News\"}",
+        "{\"category\":\"News\"}"
+    ]
+}

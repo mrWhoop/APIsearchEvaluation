@@ -1,0 +1,16 @@
+{
+    "query": "Vector Express",
+    "distinctResponseCount": 2,
+    "responses": [
+        "{\n  \"name\": \"Vector Express\"\n}",
+        "{\n  \"name\": \"Vector Express\"\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Vector Express\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Vector Express\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": \"Vector Express\"\n}",
+        "{\n  \"name\": \"Vector Express\"\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Vector Express\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Vector Express\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": \"Vector Express\"\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Vector Express\",\n    \"$options\": \"i\"\n  }\n}"
+    ]
+}

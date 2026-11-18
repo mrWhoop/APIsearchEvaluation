@@ -1,0 +1,16 @@
+{
+    "query": "weather",
+    "distinctResponseCount": 3,
+    "responses": [
+        "{\"category\":\"Weather\"}",
+        "{\"category\":\"Weather\"}",
+        "{\"category\":\"Weather\"}",
+        "{\"category\":\"Weather\"}",
+        "{\"category\":\"Weather\"}",
+        "{\"$or\":[{\"category\":{\"$regex\":\"weather\",\"$options\":\"i\"}},{\"name\":{\"$regex\":\"weather\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"weather\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"weather\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"category\":\"Weather\"},{\"name\":{\"$regex\":\"weather\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"weather\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"weather\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Weather\"}",
+        "{\"$or\":[{\"category\":\"Weather\"},{\"name\":{\"$regex\":\"weather\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"weather\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"weather\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"category\":\"Weather\"},{\"name\":{\"$regex\":\"weather\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"weather\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"weather\",\"$options\":\"i\"}}]}"
+    ]
+}

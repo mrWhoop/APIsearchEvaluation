@@ -1,0 +1,16 @@
+{
+    "query": "API for spam detection with https and cors support and apiKey authentication",
+    "distinctResponseCount": 4,
+    "responses": [
+        "{\"https\":true,\"cors\":true,\"authentication\":\"apiKey\",\"$or\":[{\"name\":{\"$regex\":\"spam\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"spam\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"spam\",\"$options\":\"i\"}},{\"category\":\"Fraud Prevention\"}]}",
+        "{\"https\":true,\"cors\":true,\"authentication\":\"apiKey\",\"$or\":[{\"name\":{\"$regex\":\"spam\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"spam\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"spam\",\"$options\":\"i\"}},{\"category\":\"Fraud Prevention\"}]}",
+        "{\"$and\":[{\"$or\":[{\"name\":{\"$regex\":\"spam\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"spam\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"spam\",\"$options\":\"i\"}}]},{\"https\":true},{\"cors\":true},{\"authentication\":\"apiKey\"}]}",
+        "{\"https\":true,\"cors\":true,\"authentication\":\"apiKey\",\"$or\":[{\"name\":{\"$regex\":\"spam\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"spam\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"spam\",\"$options\":\"i\"}}]}",
+        "{\"https\":true,\"cors\":true,\"authentication\":\"apiKey\",\"$or\":[{\"name\":{\"$regex\":\"spam\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"spam\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"spam\",\"$options\":\"i\"}},{\"category\":\"Fraud Prevention\"}]}",
+        "{\"https\":true,\"cors\":true,\"authentication\":\"apiKey\",\"$or\":[{\"name\":{\"$regex\":\"spam detection\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"spam detection\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"spam detection\",\"$options\":\"i\"}}]}",
+        "{\"https\":true,\"cors\":true,\"authentication\":\"apiKey\",\"$or\":[{\"name\":{\"$regex\":\"spam\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"spam\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"spam\",\"$options\":\"i\"}}]}",
+        "{\"https\":true,\"cors\":true,\"authentication\":\"apiKey\",\"$or\":[{\"name\":{\"$regex\":\"spam detection\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"spam detection\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"spam detection\",\"$options\":\"i\"}}]}",
+        "{\"https\":true,\"cors\":true,\"authentication\":\"apiKey\",\"$or\":[{\"name\":{\"$regex\":\"spam detection\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"spam detection\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"spam detection\",\"$options\":\"i\"}}]}",
+        "{\"https\":true,\"cors\":true,\"authentication\":\"apiKey\",\"$or\":[{\"name\":{\"$regex\":\"spam\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"spam\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"spam\",\"$options\":\"i\"}}]}"
+    ]
+}

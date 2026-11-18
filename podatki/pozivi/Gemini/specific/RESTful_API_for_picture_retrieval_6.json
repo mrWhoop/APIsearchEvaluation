@@ -1,0 +1,16 @@
+{
+    "query": "RESTful API for picture retrieval",
+    "distinctResponseCount": 6,
+    "responses": [
+        "{\n  \"type\": \"REST\",\n  \"$or\": [\n    {\n      \"category\": \"Photography\"\n    },\n    {\n      \"description\": {\n        \"$regex\": \"picture\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$in\": [\n          \"picture\",\n          \"photo\",\n          \"image\"\n        ]\n      }\n    }\n  ]\n}",
+        "{\n  \"type\": \"REST\",\n  \"category\": \"Photography\"\n}",
+        "{\n  \"type\": \"REST\",\n  \"$or\": [\n    {\n      \"category\": \"Photography\"\n    },\n    {\n      \"api_keywords\": {\n        \"$in\": [\n          \"picture\",\n          \"photo\",\n          \"image\"\n        ]\n      }\n    },\n    {\n      \"description\": {\n        \"$regex\": \"picture\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"type\": \"REST\",\n  \"$or\": [\n    {\n      \"category\": \"Photography\"\n    },\n    {\n      \"description\": {\n        \"$regex\": \"picture\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$regex\": \"picture\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"type\": \"REST\",\n  \"$or\": [\n    {\n      \"category\": \"Photography\"\n    },\n    {\n      \"api_keywords\": {\n        \"$in\": [\n          \"picture\",\n          \"photo\",\n          \"image\"\n        ]\n      }\n    },\n    {\n      \"description\": {\n        \"$regex\": \"picture\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"type\": \"REST\",\n  \"category\": \"Photography\"\n}",
+        "{\n  \"type\": \"REST\",\n  \"$or\": [\n    {\n      \"category\": \"Photography\"\n    },\n    {\n      \"description\": {\n        \"$regex\": \"picture\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$in\": [\n          \"picture\",\n          \"pictures\",\n          \"photo\",\n          \"photos\",\n          \"image\",\n          \"images\"\n        ]\n      }\n    }\n  ]\n}",
+        "{\n  \"type\": \"REST\",\n  \"$or\": [\n    {\n      \"category\": \"Photography\"\n    },\n    {\n      \"description\": {\n        \"$regex\": \"picture|photo|image\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$in\": [\"picture\", \"pictures\", \"photo\", \"photos\", \"image\", \"images\"]\n      }\n    }\n  ]\n}",
+        "{\n  \"type\": \"REST\",\n  \"category\": \"Photography\"\n}",
+        "{\n  \"type\": \"REST\",\n  \"$or\": [\n    {\n      \"category\": \"Photography\"\n    },\n    {\n      \"description\": {\n        \"$regex\": \"picture\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$in\": [\n          \"picture\",\n          \"photo\",\n          \"image\"\n        ]\n      }\n    }\n  ]\n}"
+    ]
+}

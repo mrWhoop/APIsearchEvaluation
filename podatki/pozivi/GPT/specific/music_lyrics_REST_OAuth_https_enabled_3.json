@@ -1,0 +1,16 @@
+{
+    "query": "music lyrics REST OAuth https enabled",
+    "distinctResponseCount": 3,
+    "responses": [
+        "{\"category\":\"Music\",\"type\":\"REST\",\"authentication\":\"OAuth\",\"https\":true,\"$or\":[{\"name\":{\"$regex\":\"lyrics\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"lyrics\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"lyrics\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Music\",\"api_keywords\":{\"$all\":[\"music\",\"lyrics\"]},\"type\":\"REST\",\"authentication\":\"OAuth\",\"https\":true}",
+        "{\"category\":\"Music\",\"api_keywords\":{\"$regex\":\"lyrics\",\"$options\":\"i\"},\"type\":\"REST\",\"authentication\":\"OAuth\",\"https\":true}",
+        "{\"category\":\"Music\",\"type\":\"REST\",\"authentication\":\"OAuth\",\"https\":true,\"$or\":[{\"name\":{\"$regex\":\"lyrics\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"lyrics\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"lyrics\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Music\",\"type\":\"REST\",\"authentication\":\"OAuth\",\"https\":true,\"$or\":[{\"name\":{\"$regex\":\"lyrics\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"lyrics\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"lyrics\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Music\",\"type\":\"REST\",\"authentication\":\"OAuth\",\"https\":true,\"$or\":[{\"name\":{\"$regex\":\"lyrics\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"lyrics\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"lyrics\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Music\",\"type\":\"REST\",\"authentication\":\"OAuth\",\"https\":true,\"$or\":[{\"name\":{\"$regex\":\"lyrics\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"lyrics\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"lyrics\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Music\",\"type\":\"REST\",\"authentication\":\"OAuth\",\"https\":true,\"$or\":[{\"name\":{\"$regex\":\"lyrics\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"lyrics\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"lyrics\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Music\",\"type\":\"REST\",\"authentication\":\"OAuth\",\"https\":true,\"$or\":[{\"name\":{\"$regex\":\"lyrics\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"lyrics\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"lyrics\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Music\",\"type\":\"REST\",\"authentication\":\"OAuth\",\"https\":true,\"$or\":[{\"name\":{\"$regex\":\"lyrics\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"lyrics\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"lyrics\",\"$options\":\"i\"}}]}"
+    ]
+}

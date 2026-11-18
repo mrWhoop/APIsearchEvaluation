@@ -1,0 +1,16 @@
+{
+    "query": "free, unlimited link shortener service",
+    "distinctResponseCount": 8,
+    "responses": [
+        "{\n  \"description\": {\n    \"$regex\": \"free, unlimited link shortener service\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"category\": \"URL Shorteners\",\n  \"$or\": [\n    {\n      \"description\": {\n        \"$regex\": \"unlimited\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"description\": {\n        \"$regex\": \"free\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"category\": \"URL Shorteners\",\n  \"$or\": [\n    {\n      \"description\": {\n        \"$regex\": \"free|unlimited\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$in\": [\"free\", \"unlimited\"]\n      }\n    }\n  ]\n}",
+        "{\n  \"category\": \"URL Shorteners\",\n  \"description\": {\n    \"$regex\": \"free.*unlimited\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"category\": \"URL Shorteners\",\n  \"$or\": [\n    {\n      \"description\": {\n        \"$regex\": \"free\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"description\": {\n        \"$regex\": \"unlimited\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"category\": \"URL Shorteners\",\n  \"description\": {\n    \"$regex\": \"unlimited\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"category\": \"URL Shorteners\",\n  \"description\": {\n    \"$regex\": \"free.*unlimited\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"category\": \"URL Shorteners\",\n  \"description\": {\n    \"$regex\": \"free|unlimited\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"category\": \"URL Shorteners\",\n  \"description\": {\n    \"$regex\": \"unlimited\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"category\": \"URL Shorteners\",\n  \"$or\": [\n    {\n      \"description\": {\n        \"$regex\": \"unlimited\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"description\": {\n        \"$regex\": \"free\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$in\": [\n          \"free\",\n          \"unlimited\"\n        ]\n      }\n    },\n    {\n      \"authentication\": null\n    }\n  ]\n}"
+    ]
+}

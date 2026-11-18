@@ -1,0 +1,16 @@
+{
+    "query": "federal jobs",
+    "distinctResponseCount": 4,
+    "responses": [
+        "{\"category\":\"Jobs\",\"$or\":[{\"name\":{\"$regex\":\"federal\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"federal\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"federal\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Jobs\",\"$or\":[{\"name\":{\"$regex\":\"federal\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"federal\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"federal\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Jobs\",\"$or\":[{\"name\":{\"$regex\":\"federal|government|employment|career\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"federal|government|employment|career\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"federal|government|employment|career\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Jobs\",\"$or\":[{\"name\":{\"$regex\":\"federal\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"federal\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"federal\",\"$options\":\"i\"}}]}",
+        "{\"$and\":[{\"category\":\"Jobs\"},{\"$or\":[{\"name\":{\"$regex\":\"federal\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"federal\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"federal\",\"$options\":\"i\"}}]}]}",
+        "{\"category\":\"Jobs\",\"$or\":[{\"name\":{\"$regex\":\"federal\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"federal\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"federal\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Jobs\",\"$or\":[{\"name\":{\"$regex\":\"federal\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"federal\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"federal\",\"$options\":\"i\"}}]}",
+        "{\"$and\":[{\"category\":\"Jobs\"},{\"$or\":[{\"name\":{\"$regex\":\"federal\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"federal\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"federal\",\"$options\":\"i\"}}]}]}",
+        "{\"category\":\"Jobs\",\"$or\":[{\"name\":{\"$regex\":\"federal|job\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"federal|job\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"federal|job\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Jobs\",\"$or\":[{\"name\":{\"$regex\":\"federal\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"federal\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"federal\",\"$options\":\"i\"}}]}"
+    ]
+}

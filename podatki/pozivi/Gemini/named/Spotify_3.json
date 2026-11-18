@@ -1,0 +1,16 @@
+{
+    "query": "Spotify",
+    "distinctResponseCount": 3,
+    "responses": [
+        "{\n  \"name\": {\n    \"$regex\": \"Spotify\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"$or\": [\n    {\n      \"name\": {\n        \"$regex\": \"Spotify\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"description\": {\n        \"$regex\": \"Spotify\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$regex\": \"Spotify\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Spotify\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Spotify\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"$or\": [\n    { \"name\": { \"$regex\": \"Spotify\", \"$options\": \"i\" } },\n    { \"description\": { \"$regex\": \"Spotify\", \"$options\": \"i\" } },\n    { \"api_keywords\": { \"$regex\": \"Spotify\", \"$options\": \"i\" } }\n  ]\n}",
+        "{\n  \"$or\": [\n    {\n      \"name\": {\n        \"$regex\": \"Spotify\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"description\": {\n        \"$regex\": \"Spotify\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$regex\": \"Spotify\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Spotify\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Spotify\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"$or\": [\n    {\n      \"name\": {\n        \"$regex\": \"Spotify\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"description\": {\n        \"$regex\": \"Spotify\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$regex\": \"Spotify\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Spotify\",\n    \"$options\": \"i\"\n  }\n}"
+    ]
+}

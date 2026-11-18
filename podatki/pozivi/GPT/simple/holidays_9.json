@@ -1,0 +1,16 @@
+{
+    "query": "holidays",
+    "distinctResponseCount": 9,
+    "responses": [
+        "{\"$or\":[{\"name\":{\"$regex\":\"holiday\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"holiday\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"holiday\",\"$options\":\"i\"}},{\"category\":\"Calendar\"}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"holidays\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"holidays\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"holidays\",\"$options\":\"i\"}},{\"category\":{\"$in\":[\"Calendar\",\"Events\"]}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"holidays?\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"holidays?\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"holidays?\",\"$options\":\"i\"}},{\"category\":\"Calendar\"}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"holiday\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"holiday\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"holiday\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"holiday\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"holidays?\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"holidays?\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"holidays?\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"holidays?\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"holidays\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"holidays\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"holidays\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"holidays\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"holid\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"holid\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"holid\",\"$options\":\"i\"}},{\"category\":\"Calendar\"}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"holidays\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"holidays\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"holidays\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"holidays\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"holidays?\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"holidays?\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"holidays?\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"calendar\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"holidays?\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"holidays?\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"holidays?\",\"$options\":\"i\"}}]}"
+    ]
+}

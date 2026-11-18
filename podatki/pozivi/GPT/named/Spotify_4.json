@@ -1,0 +1,16 @@
+{
+    "query": "Spotify",
+    "distinctResponseCount": 4,
+    "responses": [
+        "{\"$or\":[{\"name\":{\"$regex\":\"Spotify\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"Spotify\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"Spotify\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"Spotify\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"Spotify\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"Spotify\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"Music\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"Spotify\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"Spotify\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"Spotify\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"spotify\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"spotify\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"spotify\",\"$options\":\"i\"}}]}",
+        "{\"name\":{\"$regex\":\"spotify\",\"$options\":\"i\"}}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"spotify\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"spotify\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"spotify\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"spotify\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"spotify\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"spotify\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"spotify\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"spotify\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"spotify\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"Spotify\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"Spotify\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"Spotify\",\"$options\":\"i\"}}]}",
+        "{\"name\":{\"$regex\":\"spotify\",\"$options\":\"i\"}}"
+    ]
+}

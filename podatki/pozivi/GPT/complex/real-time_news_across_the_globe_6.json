@@ -1,0 +1,16 @@
+{
+    "query": "real-time news across the globe",
+    "distinctResponseCount": 6,
+    "responses": [
+        "{\"category\":\"News\",\"$or\":[{\"name\":{\"$regex\":\"real.?time|global|worldwide|world\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"real.?time|global|worldwide|world\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"real.?time|global|worldwide|world\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"News\",\"$or\":[{\"name\":{\"$regex\":\"real.?time|global|worldwide|world\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"real.?time|global|worldwide|world\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"real.?time|global|worldwide|world\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"News\",\"$or\":[{\"name\":{\"$regex\":\"real.?time|global|worldwide|world\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"real.?time|global|worldwide|world\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"real.?time|global|worldwide|world\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"News\",\"$or\":[{\"name\":{\"$regex\":\"real.?time|live|global|worldwide\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"real.?time|live|global|worldwide|across the globe\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"real.?time|live|global|worldwide\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"News\",\"$or\":[{\"name\":{\"$regex\":\"real.?time|global|worldwide|world news\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"real.?time|global|worldwide|world news\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"real.?time|global|worldwide|world news\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"News\",\"$or\":[{\"name\":{\"$regex\":\"real[- ]?time|live|global|worldwide|world\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"real[- ]?time|live|global|worldwide|world\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"real[- ]?time|live|global|worldwide|world\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"News\",\"$or\":[{\"name\":{\"$regex\":\"real.?time|live|global|worldwide|world\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"real.?time|live|global|worldwide|world\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"real.?time|live|global|worldwide|world\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"News\",\"$or\":[{\"name\":{\"$regex\":\"real.?time|live|global|worldwide|world\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"real.?time|live|global|worldwide|world\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"real.?time|live|global|worldwide|world\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"News\",\"$or\":[{\"name\":{\"$regex\":\"real.?time|global|worldwide\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"real.?time|global|worldwide\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"real.?time|global|worldwide\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"News\",\"$or\":[{\"name\":{\"$regex\":\"real.?time|global|worldwide|world\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"real.?time|global|worldwide|world\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"real.?time|global|worldwide|world\",\"$options\":\"i\"}}]}"
+    ]
+}

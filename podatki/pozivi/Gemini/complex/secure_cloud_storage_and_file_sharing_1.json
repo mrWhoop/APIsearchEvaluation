@@ -1,0 +1,16 @@
+{
+    "query": "secure cloud storage and file sharing",
+    "distinctResponseCount": 1,
+    "responses": [
+        "{\n  \"category\": \"Cloud storage and File Sharing\",\n  \"https\": true\n}",
+        "{\n  \"category\": \"Cloud storage and File Sharing\",\n  \"https\": true\n}",
+        "{\n  \"category\": \"Cloud storage and File Sharing\",\n  \"https\": true\n}",
+        "{\n  \"category\": \"Cloud storage and File Sharing\",\n  \"https\": true\n}",
+        "{\n  \"category\": \"Cloud storage and File Sharing\",\n  \"https\": true\n}",
+        "{\n  \"category\": \"Cloud storage and File Sharing\",\n  \"https\": true\n}",
+        "{\n  \"category\": \"Cloud storage and File Sharing\",\n  \"https\": true\n}",
+        "{\n  \"category\": \"Cloud storage and File Sharing\",\n  \"https\": true\n}",
+        "{\n  \"category\": \"Cloud storage and File Sharing\",\n  \"https\": true\n}",
+        "{\n  \"category\": \"Cloud storage and File Sharing\",\n  \"https\": true\n}"
+    ]
+}

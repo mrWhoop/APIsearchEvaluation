@@ -1,0 +1,16 @@
+{
+    "query": "Bitquery",
+    "distinctResponseCount": 2,
+    "responses": [
+        "{\n  \"name\": {\n    \"$regex\": \"Bitquery\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Bitquery\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Bitquery\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\"name\": {\"$regex\": \"Bitquery\", \"$options\": \"i\"}}",
+        "{\n  \"name\": {\n    \"$regex\": \"Bitquery\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Bitquery\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Bitquery\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Bitquery\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Bitquery\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Bitquery\",\n    \"$options\": \"i\"\n  }\n}"
+    ]
+}

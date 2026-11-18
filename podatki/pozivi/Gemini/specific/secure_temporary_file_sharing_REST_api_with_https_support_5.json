@@ -1,0 +1,16 @@
+{
+    "query": "secure temporary file sharing REST api with https support",
+    "distinctResponseCount": 5,
+    "responses": [
+        "{\n  \"category\": \"Cloud storage and File Sharing\",\n  \"type\": \"REST\",\n  \"https\": true,\n  \"description\": {\n    \"$regex\": \"temporary\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"category\": \"Cloud storage and File Sharing\",\n  \"https\": true,\n  \"type\": \"REST\",\n  \"description\": {\n    \"$regex\": \"temporary\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"category\": \"Cloud storage and File Sharing\",\n  \"type\": \"REST\",\n  \"https\": true,\n  \"description\": {\n    \"$regex\": \"temporary\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"category\": \"Cloud storage and File Sharing\",\n  \"https\": true,\n  \"type\": \"REST\",\n  \"description\": {\n    \"$regex\": \"temporary\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"category\": \"Cloud storage and File Sharing\",\n  \"type\": \"REST\",\n  \"https\": true,\n  \"description\": {\n    \"$regex\": \"temporary\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"https\": true,\n  \"type\": \"REST\",\n  \"category\": \"Cloud storage and File Sharing\",\n  \"description\": {\n    \"$regex\": \"temporary file sharing\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"category\": \"Cloud storage and File Sharing\",\n  \"type\": \"REST\",\n  \"https\": true,\n  \"$or\": [\n    {\n      \"description\": {\n        \"$regex\": \"temporary\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$regex\": \"temporary\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"category\": \"Cloud storage and File Sharing\",\n  \"type\": \"REST\",\n  \"https\": true,\n  \"description\": {\n    \"$regex\": \"temporary\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"category\": \"Cloud storage and File Sharing\",\n  \"type\": \"REST\",\n  \"https\": true,\n  \"$or\": [\n    {\n      \"description\": {\n        \"$regex\": \"temporary\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$regex\": \"temporary\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"https\": true,\n  \"type\": \"REST\",\n  \"category\": \"Cloud storage and File Sharing\",\n  \"description\": {\n    \"$regex\": \"temporary\",\n    \"$options\": \"i\"\n  }\n}"
+    ]
+}

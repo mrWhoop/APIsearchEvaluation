@@ -1,0 +1,16 @@
+{
+    "query": "Todoist",
+    "distinctResponseCount": 3,
+    "responses": [
+        "{\"name\":{\"$regex\":\"todoist\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"Todoist\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"Todoist\",\"$options\":\"i\"}}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"Todoist\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"Todoist\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"Todoist\",\"$options\":\"i\"}}]}",
+        "{\"name\":{\"$regex\":\"Todoist\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"todoist\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"todoist\",\"$options\":\"i\"}}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"Todoist\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"Todoist\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"Todoist\",\"$options\":\"i\"}}]}",
+        "{\"name\":{\"$regex\":\"Todoist\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"Todoist\",\"$options\":\"i\"}}"
+    ]
+}

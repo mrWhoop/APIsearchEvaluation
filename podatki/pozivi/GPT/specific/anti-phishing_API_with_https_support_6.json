@@ -1,0 +1,16 @@
+{
+    "query": "anti-phishing API with https support",
+    "distinctResponseCount": 6,
+    "responses": [
+        "{\"https\":true,\"$or\":[{\"name\":{\"$regex\":\"phish\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"phish\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"phish\",\"$options\":\"i\"}}]}",
+        "{\"https\":true,\"$or\":[{\"name\":{\"$regex\":\"phishing\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"phishing\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"phishing\",\"$options\":\"i\"}}]}",
+        "{\"https\":true,\"$or\":[{\"name\":{\"$regex\":\"phish\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"phish\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"phish\",\"$options\":\"i\"}}]}",
+        "{\"https\":true,\"$or\":[{\"name\":{\"$regex\":\"phishing\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"phishing\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"phishing\",\"$options\":\"i\"}}]}",
+        "{\"https\":true,\"$or\":[{\"name\":{\"$regex\":\"anti-phishing\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"anti-phishing\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"anti-phishing\",\"$options\":\"i\"}}]}",
+        "{\"https\":true,\"$or\":[{\"name\":{\"$regex\":\"phishing\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"phishing\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"phishing\",\"$options\":\"i\"}}]}",
+        "{\"https\":true,\"$or\":[{\"name\":{\"$regex\":\"anti[- ]?phishing\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"anti[- ]?phishing\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"anti[- ]?phishing\",\"$options\":\"i\"}}]}",
+        "{\"https\":true,\"$or\":[{\"name\":{\"$regex\":\"anti[- ]?phishing\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"anti[- ]?phishing\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"anti[- ]?phishing\",\"$options\":\"i\"}}]}",
+        "{\"https\":true,\"$or\":[{\"name\":{\"$regex\":\"anti.?phish\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"anti.?phish\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"anti.?phish\",\"$options\":\"i\"}}]}",
+        "{\"https\":true,\"$or\":[{\"name\":{\"$regex\":\"anti.?phishing\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"anti.?phishing\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"anti.?phishing\",\"$options\":\"i\"}}]}"
+    ]
+}

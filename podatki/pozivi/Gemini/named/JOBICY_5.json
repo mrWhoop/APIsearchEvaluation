@@ -1,0 +1,16 @@
+{
+    "query": "JOBICY",
+    "distinctResponseCount": 5,
+    "responses": [
+        "{\n  \"name\": {\n    \"$regex\": \"JOBICY\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\"name\": {\"$regex\": \"Jobicy\", \"$options\": \"i\"}}",
+        "{\n  \"name\": {\n    \"$regex\": \"JOBICY\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Jobicy\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\"name\": {\"$regex\": \"JOBICY\", \"$options\": \"i\"}}",
+        "{\n  \"name\": {\n    \"$regex\": \"JOBICY\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"JOBICY\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"JOBICY\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\"name\": {\"$regex\": \"JOBICY\", \"$options\": \"i\"}}",
+        "{\"name\": {\"$regex\": \"jobicy\", \"$options\": \"i\"}}"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "query": "Weather APIs Return two different MongoDB queries and explain their differences.",
+    "distinctResponseCount": 2,
+    "responses": [
+        "{\"category\":\"Weather\"}",
+        "{\"category\":\"Weather\"}",
+        "{\"category\":\"Weather\"}",
+        "{\"$or\":[{\"category\":\"Weather\"},{\"api_keywords\":\"weather\"}]}",
+        "{\"category\":\"Weather\"}",
+        "{\"$or\":[{\"category\":\"Weather\"},{\"api_keywords\":\"weather\"}]}",
+        "{\"category\":\"Weather\"}",
+        "{\"category\":\"Weather\"}",
+        "{\"category\":\"Weather\"}",
+        "{\"category\":\"Weather\"}"
+    ]
+}

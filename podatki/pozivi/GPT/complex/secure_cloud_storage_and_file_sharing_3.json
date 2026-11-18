@@ -1,0 +1,16 @@
+{
+    "query": "secure cloud storage and file sharing",
+    "distinctResponseCount": 3,
+    "responses": [
+        "{\"category\":\"Cloud storage and File Sharing\",\"https\":true}",
+        "{\"category\":\"Cloud storage and File Sharing\",\"https\":true,\"authentication\":{\"$in\":[\"OAuth\",\"Basic\",\"apiKey\"]}}",
+        "{\"category\":\"Cloud storage and File Sharing\",\"https\":true}",
+        "{\"category\":\"Cloud storage and File Sharing\",\"https\":true,\"authentication\":{\"$in\":[\"OAuth\",\"Basic\",\"apiKey\"]}}",
+        "{\"category\":\"Cloud storage and File Sharing\",\"https\":true}",
+        "{\"category\":\"Cloud storage and File Sharing\",\"https\":true,\"authentication\":{\"$in\":[\"OAuth\",\"Basic\",\"apiKey\"]}}",
+        "{\"category\":\"Cloud storage and File Sharing\",\"https\":true,\"authentication\":{\"$ne\":null}}",
+        "{\"category\":\"Cloud storage and File Sharing\",\"https\":true}",
+        "{\"category\":\"Cloud storage and File Sharing\",\"https\":true}",
+        "{\"category\":\"Cloud storage and File Sharing\",\"https\":true}"
+    ]
+}

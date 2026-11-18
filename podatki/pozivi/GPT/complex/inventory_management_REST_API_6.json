@@ -1,0 +1,16 @@
+{
+    "query": "inventory management REST API",
+    "distinctResponseCount": 6,
+    "responses": [
+        "{\"type\":\"REST\",\"$or\":[{\"name\":{\"$regex\":\"inventory|stock\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"inventory|stock\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"inventory|stock\",\"$options\":\"i\"}}]}",
+        "{\"type\":\"REST\",\"$or\":[{\"name\":{\"$regex\":\"inventory management\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"inventory management\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"inventory management\",\"$options\":\"i\"}}]}",
+        "{\"type\":\"REST\",\"$or\":[{\"name\":{\"$regex\":\"inventory.*management|management.*inventory\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"inventory.*management|management.*inventory\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"inventory.*management|management.*inventory\",\"$options\":\"i\"}}]}",
+        "{\"type\":\"REST\",\"$or\":[{\"name\":{\"$regex\":\"inventory management\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"inventory management\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"inventory management\",\"$options\":\"i\"}}]}",
+        "{\"type\":\"REST\",\"$or\":[{\"name\":{\"$regex\":\"inventory management\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"inventory management\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"inventory management\",\"$options\":\"i\"}}]}",
+        "{\"type\":\"REST\",\"$or\":[{\"name\":{\"$regex\":\"inventory\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"inventory\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"inventory\",\"$options\":\"i\"}},{\"name\":{\"$regex\":\"management\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"management\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"management\",\"$options\":\"i\"}}]}",
+        "{\"type\":\"REST\",\"$and\":[{\"$or\":[{\"name\":{\"$regex\":\"inventory\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"inventory\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"inventory\",\"$options\":\"i\"}}]},{\"$or\":[{\"name\":{\"$regex\":\"management\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"management\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"management\",\"$options\":\"i\"}}]}]}",
+        "{\"type\":\"REST\",\"$or\":[{\"name\":{\"$regex\":\"inventory|stock\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"inventory|stock\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"inventory|stock\",\"$options\":\"i\"}}]}",
+        "{\"type\":\"REST\",\"$or\":[{\"name\":{\"$regex\":\"inventory|stock\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"inventory|stock\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"inventory|stock\",\"$options\":\"i\"}}]}",
+        "{\"type\":\"REST\",\"$or\":[{\"name\":{\"$regex\":\"inventory|management\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"inventory|management\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"inventory|management\",\"$options\":\"i\"}}]}"
+    ]
+}

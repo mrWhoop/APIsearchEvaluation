@@ -1,0 +1,16 @@
+{
+    "query": "Tomba",
+    "distinctResponseCount": 3,
+    "responses": [
+        "{\"name\":{\"$regex\":\"tomba\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"Tomba\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"tomba\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"Tomba\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"Tomba\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"Tomba\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"Tomba\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"Tomba\",\"$options\":\"i\"}}",
+        "{\"name\":\"Tomba\"}",
+        "{\"name\":{\"$regex\":\"tomba\",\"$options\":\"i\"}}"
+    ]
+}

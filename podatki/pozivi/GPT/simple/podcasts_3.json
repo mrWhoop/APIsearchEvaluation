@@ -1,0 +1,16 @@
+{
+    "query": "podcasts",
+    "distinctResponseCount": 3,
+    "responses": [
+        "{\"$or\":[{\"name\":{\"$regex\":\"podcasts?\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"podcasts?\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"podcasts?\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"podcasts?\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"podcasts?\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"podcasts?\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"podcasts\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"podcasts\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"podcasts\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"podcasts?\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"podcasts?\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"podcasts?\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"podcasts?\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"podcasts?\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"podcasts?\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"podcasts?\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"podcasts?\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"podcasts?\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"podcast\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"podcast\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"podcast\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"podcasts\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"podcasts\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"podcasts\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"podcasts\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"podcasts\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"podcasts\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"podcasts\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"podcasts\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"podcasts\",\"$options\":\"i\"}}]}"
+    ]
+}

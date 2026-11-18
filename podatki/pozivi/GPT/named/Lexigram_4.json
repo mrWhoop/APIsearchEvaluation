@@ -1,0 +1,16 @@
+{
+    "query": "Lexigram",
+    "distinctResponseCount": 4,
+    "responses": [
+        "{\"name\":\"Lexigram\"}",
+        "{\"name\":{\"$regex\":\"lexigram\",\"$options\":\"i\"}}",
+        "{\"name\":\"Lexigram\"}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"Lexigram\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"Lexigram\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"Lexigram\",\"$options\":\"i\"}}]}",
+        "{\"name\":{\"$regex\":\"Lexigram\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"Lexigram\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"Lexigram\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"Lexigram\",\"$options\":\"i\"}}",
+        "{\"name\":\"Lexigram\"}",
+        "{\"name\":{\"$regex\":\"Lexigram\",\"$options\":\"i\"}}"
+    ]
+}

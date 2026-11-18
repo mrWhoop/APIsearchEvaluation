@@ -1,0 +1,16 @@
+{
+    "query": "CATAAS",
+    "distinctResponseCount": 3,
+    "responses": [
+        "{\n  \"name\": {\n    \"$regex\": \"CATAAS\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"CATAAS\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"CATAAS\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"CATAAS\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"CATAAS\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\"name\": {\"$regex\": \"CATAAS\", \"$options\": \"i\"}}",
+        "{\n  \"$or\": [\n    {\n      \"name\": {\n        \"$regex\": \"CATAAS\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"description\": {\n        \"$regex\": \"CATAAS\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$regex\": \"CATAAS\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"CATAAS\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"CATAAS\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"CATAAS\",\n    \"$options\": \"i\"\n  }\n}"
+    ]
+}

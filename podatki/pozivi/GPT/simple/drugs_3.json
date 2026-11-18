@@ -1,0 +1,16 @@
+{
+    "query": "drugs",
+    "distinctResponseCount": 3,
+    "responses": [
+        "{\"$or\":[{\"name\":{\"$regex\":\"drug\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"drug\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"drug\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"drug\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"drug\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"drug\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"drug\",\"$options\":\"i\"}},{\"category\":\"Health\"}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"drug\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"drug\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"drug\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"drug\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"drug\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"drug\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"drug\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"drug\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"drug\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"drug\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"drug\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"drug\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"drug\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"drug\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"drug\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"drug\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"drug\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"drug\",\"$options\":\"i\"}},{\"category\":\"Health\"}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"drug\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"drug\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"drug\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"drug\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"drug\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"drug\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"drug\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"drug\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"drug\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"drug\",\"$options\":\"i\"}},{\"category\":\"Health\"}]}"
+    ]
+}

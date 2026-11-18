@@ -1,0 +1,16 @@
+{
+    "query": "open currency exchange rate data API with cors and https support",
+    "distinctResponseCount": 4,
+    "responses": [
+        "{\n  \"category\": \"Currency Exchange\",\n  \"https\": true,\n  \"cors\": true,\n  \"authentication\": null\n}",
+        "{\n  \"category\": \"Currency Exchange\",\n  \"https\": true,\n  \"cors\": true,\n  \"authentication\": null\n}",
+        "{\n  \"category\": \"Currency Exchange\",\n  \"https\": true,\n  \"cors\": true,\n  \"authentication\": null\n}",
+        "{\n  \"category\": \"Currency Exchange\",\n  \"cors\": true,\n  \"https\": true,\n  \"authentication\": null\n}",
+        "{\n  \"category\": \"Currency Exchange\",\n  \"cors\": true,\n  \"https\": true,\n  \"authentication\": null\n}",
+        "{\n  \"category\": \"Currency Exchange\",\n  \"authentication\": null,\n  \"cors\": true,\n  \"https\": true\n}",
+        "{\n  \"category\": \"Currency Exchange\",\n  \"https\": true,\n  \"cors\": true,\n  \"authentication\": null\n}",
+        "{\n  \"category\": \"Currency Exchange\",\n  \"https\": true,\n  \"cors\": true,\n  \"authentication\": null\n}",
+        "{\n  \"category\": \"Currency Exchange\",\n  \"https\": true,\n  \"cors\": true,\n  \"authentication\": null\n}",
+        "{\n  \"category\": \"Currency Exchange\",\n  \"cors\": true,\n  \"https\": true\n}"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "query": "Lexigram",
+    "distinctResponseCount": 3,
+    "responses": [
+        "{\n  \"name\": {\n    \"$regex\": \"Lexigram\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\"name\": {\"$regex\": \"Lexigram\", \"$options\": \"i\"}}",
+        "{\"name\": {\"$regex\": \"Lexigram\", \"$options\": \"i\"}}",
+        "{\n  \"name\": \"Lexigram\"\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Lexigram\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Lexigram\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Lexigram\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": \"Lexigram\"\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Lexigram\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Lexigram\",\n    \"$options\": \"i\"\n  }\n}"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "query": "security",
+    "distinctResponseCount": 4,
+    "responses": [
+        "{\"category\":\"Security\"}",
+        "{\"$or\":[{\"category\":\"Security\"},{\"name\":{\"$regex\":\"security\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"security\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"security\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"category\":\"Security\"},{\"name\":{\"$regex\":\"security\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"security\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"security\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Security\"}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"security\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"security\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"security\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"security\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"category\":\"Security\"},{\"name\":{\"$regex\":\"security\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"security\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"security\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"category\":{\"$regex\":\"security\",\"$options\":\"i\"}},{\"name\":{\"$regex\":\"security\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"security\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"security\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"category\":{\"$regex\":\"security\",\"$options\":\"i\"}},{\"name\":{\"$regex\":\"security\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"security\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"security\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Security\"}",
+        "{\"$or\":[{\"category\":{\"$regex\":\"security\",\"$options\":\"i\"}},{\"name\":{\"$regex\":\"security\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"security\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"security\",\"$options\":\"i\"}}]}"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "query": "last.fm",
+    "distinctResponseCount": 2,
+    "responses": [
+        "{\"$or\":[{\"name\":{\"$regex\":\"last\\\\.fm\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"last\\\\.fm\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"last\\\\.fm\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"last\\\\.fm\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"last\\\\.fm\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"last\\\\.fm\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"last\\\\.fm\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"last\\\\.fm\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"last\\\\.fm\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"last\\\\.fm\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"last\\\\.fm\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"last\\\\.fm\",\"$options\":\"i\"}}]}",
+        "{\"name\":{\"$regex\":\"last\\\\.fm\",\"$options\":\"i\"}}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"last\\\\.fm\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"last\\\\.fm\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"last\\\\.fm\",\"$options\":\"i\"}}]}",
+        "{\"name\":{\"$regex\":\"last\\\\.fm\",\"$options\":\"i\"}}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"last\\\\.fm\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"last\\\\.fm\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"last\\\\.fm\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"last\\\\.fm\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"last\\\\.fm\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"last\\\\.fm\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"last\\\\.fm\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"last\\\\.fm\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"last\\\\.fm\",\"$options\":\"i\"}}]}"
+    ]
+}

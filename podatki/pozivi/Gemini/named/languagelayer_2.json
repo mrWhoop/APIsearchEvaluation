@@ -1,0 +1,16 @@
+{
+    "query": "languagelayer",
+    "distinctResponseCount": 2,
+    "responses": [
+        "{\"name\": {\"$regex\": \"languagelayer\", \"$options\": \"i\"}}",
+        "{\n  \"name\": {\n    \"$regex\": \"languagelayer\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"languagelayer\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\"name\": {\"$regex\": \"languagelayer\", \"$options\": \"i\"}}",
+        "{\n  \"name\": {\n    \"$regex\": \"languagelayer\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"languagelayer\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\"name\": {\"$regex\": \"languagelayer\", \"$options\": \"i\"}}",
+        "{\"name\": {\"$regex\": \"languagelayer\", \"$options\": \"i\"}}",
+        "{\"name\": {\"$regex\": \"languagelayer\", \"$options\": \"i\"}}",
+        "{\n  \"name\": {\n    \"$regex\": \"languagelayer\",\n    \"$options\": \"i\"\n  }\n}"
+    ]
+}

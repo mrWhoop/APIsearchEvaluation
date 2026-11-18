@@ -1,0 +1,16 @@
+{
+    "query": "free URL shortener service with apiKey authentication https and cors support",
+    "distinctResponseCount": 1,
+    "responses": [
+        "{\n  \"category\": \"URL Shorteners\",\n  \"authentication\": \"apiKey\",\n  \"https\": true,\n  \"cors\": true\n}",
+        "{\n  \"category\": \"URL Shorteners\",\n  \"authentication\": \"apiKey\",\n  \"https\": true,\n  \"cors\": true\n}",
+        "{\n  \"category\": \"URL Shorteners\",\n  \"authentication\": \"apiKey\",\n  \"https\": true,\n  \"cors\": true\n}",
+        "{\n  \"category\": \"URL Shorteners\",\n  \"authentication\": \"apiKey\",\n  \"https\": true,\n  \"cors\": true\n}",
+        "{\n  \"category\": \"URL Shorteners\",\n  \"authentication\": \"apiKey\",\n  \"https\": true,\n  \"cors\": true\n}",
+        "{\n  \"category\": \"URL Shorteners\",\n  \"authentication\": \"apiKey\",\n  \"https\": true,\n  \"cors\": true\n}",
+        "{\n  \"category\": \"URL Shorteners\",\n  \"authentication\": \"apiKey\",\n  \"https\": true,\n  \"cors\": true\n}",
+        "{\n  \"category\": \"URL Shorteners\",\n  \"authentication\": \"apiKey\",\n  \"https\": true,\n  \"cors\": true\n}",
+        "{\n  \"category\": \"URL Shorteners\",\n  \"authentication\": \"apiKey\",\n  \"https\": true,\n  \"cors\": true\n}",
+        "{\n  \"category\": \"URL Shorteners\",\n  \"authentication\": \"apiKey\",\n  \"https\": true,\n  \"cors\": true\n}"
+    ]
+}

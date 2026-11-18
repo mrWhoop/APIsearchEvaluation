@@ -1,0 +1,16 @@
+{
+    "query": "Nutritionix",
+    "distinctResponseCount": 3,
+    "responses": [
+        "{\n  \"$or\": [\n    {\n      \"name\": {\n        \"$regex\": \"Nutritionix\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"description\": {\n        \"$regex\": \"Nutritionix\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$regex\": \"Nutritionix\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\"name\": {\"$regex\": \"Nutritionix\", \"$options\": \"i\"}}",
+        "{\n  \"name\": {\n    \"$regex\": \"Nutritionix\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Nutritionix\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"$or\": [\n    {\n      \"name\": {\n        \"$regex\": \"Nutritionix\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"description\": {\n        \"$regex\": \"Nutritionix\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$regex\": \"Nutritionix\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Nutritionix\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Nutritionix\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Nutritionix\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Nutritionix\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Nutritionix\",\n    \"$options\": \"i\"\n  }\n}"
+    ]
+}

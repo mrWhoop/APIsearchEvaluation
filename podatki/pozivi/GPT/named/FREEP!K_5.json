@@ -1,0 +1,16 @@
+{
+    "query": "FREEP!K",
+    "distinctResponseCount": 5,
+    "responses": [
+        "{\"$or\":[{\"name\":{\"$regex\":\"freepik\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"freepik\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"freepik\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"freepik\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"freepik\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"freep.?k\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"freep.?k\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"freep.?k\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"freepik\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"freepik\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"freepik\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"freep.?k\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"freep.?k\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"freep.?k\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"freep.?k\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"freep.?k\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"freep.?k\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"freep.?k\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"freep.?k\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"free.?p.?k\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"free.?p.?k\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"free.?p.?k\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"freepik\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"freepik\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"freepik\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"freep.?k\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"freep.?k\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"freep.?k\",\"$options\":\"i\"}}]}"
+    ]
+}

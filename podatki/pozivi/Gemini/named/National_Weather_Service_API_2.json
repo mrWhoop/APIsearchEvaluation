@@ -1,0 +1,16 @@
+{
+    "query": "National Weather Service API",
+    "distinctResponseCount": 2,
+    "responses": [
+        "{\n  \"name\": {\n    \"$regex\": \"National Weather Service\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"National Weather Service\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\"name\": {\"$regex\": \"National Weather Service\", \"$options\": \"i\"}}",
+        "{\n  \"name\": {\n    \"$regex\": \"National Weather Service\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"National Weather Service\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"National Weather Service\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\"name\": {\"$regex\": \"National Weather Service\", \"$options\": \"i\"}}",
+        "{\n  \"name\": {\n    \"$regex\": \"National Weather Service\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"National Weather Service\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\"name\": {\"$regex\": \"National Weather Service\", \"$options\": \"i\"}}"
+    ]
+}

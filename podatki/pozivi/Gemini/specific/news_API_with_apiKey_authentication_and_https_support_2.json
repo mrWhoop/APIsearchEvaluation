@@ -1,0 +1,16 @@
+{
+    "query": "news API with apiKey authentication and https support",
+    "distinctResponseCount": 2,
+    "responses": [
+        "{\n  \"category\": \"News\",\n  \"authentication\": \"apiKey\",\n  \"https\": true\n}",
+        "{\n  \"category\": \"News\",\n  \"authentication\": \"apiKey\",\n  \"https\": true\n}",
+        "{\n  \"category\": \"News\",\n  \"authentication\": \"apiKey\",\n  \"https\": true\n}",
+        "{\n  \"category\": \"News\",\n  \"authentication\": \"apiKey\",\n  \"https\": true\n}",
+        "{\n  \"category\": \"News\",\n  \"authentication\": \"apiKey\",\n  \"https\": true\n}",
+        "{\n  \"category\": \"News\",\n  \"authentication\": \"apiKey\",\n  \"https\": true\n}",
+        "{\n  \"category\": \"News\",\n  \"authentication\": \"apiKey\",\n  \"https\": true\n}",
+        "{\"category\": \"News\", \"authentication\": \"apiKey\", \"https\": true}",
+        "{\n  \"category\": \"News\",\n  \"authentication\": \"apiKey\",\n  \"https\": true\n}",
+        "{\n  \"category\": \"News\",\n  \"authentication\": \"apiKey\",\n  \"https\": true\n}"
+    ]
+}

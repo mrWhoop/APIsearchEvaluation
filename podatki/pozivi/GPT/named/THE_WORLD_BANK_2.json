@@ -1,0 +1,16 @@
+{
+    "query": "THE WORLD BANK",
+    "distinctResponseCount": 2,
+    "responses": [
+        "{\"$or\":[{\"name\":{\"$regex\":\"world bank\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"world bank\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"world bank\",\"$options\":\"i\"}}]}",
+        "{\"name\":{\"$regex\":\"world bank\",\"$options\":\"i\"}}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"world bank\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"world bank\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"world bank\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"world bank\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"world bank\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"world bank\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"world bank\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"world bank\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"world bank\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"world bank\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"world bank\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"world bank\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"world bank\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"world bank\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"world bank\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"world bank\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"world bank\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"world bank\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"world bank\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"world bank\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"world bank\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"world bank\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"world bank\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"world bank\",\"$options\":\"i\"}}]}"
+    ]
+}

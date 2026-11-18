@@ -1,0 +1,16 @@
+{
+    "query": "ambee",
+    "distinctResponseCount": 2,
+    "responses": [
+        "{\"name\":{\"$regex\":\"ambee\",\"$options\":\"i\"}}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"ambee\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"ambee\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"ambee\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"ambee\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"ambee\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"ambee\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"ambee\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"ambee\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"ambee\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"ambee\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"ambee\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"ambee\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"ambee\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"ambee\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"ambee\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"ambee\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"ambee\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"ambee\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"ambee\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"ambee\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"ambee\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"ambee\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"ambee\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"ambee\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"ambee\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"ambee\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"ambee\",\"$options\":\"i\"}}]}"
+    ]
+}

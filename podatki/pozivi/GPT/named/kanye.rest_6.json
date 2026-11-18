@@ -1,0 +1,16 @@
+{
+    "query": "kanye.rest",
+    "distinctResponseCount": 6,
+    "responses": [
+        "{\"$or\":[{\"name\":{\"$regex\":\"kanye\\\\.rest\",\"$options\":\"i\"}},{\"name\":{\"$regex\":\"kanye\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"kanye\\\\.rest\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"kanye\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"kanye\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"kanye\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"kanye\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"kanye\\\\.rest\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"kanye\\\\.rest\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"kanye\\\\.rest\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"kanye\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"kanye\\\\.rest\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"kanye\\\\.rest\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"kanye\\\\.rest\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"kanye\\\\.rest\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"kanye\\\\.rest\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"kanye\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"kanye\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"kanye\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"kanye\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"kanye\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"kanye\",\"$options\":\"i\"}}]}",
+        "{\"name\":{\"$regex\":\"kanye\",\"$options\":\"i\"}}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"kanye\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"kanye\\\\.rest\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"kanye\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"kanye\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"kanye\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"kanye\",\"$options\":\"i\"}}]}"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "query": "music streaming REST API with OAuth method of authentication",
+    "distinctResponseCount": 4,
+    "responses": [
+        "{\"category\":\"Music\",\"type\":\"REST\",\"authentication\":\"OAuth\",\"$or\":[{\"name\":{\"$regex\":\"stream\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"stream\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"stream\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Music\",\"type\":\"REST\",\"authentication\":\"OAuth\",\"$or\":[{\"name\":{\"$regex\":\"streaming\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"streaming\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"streaming\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Music\",\"type\":\"REST\",\"authentication\":\"OAuth\",\"$or\":[{\"name\":{\"$regex\":\"stream\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"stream\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"stream\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Music\",\"type\":\"REST\",\"authentication\":\"OAuth\",\"$or\":[{\"name\":{\"$regex\":\"streaming\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"streaming\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"streaming\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Music\",\"type\":\"REST\",\"authentication\":\"OAuth\",\"$or\":[{\"name\":{\"$regex\":\"music|streaming\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"music|streaming\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"music|streaming\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Music\",\"type\":\"REST\",\"authentication\":\"OAuth\",\"$or\":[{\"name\":{\"$regex\":\"streaming\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"streaming\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"streaming\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Music\",\"type\":\"REST\",\"authentication\":\"OAuth\",\"$or\":[{\"name\":{\"$regex\":\"stream\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"stream\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"stream\",\"$options\":\"i\"}}]}",
+        "{\"type\":\"REST\",\"authentication\":\"OAuth\",\"category\":\"Music\",\"$or\":[{\"name\":{\"$regex\":\"music|streaming\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"music|streaming\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"music|streaming\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Music\",\"type\":\"REST\",\"authentication\":\"OAuth\",\"$or\":[{\"name\":{\"$regex\":\"music|streaming\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"music|streaming\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"music|streaming\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Music\",\"type\":\"REST\",\"authentication\":\"OAuth\",\"$or\":[{\"name\":{\"$regex\":\"streaming\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"streaming\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"streaming\",\"$options\":\"i\"}}]}"
+    ]
+}

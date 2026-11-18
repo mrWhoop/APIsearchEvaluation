@@ -1,0 +1,16 @@
+{
+    "query": "animals",
+    "distinctResponseCount": 1,
+    "responses": [
+        "{\"category\":\"Animals\"}",
+        "{\"category\":\"Animals\"}",
+        "{\"category\":\"Animals\"}",
+        "{\"category\":\"Animals\"}",
+        "{\"category\":\"Animals\"}",
+        "{\"category\":\"Animals\"}",
+        "{\"category\":\"Animals\"}",
+        "{\"category\":\"Animals\"}",
+        "{\"category\":\"Animals\"}",
+        "{\"category\":\"Animals\"}"
+    ]
+}

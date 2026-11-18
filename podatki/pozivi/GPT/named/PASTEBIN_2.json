@@ -1,0 +1,16 @@
+{
+    "query": "PASTEBIN",
+    "distinctResponseCount": 2,
+    "responses": [
+        "{\"name\":{\"$regex\":\"pastebin\",\"$options\":\"i\"}}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"pastebin\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"pastebin\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"pastebin\",\"$options\":\"i\"}}]}",
+        "{\"name\":{\"$regex\":\"pastebin\",\"$options\":\"i\"}}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"pastebin\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"pastebin\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"pastebin\",\"$options\":\"i\"}}]}",
+        "{\"name\":{\"$regex\":\"pastebin\",\"$options\":\"i\"}}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"pastebin\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"pastebin\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"pastebin\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"pastebin\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"pastebin\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"pastebin\",\"$options\":\"i\"}}]}",
+        "{\"name\":{\"$regex\":\"pastebin\",\"$options\":\"i\"}}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"pastebin\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"pastebin\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"pastebin\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"pastebin\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"pastebin\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"pastebin\",\"$options\":\"i\"}}]}"
+    ]
+}

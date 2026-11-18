@@ -1,0 +1,16 @@
+{
+    "query": "translator",
+    "distinctResponseCount": 2,
+    "responses": [
+        "{\"$or\":[{\"name\":{\"$regex\":\"translator\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"translator\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"translator\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"translator\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"translator\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"translator\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"translator|translation\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"translator|translation\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"translator|translation\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"translator\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"translator\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"translator\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"translator\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"translator\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"translator\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"translator\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"translator\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"translator\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"translator\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"translator\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"translator\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"translator\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"translator\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"translator\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"translator\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"translator\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"translator\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"translator\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"translator\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"translator\",\"$options\":\"i\"}}]}"
+    ]
+}

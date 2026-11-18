@@ -1,0 +1,16 @@
+{
+    "query": "Mailgun",
+    "distinctResponseCount": 2,
+    "responses": [
+        "{\n  \"name\": {\n    \"$regex\": \"Mailgun\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Mailgun\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Mailgun\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Mailgun\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\"name\": {\"$regex\": \"Mailgun\", \"$options\": \"i\"}}",
+        "{\n  \"name\": {\n    \"$regex\": \"Mailgun\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Mailgun\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Mailgun\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\"name\": {\"$regex\": \"Mailgun\", \"$options\": \"i\"}}",
+        "{\"name\": {\"$regex\": \"Mailgun\", \"$options\": \"i\"}}"
+    ]
+}

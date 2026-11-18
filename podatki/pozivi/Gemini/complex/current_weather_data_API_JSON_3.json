@@ -1,0 +1,16 @@
+{
+    "query": "current weather data API JSON",
+    "distinctResponseCount": 3,
+    "responses": [
+        "{\n  \"category\": \"Weather\",\n  \"description\": {\n    \"$regex\": \"current weather\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"category\": \"Weather\",\n  \"description\": {\n    \"$regex\": \"current weather\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"category\": \"Weather\",\n  \"$or\": [\n    {\n      \"name\": {\n        \"$regex\": \"current weather\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"description\": {\n        \"$regex\": \"current weather\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"category\": \"Weather\",\n  \"description\": {\n    \"$regex\": \"current weather\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"category\": \"Weather\",\n  \"description\": {\n    \"$regex\": \"current weather\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"category\": \"Weather\",\n  \"description\": {\n    \"$regex\": \"current weather\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"category\": \"Weather\",\n  \"description\": {\n    \"$regex\": \"current weather\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"category\": \"Weather\"\n}",
+        "{\n  \"category\": \"Weather\"\n}",
+        "{\n  \"category\": \"Weather\"\n}"
+    ]
+}

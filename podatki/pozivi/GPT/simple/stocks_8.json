@@ -1,0 +1,16 @@
+{
+    "query": "stocks",
+    "distinctResponseCount": 8,
+    "responses": [
+        "{\"$or\":[{\"name\":{\"$regex\":\"stocks\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"stocks\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"stocks\",\"$options\":\"i\"}},{\"category\":\"Finance\"}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"stocks?\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"stocks?\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"stocks?\",\"$options\":\"i\"}},{\"category\":\"Finance\"}]}",
+        "{\"$or\":[{\"category\":\"Finance\"},{\"name\":{\"$regex\":\"stocks?\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"stocks?\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"stocks?\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"stock\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"stock\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"stock\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"stock\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"stock\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"stock\",\"$options\":\"i\"}},{\"category\":\"Finance\"}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"stocks\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"stocks\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"stocks\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"stocks\",\"$options\":\"i\"}},{\"category\":\"Finance\"}]}",
+        "{\"$or\":[{\"category\":\"Finance\"},{\"name\":{\"$regex\":\"stock\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"stock\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"stock\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"stocks?\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"stocks?\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"stocks?\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"stocks?\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"stocks?\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"stocks?\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"category\":\"Finance\"},{\"name\":{\"$regex\":\"stocks?\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"stocks?\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"stocks?\",\"$options\":\"i\"}}]}"
+    ]
+}

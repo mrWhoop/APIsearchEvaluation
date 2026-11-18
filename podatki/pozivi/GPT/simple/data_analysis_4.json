@@ -1,0 +1,16 @@
+{
+    "query": "data analysis",
+    "distinctResponseCount": 4,
+    "responses": [
+        "{\"$or\":[{\"name\":{\"$regex\":\"data analysis|data analytics\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"data analysis|data analytics\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"data analysis|data analytics\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"data.?analysis|analytics\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"data.?analysis|analytics\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"data.?analysis|analytics\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"data analysis\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"data analysis\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"data analysis\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"data analysis\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"data analysis\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"data analysis\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"data analysis\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"data analysis\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"data analysis\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"data analysis\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"data analysis\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"data analysis\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"data analysis\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"data analysis\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"data analysis\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"data analysis\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"data analysis\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"data analysis\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"data analysis\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"data analysis|data analytics\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"data analysis|data analytics\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"data analysis|data analytics\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"data analysis\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"data analysis\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"data analysis\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"data analysis\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"data analysis\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"data analysis\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"data analysis\",\"$options\":\"i\"}}]}"
+    ]
+}

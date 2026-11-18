@@ -1,0 +1,16 @@
+{
+    "query": "Advice Slip",
+    "distinctResponseCount": 2,
+    "responses": [
+        "{\"name\": {\"$regex\": \"Advice Slip\", \"$options\": \"i\"}}",
+        "{\"name\": {\"$regex\": \"Advice Slip\", \"$options\": \"i\"}}",
+        "{\n  \"name\": {\n    \"$regex\": \"Advice Slip\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\"name\": {\"$regex\": \"Advice Slip\", \"$options\": \"i\"}}",
+        "{\n  \"name\": {\n    \"$regex\": \"Advice Slip\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Advice Slip\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Advice Slip\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Advice Slip\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Advice Slip\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Advice Slip\",\n    \"$options\": \"i\"\n  }\n}"
+    ]
+}

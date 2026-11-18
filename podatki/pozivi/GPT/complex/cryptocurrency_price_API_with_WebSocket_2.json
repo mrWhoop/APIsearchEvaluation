@@ -1,0 +1,16 @@
+{
+    "query": "cryptocurrency price API with WebSocket",
+    "distinctResponseCount": 2,
+    "responses": [
+        "{\"category\":\"Cryptocurrency\",\"type\":\"WebSocket\",\"$or\":[{\"name\":{\"$regex\":\"price\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"price\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"price\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Cryptocurrency\",\"type\":\"WebSocket\",\"$or\":[{\"name\":{\"$regex\":\"price\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"price\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"price\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Cryptocurrency\",\"type\":\"WebSocket\",\"$or\":[{\"name\":{\"$regex\":\"price\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"price\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"price\",\"$options\":\"i\"}}]}",
+        "{\"category\":{\"$regex\":\"^Cryptocurrency$\",\"$options\":\"i\"},\"type\":{\"$regex\":\"^WebSocket$\",\"$options\":\"i\"},\"$or\":[{\"name\":{\"$regex\":\"price\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"price\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"price\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Cryptocurrency\",\"type\":\"WebSocket\",\"$or\":[{\"name\":{\"$regex\":\"price\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"price\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"price\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Cryptocurrency\",\"type\":\"WebSocket\",\"$or\":[{\"name\":{\"$regex\":\"price\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"price\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"price\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Cryptocurrency\",\"type\":\"WebSocket\",\"$or\":[{\"name\":{\"$regex\":\"price\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"price\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"price\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Cryptocurrency\",\"type\":\"WebSocket\",\"$or\":[{\"name\":{\"$regex\":\"price\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"price\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"price\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Cryptocurrency\",\"type\":\"WebSocket\",\"$or\":[{\"name\":{\"$regex\":\"price\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"price\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"price\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Cryptocurrency\",\"type\":\"WebSocket\",\"$or\":[{\"name\":{\"$regex\":\"price\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"price\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"price\",\"$options\":\"i\"}}]}"
+    ]
+}

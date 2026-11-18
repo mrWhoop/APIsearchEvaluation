@@ -1,0 +1,16 @@
+{
+    "query": "file.io",
+    "distinctResponseCount": 5,
+    "responses": [
+        "{\"name\":{\"$regex\":\"file\\\\.io\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"^file\\\\.io$\",\"$options\":\"i\"}}",
+        "{\"name\":\"file.io\"}",
+        "{\"name\":{\"$regex\":\"^file\\\\.io$\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"file\\\\.io\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"file\\\\.io\",\"$options\":\"i\"}}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"file\\\\.io\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"file\\\\.io\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"file\\\\.io\",\"$options\":\"i\"}}]}",
+        "{\"name\":{\"$regex\":\"file\\\\.io\",\"$options\":\"i\"}}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"^file\\\\.io$\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"file\\\\.io\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"file\\\\.io\",\"$options\":\"i\"}}]}",
+        "{\"name\":{\"$regex\":\"file\\\\.io\",\"$options\":\"i\"}}"
+    ]
+}

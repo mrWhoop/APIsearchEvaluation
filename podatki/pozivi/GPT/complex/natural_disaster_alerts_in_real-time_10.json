@@ -1,0 +1,16 @@
+{
+    "query": "natural disaster alerts in real-time",
+    "distinctResponseCount": 10,
+    "responses": [
+        "{\"category\":\"Disasters\",\"$or\":[{\"name\":{\"$regex\":\"natural disaster|alert\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"natural disaster|alert|real.?time\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"natural disaster|alert|real.?time\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Disasters\",\"$or\":[{\"name\":{\"$regex\":\"alert|real.?time\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"alert|real.?time\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"alert|real.?time\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Disasters\",\"$or\":[{\"name\":{\"$regex\":\"alert|disaster\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"alert|disaster|real[- ]?time\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"alert|disaster|real[- ]?time\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Disasters\",\"$or\":[{\"name\":{\"$regex\":\"alert\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"alert|real.?time\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"alert|real.?time\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Disasters\",\"$or\":[{\"name\":{\"$regex\":\"disaster|alert|real.?time\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"disaster|alert|real.?time\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"disaster|alert|real.?time\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Disasters\",\"$or\":[{\"name\":{\"$regex\":\"alert|warning|real.?time\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"alert|warning|real.?time\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"alert|warning|real.?time\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"category\":\"Disasters\"},{\"name\":{\"$regex\":\"disaster|alert\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"natural disaster|real.?time alert|emergency alert\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"disaster|alert|emergency\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Disasters\",\"$or\":[{\"name\":{\"$regex\":\"alert\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"real.?time|alert\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"disaster|alert|real.?time\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Disasters\",\"$or\":[{\"name\":{\"$regex\":\"alert|real.?time|live\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"alert|real.?time|live\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"alert|real.?time|live\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Disasters\",\"$or\":[{\"name\":{\"$regex\":\"natural disaster|disaster alert|real.?time\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"natural disaster|disaster alert|real.?time\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"natural disaster|disaster alert|real.?time\",\"$options\":\"i\"}}]}"
+    ]
+}

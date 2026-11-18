@@ -1,0 +1,16 @@
+{
+    "query": "song lyrics",
+    "distinctResponseCount": 7,
+    "responses": [
+        "{\"$or\":[{\"name\":{\"$regex\":\"song lyrics\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"song lyrics\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"song lyrics\",\"$options\":\"i\"}},{\"category\":\"Music\"}]}",
+        "{\"category\":\"Music\",\"$or\":[{\"name\":{\"$regex\":\"lyrics\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"lyrics\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"lyrics\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"song lyrics\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"song lyrics\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"song lyrics\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"^Music$\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"lyrics\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"song lyrics|lyrics\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"lyrics\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"category\":\"Music\"},{\"name\":{\"$regex\":\"song lyrics|lyrics\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"song lyrics|lyrics\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"song lyrics|lyrics\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Music\",\"$or\":[{\"name\":{\"$regex\":\"lyrics\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"lyrics\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"lyrics\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"song lyrics|lyrics\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"song lyrics|lyrics\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"song lyrics|lyrics\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"category\":\"Music\"},{\"name\":{\"$regex\":\"song lyrics|lyrics\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"song lyrics|lyrics\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"song lyrics|lyrics\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"category\":\"Music\"},{\"name\":{\"$regex\":\"song lyrics\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"song lyrics\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"song lyrics\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"category\":\"Music\"},{\"name\":{\"$regex\":\"song lyrics|lyrics\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"song lyrics|lyrics\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"song lyrics|lyrics\",\"$options\":\"i\"}}]}"
+    ]
+}

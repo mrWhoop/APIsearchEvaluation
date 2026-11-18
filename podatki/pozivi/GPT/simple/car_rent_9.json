@@ -1,0 +1,16 @@
+{
+    "query": "car rent",
+    "distinctResponseCount": 9,
+    "responses": [
+        "{\"$or\":[{\"name\":{\"$regex\":\"car|rent|rental\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"car|rent|rental\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"car|rent|rental\",\"$options\":\"i\"}},{\"category\":\"Vehicle\"}]}",
+        "{\"$or\":[{\"category\":{\"$regex\":\"vehicle\",\"$options\":\"i\"}},{\"name\":{\"$regex\":\"car.*rent|rent.*car\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"car.*rent|rent.*car\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"car.*rent|rent.*car\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"category\":\"Vehicle\"},{\"name\":{\"$regex\":\"car.*rent|rent.*car|car rental\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"car.*rent|rent.*car|car rental\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"car.*rent|rent.*car|car rental\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"car rent\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"car rent\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"car rent\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"Vehicle\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"category\":\"Vehicle\"},{\"name\":{\"$regex\":\"car|rent\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"car|rent\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"car|rent\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"category\":\"Vehicle\"},{\"name\":{\"$regex\":\"car|rent|rental\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"car|rent|rental\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"car|rent|rental\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"category\":\"Vehicle\"},{\"name\":{\"$regex\":\"car rent\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"car rent\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"car rent\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Vehicle\",\"$or\":[{\"name\":{\"$regex\":\"car|rent|rental\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"car|rent|rental\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"car|rent|rental\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"category\":\"Vehicle\"},{\"name\":{\"$regex\":\"car|rent\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"car|rent\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"car|rent\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"category\":\"Vehicle\"},{\"name\":{\"$regex\":\"car.?rent|rent.?car|vehicle|automotive\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"car.?rent|rent.?car|vehicle|automotive\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"car.?rent|rent.?car|vehicle|automotive\",\"$options\":\"i\"}}]}"
+    ]
+}

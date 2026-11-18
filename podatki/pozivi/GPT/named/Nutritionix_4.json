@@ -1,0 +1,16 @@
+{
+    "query": "Nutritionix",
+    "distinctResponseCount": 4,
+    "responses": [
+        "{\"name\":\"Nutritionix\"}",
+        "{\"name\":{\"$regex\":\"Nutritionix\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"Nutritionix\",\"$options\":\"i\"}}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"Nutritionix\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"Nutritionix\",\"$options\":\"i\"}}]}",
+        "{\"name\":\"Nutritionix\"}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"Nutritionix\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"Nutritionix\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"Nutritionix\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"Nutritionix\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"Nutritionix\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"Nutritionix\",\"$options\":\"i\"}}]}",
+        "{\"name\":{\"$regex\":\"Nutritionix\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"Nutritionix\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"Nutritionix\",\"$options\":\"i\"}}"
+    ]
+}

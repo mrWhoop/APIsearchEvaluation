@@ -1,0 +1,16 @@
+{
+    "query": "jokes",
+    "distinctResponseCount": 5,
+    "responses": [
+        "{\"$or\":[{\"name\":{\"$regex\":\"jokes\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"jokes\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"jokes\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"jokes?\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"jokes?\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"jokes?\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"jokes?\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"jok\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"jok\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"jok\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"jokes\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"jokes\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"jokes\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"jokes\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"joke\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"joke\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"joke\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"jokes\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"jokes\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"jokes\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"jokes\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"jokes\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"jokes\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"jokes\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"jokes\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"jokes\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"jokes\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"jokes\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"jokes\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"jokes\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"jokes\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"jokes\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"jokes\",\"$options\":\"i\"}}]}"
+    ]
+}

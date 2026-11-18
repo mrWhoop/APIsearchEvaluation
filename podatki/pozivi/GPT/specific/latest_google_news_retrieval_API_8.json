@@ -1,0 +1,16 @@
+{
+    "query": "latest google news retrieval API",
+    "distinctResponseCount": 8,
+    "responses": [
+        "{\"category\":\"News\",\"$or\":[{\"name\":{\"$regex\":\"google\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"google\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"google\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"News\",\"$or\":[{\"name\":{\"$regex\":\"google|news\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"google|news|retriev\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"google|news|retriev\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"News\",\"$or\":[{\"name\":{\"$regex\":\"google|news retrieval|latest news\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"google|news retrieval|latest news\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"google|news retrieval|latest news\",\"$options\":\"i\"}}]}",
+        "{\"$and\":[{\"$or\":[{\"name\":{\"$regex\":\"google\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"google\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"google\",\"$options\":\"i\"}}]},{\"$or\":[{\"name\":{\"$regex\":\"news\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"news\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"news\",\"$options\":\"i\"}},{\"category\":\"News\"}]}]}",
+        "{\"category\":\"News\",\"$or\":[{\"name\":{\"$regex\":\"google\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"google\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"google\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"Google News\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"Google News\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"Google News\",\"$options\":\"i\"}},{\"category\":\"News\"},{\"name\":{\"$regex\":\"news retrieval|latest news\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"news retrieval|latest news\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"news retrieval|latest news\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"News\",\"$or\":[{\"name\":{\"$regex\":\"google.*news\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"google.*news\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"google.*news\",\"$options\":\"i\"}}]}",
+        "{\"$and\":[{\"$or\":[{\"name\":{\"$regex\":\"google\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"google\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"google\",\"$options\":\"i\"}}]},{\"$or\":[{\"name\":{\"$regex\":\"news\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"news\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"news\",\"$options\":\"i\"}}]}]}",
+        "{\"category\":\"News\",\"$or\":[{\"name\":{\"$regex\":\"google|news\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"google|news\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"google|news\",\"$options\":\"i\"}}]}",
+        "{\"$and\":[{\"$or\":[{\"name\":{\"$regex\":\"google\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"google\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"google\",\"$options\":\"i\"}}]},{\"$or\":[{\"name\":{\"$regex\":\"news\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"news\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"news\",\"$options\":\"i\"}}]}]}"
+    ]
+}

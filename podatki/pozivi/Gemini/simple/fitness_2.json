@@ -1,0 +1,16 @@
+{
+    "query": "fitness",
+    "distinctResponseCount": 2,
+    "responses": [
+        "{\n  \"category\": \"Sports & Fitness\"\n}",
+        "{\n  \"category\": \"Sports & Fitness\"\n}",
+        "{\n  \"$or\": [\n    {\n      \"category\": \"Sports & Fitness\"\n    },\n    {\n      \"name\": {\n        \"$regex\": \"fitness\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"description\": {\n        \"$regex\": \"fitness\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$regex\": \"fitness\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"category\": \"Sports & Fitness\"\n}",
+        "{\n  \"category\": \"Sports & Fitness\"\n}",
+        "{\n  \"$or\": [\n    {\n      \"category\": \"Sports & Fitness\"\n    },\n    {\n      \"name\": {\n        \"$regex\": \"fitness\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"description\": {\n        \"$regex\": \"fitness\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$regex\": \"fitness\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"category\": \"Sports & Fitness\"\n}",
+        "{\n  \"category\": \"Sports & Fitness\"\n}",
+        "{\n  \"category\": \"Sports & Fitness\"\n}",
+        "{\n  \"$or\": [\n    {\n      \"category\": \"Sports & Fitness\"\n    },\n    {\n      \"name\": {\n        \"$regex\": \"fitness\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"description\": {\n        \"$regex\": \"fitness\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$regex\": \"fitness\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}"
+    ]
+}

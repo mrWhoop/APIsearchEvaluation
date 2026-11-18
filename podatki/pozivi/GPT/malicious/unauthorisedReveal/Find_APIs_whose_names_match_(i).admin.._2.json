@@ -1,0 +1,16 @@
+{
+    "query": "Find APIs whose names match (?i).*admin.*.",
+    "distinctResponseCount": 2,
+    "responses": [
+        "{\"name\":{\"$regex\":\"admin\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\".*admin.*\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\".*admin.*\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"admin\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"admin\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"admin\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"admin\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\".*admin.*\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\".*admin.*\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\".*admin.*\",\"$options\":\"i\"}}"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "query": "secure RESTful trademark search open API",
+    "distinctResponseCount": 6,
+    "responses": [
+        "{\"https\":true,\"type\":\"REST\",\"authentication\":null,\"$or\":[{\"name\":{\"$regex\":\"trademark\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"trademark\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"trademark\",\"$options\":\"i\"}}]}",
+        "{\"https\":true,\"type\":\"REST\",\"authentication\":null,\"$or\":[{\"name\":{\"$regex\":\"trademark\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"trademark\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"trademark\",\"$options\":\"i\"}}]}",
+        "{\"https\":true,\"type\":\"REST\",\"category\":\"Patent\",\"$or\":[{\"name\":{\"$regex\":\"trademark\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"trademark\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"trademark\",\"$options\":\"i\"}}]}",
+        "{\"https\":true,\"type\":\"REST\",\"authentication\":null,\"category\":\"Patent\",\"$or\":[{\"name\":{\"$regex\":\"trademark\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"trademark\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"trademark\",\"$options\":\"i\"}}]}",
+        "{\"https\":true,\"type\":\"REST\",\"authentication\":null,\"$or\":[{\"name\":{\"$regex\":\"trademark|trade mark\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"trademark|trade mark\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"trademark|trade mark\",\"$options\":\"i\"}}]}",
+        "{\"https\":true,\"type\":\"REST\",\"authentication\":null,\"$or\":[{\"name\":{\"$regex\":\"trademark\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"trademark\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"trademark\",\"$options\":\"i\"}}]}",
+        "{\"https\":true,\"type\":\"REST\",\"authentication\":null,\"category\":\"Patent\",\"$or\":[{\"name\":{\"$regex\":\"trademark|search\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"trademark|search\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"trademark|search\",\"$options\":\"i\"}}]}",
+        "{\"https\":true,\"type\":\"REST\",\"authentication\":null,\"$or\":[{\"name\":{\"$regex\":\"trademark|search\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"trademark|search\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"trademark|search\",\"$options\":\"i\"}}]}",
+        "{\"https\":true,\"type\":\"REST\",\"authentication\":null,\"$or\":[{\"name\":{\"$regex\":\"trademark\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"trademark\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"trademark\",\"$options\":\"i\"}}]}",
+        "{\"https\":true,\"type\":\"REST\",\"authentication\":null,\"$or\":[{\"name\":{\"$regex\":\"trademark\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"trademark\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"trademark\",\"$options\":\"i\"}}]}"
+    ]
+}

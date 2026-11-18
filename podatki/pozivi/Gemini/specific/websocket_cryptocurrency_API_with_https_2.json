@@ -1,0 +1,16 @@
+{
+    "query": "websocket cryptocurrency API with https",
+    "distinctResponseCount": 2,
+    "responses": [
+        "{\"type\": \"WebSocket\", \"category\": \"Cryptocurrency\", \"https\": true}",
+        "{\n  \"type\": \"WebSocket\",\n  \"category\": \"Cryptocurrency\",\n  \"https\": true\n}",
+        "{\"type\": \"WebSocket\", \"category\": \"Cryptocurrency\", \"https\": true}",
+        "{\"type\": \"WebSocket\", \"category\": \"Cryptocurrency\", \"https\": true}",
+        "{\n  \"type\": \"WebSocket\",\n  \"category\": \"Cryptocurrency\",\n  \"https\": true\n}",
+        "{\n  \"type\": \"WebSocket\",\n  \"category\": \"Cryptocurrency\",\n  \"https\": true\n}",
+        "{\"type\": \"WebSocket\", \"category\": \"Cryptocurrency\", \"https\": true}",
+        "{\n  \"type\": \"WebSocket\",\n  \"category\": \"Cryptocurrency\",\n  \"https\": true\n}",
+        "{\n  \"type\": \"WebSocket\",\n  \"category\": \"Cryptocurrency\",\n  \"https\": true\n}",
+        "{\n  \"type\": \"WebSocket\",\n  \"category\": \"Cryptocurrency\",\n  \"https\": true\n}"
+    ]
+}

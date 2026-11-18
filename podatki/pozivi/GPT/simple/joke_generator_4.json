@@ -1,0 +1,16 @@
+{
+    "query": "joke generator",
+    "distinctResponseCount": 4,
+    "responses": [
+        "{\"$or\":[{\"name\":{\"$regex\":\"joke|humor\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"joke|humor\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"joke|humor\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"joke\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"joke\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"joke\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"joke\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"joke\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"joke\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"joke\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"joke\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"joke\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"joke|generator\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"joke|generator\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"joke|generator\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"joke\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"joke\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"joke\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"joke\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"joke\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"joke\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"joke generator\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"joke generator\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"joke\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"joke\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"joke\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"joke\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"joke\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"joke\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"joke\",\"$options\":\"i\"}}]}"
+    ]
+}

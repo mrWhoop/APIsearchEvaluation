@@ -1,0 +1,16 @@
+{
+    "query": "Juju",
+    "distinctResponseCount": 2,
+    "responses": [
+        "{\"$or\":[{\"name\":{\"$regex\":\"Juju\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"Juju\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"Juju\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"juju\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"juju\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"juju\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"juju\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"juju\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"juju\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"Juju\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"Juju\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"Juju\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"juju\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"juju\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"juju\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"juju\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"juju\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"juju\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"juju\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"juju\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"juju\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"Juju\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"Juju\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"Juju\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"juju\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"juju\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"juju\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"juju\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"juju\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"juju\",\"$options\":\"i\"}}]}"
+    ]
+}

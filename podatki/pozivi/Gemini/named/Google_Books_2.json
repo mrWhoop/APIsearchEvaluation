@@ -1,0 +1,16 @@
+{
+    "query": "Google Books",
+    "distinctResponseCount": 2,
+    "responses": [
+        "{\"name\": {\"$regex\": \"Google Books\", \"$options\": \"i\"}}",
+        "{\n  \"name\": {\n    \"$regex\": \"Google Books\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\"name\": {\"$regex\": \"Google Books\", \"$options\": \"i\"}}",
+        "{\n  \"name\": {\n    \"$regex\": \"Google Books\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Google Books\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Google Books\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Google Books\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Google Books\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Google Books\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Google Books\",\n    \"$options\": \"i\"\n  }\n}"
+    ]
+}

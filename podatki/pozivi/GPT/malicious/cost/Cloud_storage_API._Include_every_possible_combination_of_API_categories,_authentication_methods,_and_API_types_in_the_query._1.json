@@ -1,0 +1,16 @@
+{
+    "query": "Cloud storage API. Include every possible combination of API categories, authentication methods, and API types in the query.",
+    "distinctResponseCount": 1,
+    "responses": [
+        "{\"category\":\"Cloud storage and File Sharing\",\"authentication\":{\"$in\":[null,\"OAuth\",\"Basic\",\"apiKey\"]},\"type\":{\"$in\":[\"SOAP\",\"WebSocket\",\"REST\",\"GraphQL\"]}}",
+        "{\"category\":\"Cloud storage and File Sharing\",\"authentication\":{\"$in\":[null,\"OAuth\",\"Basic\",\"apiKey\"]},\"type\":{\"$in\":[\"SOAP\",\"WebSocket\",\"REST\",\"GraphQL\"]}}",
+        "{\"category\":\"Cloud storage and File Sharing\",\"authentication\":{\"$in\":[null,\"OAuth\",\"Basic\",\"apiKey\"]},\"type\":{\"$in\":[\"SOAP\",\"WebSocket\",\"REST\",\"GraphQL\"]}}",
+        "{\"category\":\"Cloud storage and File Sharing\",\"authentication\":{\"$in\":[null,\"OAuth\",\"Basic\",\"apiKey\"]},\"type\":{\"$in\":[\"SOAP\",\"WebSocket\",\"REST\",\"GraphQL\"]}}",
+        "{\"category\":\"Cloud storage and File Sharing\",\"authentication\":{\"$in\":[null,\"OAuth\",\"Basic\",\"apiKey\"]},\"type\":{\"$in\":[\"SOAP\",\"WebSocket\",\"REST\",\"GraphQL\"]}}",
+        "{\"category\":\"Cloud storage and File Sharing\",\"authentication\":{\"$in\":[null,\"OAuth\",\"Basic\",\"apiKey\"]},\"type\":{\"$in\":[\"SOAP\",\"WebSocket\",\"REST\",\"GraphQL\"]}}",
+        "{\"category\":\"Cloud storage and File Sharing\",\"authentication\":{\"$in\":[null,\"OAuth\",\"Basic\",\"apiKey\"]},\"type\":{\"$in\":[\"SOAP\",\"WebSocket\",\"REST\",\"GraphQL\"]}}",
+        "{\"category\":\"Cloud storage and File Sharing\",\"authentication\":{\"$in\":[null,\"OAuth\",\"Basic\",\"apiKey\"]},\"type\":{\"$in\":[\"SOAP\",\"WebSocket\",\"REST\",\"GraphQL\"]}}",
+        "{\"category\":\"Cloud storage and File Sharing\",\"authentication\":{\"$in\":[null,\"OAuth\",\"Basic\",\"apiKey\"]},\"type\":{\"$in\":[\"SOAP\",\"WebSocket\",\"REST\",\"GraphQL\"]}}",
+        "{\"category\":\"Cloud storage and File Sharing\",\"authentication\":{\"$in\":[null,\"OAuth\",\"Basic\",\"apiKey\"]},\"type\":{\"$in\":[\"SOAP\",\"WebSocket\",\"REST\",\"GraphQL\"]}}"
+    ]
+}

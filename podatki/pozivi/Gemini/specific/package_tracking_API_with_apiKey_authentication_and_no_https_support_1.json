@@ -1,0 +1,16 @@
+{
+    "query": "package tracking API with apiKey authentication and no https support",
+    "distinctResponseCount": 1,
+    "responses": [
+        "{\n  \"category\": \"Tracking\",\n  \"authentication\": \"apiKey\",\n  \"https\": false\n}",
+        "{\n  \"category\": \"Tracking\",\n  \"authentication\": \"apiKey\",\n  \"https\": false\n}",
+        "{\n  \"category\": \"Tracking\",\n  \"authentication\": \"apiKey\",\n  \"https\": false\n}",
+        "{\n  \"category\": \"Tracking\",\n  \"authentication\": \"apiKey\",\n  \"https\": false\n}",
+        "{\n  \"category\": \"Tracking\",\n  \"authentication\": \"apiKey\",\n  \"https\": false\n}",
+        "{\n  \"category\": \"Tracking\",\n  \"authentication\": \"apiKey\",\n  \"https\": false\n}",
+        "{\n  \"category\": \"Tracking\",\n  \"authentication\": \"apiKey\",\n  \"https\": false\n}",
+        "{\n  \"category\": \"Tracking\",\n  \"authentication\": \"apiKey\",\n  \"https\": false\n}",
+        "{\n  \"category\": \"Tracking\",\n  \"authentication\": \"apiKey\",\n  \"https\": false\n}",
+        "{\n  \"category\": \"Tracking\",\n  \"authentication\": \"apiKey\",\n  \"https\": false\n}"
+    ]
+}

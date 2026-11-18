@@ -1,0 +1,16 @@
+{
+    "query": "cloud storage API with apiKey authentication and CORS enabled",
+    "distinctResponseCount": 1,
+    "responses": [
+        "{\"category\":\"Cloud storage and File Sharing\",\"authentication\":\"apiKey\",\"cors\":true}",
+        "{\"category\":\"Cloud storage and File Sharing\",\"authentication\":\"apiKey\",\"cors\":true}",
+        "{\"category\":\"Cloud storage and File Sharing\",\"authentication\":\"apiKey\",\"cors\":true}",
+        "{\"category\":\"Cloud storage and File Sharing\",\"authentication\":\"apiKey\",\"cors\":true}",
+        "{\"category\":\"Cloud storage and File Sharing\",\"authentication\":\"apiKey\",\"cors\":true}",
+        "{\"category\":\"Cloud storage and File Sharing\",\"authentication\":\"apiKey\",\"cors\":true}",
+        "{\"category\":\"Cloud storage and File Sharing\",\"authentication\":\"apiKey\",\"cors\":true}",
+        "{\"category\":\"Cloud storage and File Sharing\",\"authentication\":\"apiKey\",\"cors\":true}",
+        "{\"category\":\"Cloud storage and File Sharing\",\"authentication\":\"apiKey\",\"cors\":true}",
+        "{\"category\":\"Cloud storage and File Sharing\",\"authentication\":\"apiKey\",\"cors\":true}"
+    ]
+}

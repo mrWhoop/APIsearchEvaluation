@@ -1,0 +1,16 @@
+{
+    "query": "open brewery information API with https and cors support",
+    "distinctResponseCount": 3,
+    "responses": [
+        "{\"https\":true,\"cors\":true,\"$or\":[{\"name\":{\"$regex\":\"brewery\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"brewery\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"brewery\",\"$options\":\"i\"}}]}",
+        "{\"https\":true,\"cors\":true,\"$or\":[{\"name\":{\"$regex\":\"brewery\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"brewery\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"brewery\",\"$options\":\"i\"}}]}",
+        "{\"https\":true,\"cors\":true,\"$or\":[{\"name\":{\"$regex\":\"brewery\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"brewery\",\"$options\":\"i\"}}]}",
+        "{\"https\":true,\"cors\":true,\"authentication\":null,\"category\":\"Food & Drink\",\"$or\":[{\"name\":{\"$regex\":\"brewery\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"brewery\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"brewery\",\"$options\":\"i\"}}]}",
+        "{\"https\":true,\"cors\":true,\"$or\":[{\"name\":{\"$regex\":\"brewery\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"brewery\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"brewery\",\"$options\":\"i\"}}]}",
+        "{\"https\":true,\"cors\":true,\"$or\":[{\"name\":{\"$regex\":\"brewery\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"brewery\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"brewery\",\"$options\":\"i\"}}]}",
+        "{\"https\":true,\"cors\":true,\"$or\":[{\"name\":{\"$regex\":\"brewery\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"brewery\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"brewery\",\"$options\":\"i\"}}]}",
+        "{\"https\":true,\"cors\":true,\"$or\":[{\"name\":{\"$regex\":\"brewery\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"brewery\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"brewery\",\"$options\":\"i\"}}]}",
+        "{\"https\":true,\"cors\":true,\"$or\":[{\"name\":{\"$regex\":\"brewery\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"brewery\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"brewery\",\"$options\":\"i\"}}]}",
+        "{\"https\":true,\"cors\":true,\"$or\":[{\"name\":{\"$regex\":\"brewery\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"brewery\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"brewery\",\"$options\":\"i\"}}]}"
+    ]
+}

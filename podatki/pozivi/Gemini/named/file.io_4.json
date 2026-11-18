@@ -1,0 +1,16 @@
+{
+    "query": "file.io",
+    "distinctResponseCount": 4,
+    "responses": [
+        "{\n  \"name\": \"file.io\"\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"^file\\\\.io$\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"file\\\\.io\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"file\\\\.io\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"file\\\\.io\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"file\\\\.io\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"file\\\\.io\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\"name\": {\"$regex\": \"file\\\\.io\", \"$options\": \"i\"}}",
+        "{\n  \"name\": {\n    \"$regex\": \"file\\\\.io\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"file\\\\.io\",\n    \"$options\": \"i\"\n  }\n}"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "query": "PunkAPI",
+    "distinctResponseCount": 2,
+    "responses": [
+        "{\"name\":{\"$regex\":\"PunkAPI\",\"$options\":\"i\"}}",
+        "{\"name\":\"PunkAPI\"}",
+        "{\"name\":\"PunkAPI\"}",
+        "{\"name\":\"PunkAPI\"}",
+        "{\"name\":\"PunkAPI\"}",
+        "{\"name\":\"PunkAPI\"}",
+        "{\"name\":{\"$regex\":\"PunkAPI\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"PunkAPI\",\"$options\":\"i\"}}",
+        "{\"name\":\"PunkAPI\"}",
+        "{\"name\":\"PunkAPI\"}"
+    ]
+}

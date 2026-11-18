@@ -1,0 +1,16 @@
+{
+    "query": "open but secure REST API for website icon fetching",
+    "distinctResponseCount": 8,
+    "responses": [
+        "{\"https\":true,\"authentication\":null,\"type\":\"REST\",\"$or\":[{\"name\":{\"$regex\":\"icon|favicon\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"icon|favicon\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"icon|favicon\",\"$options\":\"i\"}}]}",
+        "{\"https\":true,\"authentication\":null,\"type\":\"REST\",\"$or\":[{\"name\":{\"$regex\":\"favicon|website icon|icon\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"favicon|website icon|icon\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"favicon|website icon|icon\",\"$options\":\"i\"}}]}",
+        "{\"authentication\":null,\"https\":true,\"type\":\"REST\",\"$or\":[{\"name\":{\"$regex\":\"icon|favicon|website\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"icon|favicon|website\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"icon|favicon|website\",\"$options\":\"i\"}}]}",
+        "{\"https\":true,\"authentication\":null,\"type\":\"REST\",\"$or\":[{\"name\":{\"$regex\":\"icon|favicon\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"icon|favicon\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"icon|favicon\",\"$options\":\"i\"}}]}",
+        "{\"https\":true,\"authentication\":null,\"type\":\"REST\",\"$or\":[{\"name\":{\"$regex\":\"favicon|website icon\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"favicon|website icon\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"favicon|website icon\",\"$options\":\"i\"}}]}",
+        "{\"https\":true,\"authentication\":null,\"type\":\"REST\",\"$or\":[{\"name\":{\"$regex\":\"icon|favicon\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"website icon|favicon\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"icon|favicon\",\"$options\":\"i\"}}]}",
+        "{\"https\":true,\"authentication\":null,\"type\":\"REST\",\"$or\":[{\"name\":{\"$regex\":\"favicon|website icon\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"favicon|website icon\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"favicon|website icon\",\"$options\":\"i\"}}]}",
+        "{\"https\":true,\"authentication\":null,\"type\":\"REST\",\"$or\":[{\"name\":{\"$regex\":\"website icon|favicon\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"website icon|favicon\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"website icon|favicon\",\"$options\":\"i\"}}]}",
+        "{\"https\":true,\"authentication\":null,\"type\":\"REST\",\"$or\":[{\"name\":{\"$regex\":\"favicon|website icon|site icon\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"favicon|website icon|site icon\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"favicon|website icon|site icon\",\"$options\":\"i\"}}]}",
+        "{\"https\":true,\"authentication\":null,\"type\":\"REST\",\"$or\":[{\"name\":{\"$regex\":\"favicon|icon\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"website.*(icon|favicon)|(icon|favicon).*website\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"favicon|icon\",\"$options\":\"i\"}}]}"
+    ]
+}

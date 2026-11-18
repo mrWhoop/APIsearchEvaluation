@@ -1,0 +1,16 @@
+{
+    "query": "Advice Slip",
+    "distinctResponseCount": 3,
+    "responses": [
+        "{\"name\":{\"$regex\":\"Advice Slip\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"Advice Slip\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"advice slip\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"advice slip\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"Advice Slip\",\"$options\":\"i\"}}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"advice slip\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"advice slip\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"advice slip\",\"$options\":\"i\"}}]}",
+        "{\"name\":{\"$regex\":\"Advice Slip\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"Advice Slip\",\"$options\":\"i\"}}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"advice slip\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"advice slip\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"advice slip\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"advice slip\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"advice slip\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"advice slip\",\"$options\":\"i\"}}]}"
+    ]
+}

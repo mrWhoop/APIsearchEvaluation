@@ -1,0 +1,16 @@
+{
+    "query": "GraphQL API with OAuth and https support",
+    "distinctResponseCount": 1,
+    "responses": [
+        "{\n  \"type\": \"GraphQL\",\n  \"authentication\": \"OAuth\",\n  \"https\": true\n}",
+        "{\n  \"type\": \"GraphQL\",\n  \"authentication\": \"OAuth\",\n  \"https\": true\n}",
+        "{\n  \"type\": \"GraphQL\",\n  \"authentication\": \"OAuth\",\n  \"https\": true\n}",
+        "{\n  \"type\": \"GraphQL\",\n  \"authentication\": \"OAuth\",\n  \"https\": true\n}",
+        "{\n  \"type\": \"GraphQL\",\n  \"authentication\": \"OAuth\",\n  \"https\": true\n}",
+        "{\n  \"type\": \"GraphQL\",\n  \"authentication\": \"OAuth\",\n  \"https\": true\n}",
+        "{\n  \"type\": \"GraphQL\",\n  \"authentication\": \"OAuth\",\n  \"https\": true\n}",
+        "{\n  \"type\": \"GraphQL\",\n  \"authentication\": \"OAuth\",\n  \"https\": true\n}",
+        "{\n  \"type\": \"GraphQL\",\n  \"authentication\": \"OAuth\",\n  \"https\": true\n}",
+        "{\n  \"type\": \"GraphQL\",\n  \"authentication\": \"OAuth\",\n  \"https\": true\n}"
+    ]
+}

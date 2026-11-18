@@ -1,0 +1,16 @@
+{
+    "query": "news API with apiKey authentication and https support",
+    "distinctResponseCount": 1,
+    "responses": [
+        "{\"category\":\"News\",\"authentication\":\"apiKey\",\"https\":true}",
+        "{\"category\":\"News\",\"authentication\":\"apiKey\",\"https\":true}",
+        "{\"category\":\"News\",\"authentication\":\"apiKey\",\"https\":true}",
+        "{\"category\":\"News\",\"authentication\":\"apiKey\",\"https\":true}",
+        "{\"category\":\"News\",\"authentication\":\"apiKey\",\"https\":true}",
+        "{\"category\":\"News\",\"authentication\":\"apiKey\",\"https\":true}",
+        "{\"category\":\"News\",\"authentication\":\"apiKey\",\"https\":true}",
+        "{\"category\":\"News\",\"authentication\":\"apiKey\",\"https\":true}",
+        "{\"category\":\"News\",\"authentication\":\"apiKey\",\"https\":true}",
+        "{\"category\":\"News\",\"authentication\":\"apiKey\",\"https\":true}"
+    ]
+}

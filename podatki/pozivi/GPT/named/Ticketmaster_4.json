@@ -1,0 +1,16 @@
+{
+    "query": "Ticketmaster",
+    "distinctResponseCount": 4,
+    "responses": [
+        "{\"name\":{\"$regex\":\"Ticketmaster\",\"$options\":\"i\"}}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"Ticketmaster\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"Ticketmaster\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"Ticketmaster\",\"$options\":\"i\"}}]}",
+        "{\"name\":{\"$regex\":\"ticketmaster\",\"$options\":\"i\"}}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"ticketmaster\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"ticketmaster\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"ticketmaster\",\"$options\":\"i\"}}]}",
+        "{\"name\":{\"$regex\":\"ticketmaster\",\"$options\":\"i\"}}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"ticketmaster\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"ticketmaster\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"ticketmaster\",\"$options\":\"i\"}}]}",
+        "{\"name\":{\"$regex\":\"ticketmaster\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"Ticketmaster\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"Ticketmaster\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"ticketmaster\",\"$options\":\"i\"}}"
+    ]
+}

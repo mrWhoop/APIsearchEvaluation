@@ -1,0 +1,16 @@
+{
+    "query": "animal shelter",
+    "distinctResponseCount": 7,
+    "responses": [
+        "{\"$or\":[{\"category\":\"Animals\"},{\"name\":{\"$regex\":\"animal|shelter|adoption|pet\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"animal|shelter|adoption|pet\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"animal|shelter|adoption|pet\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Animals\",\"$or\":[{\"name\":{\"$regex\":\"shelter\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"shelter\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"shelter\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"category\":\"Animals\"},{\"name\":{\"$regex\":\"animal|shelter\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"animal|shelter\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"animal|shelter\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"category\":\"Animals\"},{\"name\":{\"$regex\":\"animal|shelter\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"animal|shelter\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"animal|shelter\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"category\":\"Animals\"},{\"name\":{\"$regex\":\"animal shelter\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"animal shelter\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"animal shelter\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"category\":\"Animals\"},{\"name\":{\"$regex\":\"animal|shelter\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"animal|shelter\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"animal|shelter\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"animal|shelter\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"animal|shelter\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"animal|shelter\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"^Animals$\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"animal shelter\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"animal shelter\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"animal shelter\",\"$options\":\"i\"}},{\"category\":\"Animals\"}]}",
+        "{\"$or\":[{\"category\":\"Animals\"},{\"name\":{\"$regex\":\"shelter\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"shelter\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"shelter\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"category\":\"Animals\"},{\"name\":{\"$regex\":\"animal|shelter\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"animal|shelter\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"animal|shelter\",\"$options\":\"i\"}}]}"
+    ]
+}

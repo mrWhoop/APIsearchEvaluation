@@ -1,0 +1,16 @@
+{
+    "query": "eBay",
+    "distinctResponseCount": 2,
+    "responses": [
+        "{\"name\":{\"$regex\":\"eBay\",\"$options\":\"i\"}}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"eBay\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"eBay\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"eBay\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"eBay\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"eBay\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"eBay\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"eBay\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"eBay\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"eBay\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"eBay\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"eBay\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"eBay\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"eBay\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"eBay\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"eBay\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"eBay\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"eBay\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"eBay\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"eBay\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"eBay\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"eBay\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"eBay\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"eBay\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"eBay\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"eBay\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"eBay\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"eBay\",\"$options\":\"i\"}}]}"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "query": "data storage",
+    "distinctResponseCount": 8,
+    "responses": [
+        "{\"$or\":[{\"category\":{\"$regex\":\"Cloud storage|File Sharing\",\"$options\":\"i\"}},{\"name\":{\"$regex\":\"data storage|cloud storage\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"data storage|cloud storage\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"data storage|cloud storage\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"category\":{\"$regex\":\"storage\",\"$options\":\"i\"}},{\"name\":{\"$regex\":\"data storage\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"data storage\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"data storage\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"category\":{\"$regex\":\"cloud storage|file sharing\",\"$options\":\"i\"}},{\"name\":{\"$regex\":\"data storage\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"data storage\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"data storage\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"category\":\"Cloud storage and File Sharing\"},{\"name\":{\"$regex\":\"data storage\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"data storage\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"data storage\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"data|storage\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"data|storage\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"data|storage\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"cloud storage|file sharing\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"category\":{\"$regex\":\"cloud storage and file sharing\",\"$options\":\"i\"}},{\"name\":{\"$regex\":\"data storage|storage\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"data storage|storage\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"data storage|storage\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"category\":{\"$regex\":\"cloud storage|file sharing\",\"$options\":\"i\"}},{\"name\":{\"$regex\":\"data storage\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"data storage\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"data storage\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"category\":{\"$regex\":\"storage|file sharing\",\"$options\":\"i\"}},{\"name\":{\"$regex\":\"data storage|storage\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"data storage|store data|data storage\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"storage|data storage\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"category\":{\"$regex\":\"cloud storage|file sharing\",\"$options\":\"i\"}},{\"name\":{\"$regex\":\"data storage\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"data storage\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"data storage\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"data storage\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"data storage\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"data storage\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"Cloud storage and File Sharing\",\"$options\":\"i\"}}]}"
+    ]
+}

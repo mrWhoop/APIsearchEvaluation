@@ -1,0 +1,16 @@
+{
+    "query": "Google Books",
+    "distinctResponseCount": 4,
+    "responses": [
+        "{\"name\":{\"$regex\":\"Google Books\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"Google Books\",\"$options\":\"i\"}}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"Google Books\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"Google Books\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"Google Books\",\"$options\":\"i\"}}]}",
+        "{\"name\":{\"$regex\":\"Google Books\",\"$options\":\"i\"}}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"Google Books\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"Google Books\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"Google Books\",\"$options\":\"i\"}},{\"category\":\"Books\"}]}",
+        "{\"name\":{\"$regex\":\"Google Books\",\"$options\":\"i\"}}",
+        "{\"name\":\"Google Books\"}",
+        "{\"name\":{\"$regex\":\"Google Books\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"Google Books\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"Google Books\",\"$options\":\"i\"}}"
+    ]
+}

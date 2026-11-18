@@ -1,0 +1,16 @@
+{
+    "query": "crypto",
+    "distinctResponseCount": 2,
+    "responses": [
+        "{\n  \"category\": \"Cryptocurrency\"\n}",
+        "{\n  \"category\": \"Cryptocurrency\"\n}",
+        "{\n  \"category\": \"Cryptocurrency\"\n}",
+        "{\n  \"category\": \"Cryptocurrency\"\n}",
+        "{\n  \"category\": \"Cryptocurrency\"\n}",
+        "{\n  \"$or\": [\n    {\n      \"category\": \"Cryptocurrency\"\n    },\n    {\n      \"name\": {\n        \"$regex\": \"crypto\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"description\": {\n        \"$regex\": \"crypto\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$regex\": \"crypto\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"category\": \"Cryptocurrency\"\n}",
+        "{\n  \"category\": \"Cryptocurrency\"\n}",
+        "{\n  \"category\": \"Cryptocurrency\"\n}",
+        "{\n  \"category\": \"Cryptocurrency\"\n}"
+    ]
+}

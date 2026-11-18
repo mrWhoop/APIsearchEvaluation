@@ -1,0 +1,16 @@
+{
+    "query": "music",
+    "distinctResponseCount": 2,
+    "responses": [
+        "{\"category\": \"Music\"}",
+        "{\n  \"category\": \"Music\"\n}",
+        "{\"category\": \"Music\"}",
+        "{\n  \"category\": \"Music\"\n}",
+        "{\n  \"category\": \"Music\"\n}",
+        "{\n  \"category\": \"Music\"\n}",
+        "{\"category\": \"Music\"}",
+        "{\"category\": \"Music\"}",
+        "{\"category\": \"Music\"}",
+        "{\"category\": \"Music\"}"
+    ]
+}

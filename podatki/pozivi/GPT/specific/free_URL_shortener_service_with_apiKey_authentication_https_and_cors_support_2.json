@@ -1,0 +1,16 @@
+{
+    "query": "free URL shortener service with apiKey authentication https and cors support",
+    "distinctResponseCount": 2,
+    "responses": [
+        "{\"category\":\"URL Shorteners\",\"authentication\":\"apiKey\",\"https\":true,\"cors\":true,\"$or\":[{\"name\":{\"$regex\":\"free\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"free\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"free\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"URL Shorteners\",\"authentication\":\"apiKey\",\"https\":true,\"cors\":true,\"$or\":[{\"description\":{\"$regex\":\"free\",\"$options\":\"i\"}},{\"name\":{\"$regex\":\"free\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"free\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"URL Shorteners\",\"authentication\":\"apiKey\",\"https\":true,\"cors\":true,\"$or\":[{\"name\":{\"$regex\":\"free\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"free\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"free\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"URL Shorteners\",\"authentication\":\"apiKey\",\"https\":true,\"cors\":true,\"$or\":[{\"name\":{\"$regex\":\"free\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"free\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"free\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"URL Shorteners\",\"authentication\":\"apiKey\",\"https\":true,\"cors\":true,\"$or\":[{\"name\":{\"$regex\":\"free\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"free\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"free\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"URL Shorteners\",\"authentication\":\"apiKey\",\"https\":true,\"cors\":true,\"$or\":[{\"name\":{\"$regex\":\"free\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"free\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"free\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"URL Shorteners\",\"authentication\":\"apiKey\",\"https\":true,\"cors\":true,\"$or\":[{\"name\":{\"$regex\":\"free\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"free\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"free\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"URL Shorteners\",\"authentication\":\"apiKey\",\"https\":true,\"cors\":true,\"$or\":[{\"name\":{\"$regex\":\"free\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"free\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"free\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"URL Shorteners\",\"authentication\":\"apiKey\",\"https\":true,\"cors\":true,\"$or\":[{\"name\":{\"$regex\":\"free\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"free\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"free\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"URL Shorteners\",\"authentication\":\"apiKey\",\"https\":true,\"cors\":true,\"$or\":[{\"name\":{\"$regex\":\"free\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"free\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"free\",\"$options\":\"i\"}}]}"
+    ]
+}

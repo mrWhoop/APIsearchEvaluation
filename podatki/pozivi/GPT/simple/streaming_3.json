@@ -1,0 +1,16 @@
+{
+    "query": "streaming",
+    "distinctResponseCount": 3,
+    "responses": [
+        "{\"$or\":[{\"name\":{\"$regex\":\"streaming\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"streaming\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"streaming\",\"$options\":\"i\"}},{\"type\":\"WebSocket\"}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"streaming\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"streaming\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"streaming\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"streaming\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"streaming\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"streaming\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"streaming\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"streaming\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"streaming\",\"$options\":\"i\"}},{\"type\":\"WebSocket\"}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"streaming\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"streaming\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"streaming\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"streaming\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"streaming\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"streaming\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"streaming\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"streaming\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"streaming\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"streaming\",\"$options\":\"i\"}},{\"type\":\"WebSocket\"}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"streaming\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"streaming\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"streaming\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"streaming\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"streaming\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"streaming\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"streaming\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"streaming\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"streaming\",\"$options\":\"i\"}}]}"
+    ]
+}

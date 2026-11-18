@@ -1,0 +1,16 @@
+{
+    "query": "Bitquery",
+    "distinctResponseCount": 5,
+    "responses": [
+        "{\"name\":{\"$regex\":\"Bitquery\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"bitquery\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"Bitquery\",\"$options\":\"i\"}}",
+        "{\"name\":\"Bitquery\"}",
+        "{\"name\":{\"$regex\":\"bitquery\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"Bitquery\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"^Bitquery$\",\"$options\":\"i\"}}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"Bitquery\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"Bitquery\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"Bitquery\",\"$options\":\"i\"}}]}",
+        "{\"name\":{\"$regex\":\"Bitquery\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"Bitquery\",\"$options\":\"i\"}}"
+    ]
+}

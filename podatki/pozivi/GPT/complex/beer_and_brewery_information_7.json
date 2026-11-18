@@ -1,0 +1,16 @@
+{
+    "query": "beer and brewery information",
+    "distinctResponseCount": 7,
+    "responses": [
+        "{\"category\":\"Food & Drink\",\"$or\":[{\"name\":{\"$regex\":\"beer|brewery\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"beer|brewery\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"beer|brewery\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"beer|brewery\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"beer|brewery\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"beer|brewery\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"Food & Drink\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"beer|brewery\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"beer|brewery\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"beer|brewery\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"beer|brewery\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"beer|brewery\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"beer|brewery\",\"$options\":\"i\"}},{\"category\":\"Food & Drink\"}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"beer|brewery\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"beer|brewery\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"beer|brewery\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"beer|brewery\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"beer|brewery\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"beer|brewery\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"Food & Drink\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"beer|brewery|brewer\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"beer|brewery|brewer\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"beer|brewery|brewer\",\"$options\":\"i\"}},{\"category\":\"Food & Drink\"}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"beer|brewery|brewing\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"beer|brewery|brewing\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"beer|brewery|brewing\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"beer|brewery|brewing\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"beer|brewery|brewing\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"beer|brewery|brewing\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"beer|brewery|brewing\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"beer|brewery|brewing\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"beer|brewery|brewing\",\"$options\":\"i\"}},{\"category\":\"Food & Drink\"}]}"
+    ]
+}

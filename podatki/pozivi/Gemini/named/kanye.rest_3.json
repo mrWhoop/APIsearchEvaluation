@@ -1,0 +1,16 @@
+{
+    "query": "kanye.rest",
+    "distinctResponseCount": 3,
+    "responses": [
+        "{\n  \"name\": {\n    \"$regex\": \"kanye\\\\.rest\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"kanye.rest\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\"name\": {\"$regex\": \"kanye\\\\.rest\", \"$options\": \"i\"}}",
+        "{\"name\": {\"$regex\": \"kanye\\\\.rest\", \"$options\": \"i\"}}",
+        "{\"name\": {\"$regex\": \"kanye\\\\.rest\", \"$options\": \"i\"}}",
+        "{\"name\": {\"$regex\": \"kanye\\\\.rest\", \"$options\": \"i\"}}",
+        "{\n  \"name\": {\n    \"$regex\": \"kanye\\\\.rest\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"kanye.rest\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"kanye\\\\.rest\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"kanye.rest\",\n    \"$options\": \"i\"\n  }\n}"
+    ]
+}

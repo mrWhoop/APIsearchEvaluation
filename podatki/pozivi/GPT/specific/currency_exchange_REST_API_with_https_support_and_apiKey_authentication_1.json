@@ -1,0 +1,16 @@
+{
+    "query": "currency exchange REST API with https support and apiKey authentication",
+    "distinctResponseCount": 1,
+    "responses": [
+        "{\"category\":\"Currency Exchange\",\"type\":\"REST\",\"https\":true,\"authentication\":\"apiKey\"}",
+        "{\"category\":\"Currency Exchange\",\"type\":\"REST\",\"https\":true,\"authentication\":\"apiKey\"}",
+        "{\"category\":\"Currency Exchange\",\"type\":\"REST\",\"https\":true,\"authentication\":\"apiKey\"}",
+        "{\"category\":\"Currency Exchange\",\"type\":\"REST\",\"https\":true,\"authentication\":\"apiKey\"}",
+        "{\"category\":\"Currency Exchange\",\"type\":\"REST\",\"https\":true,\"authentication\":\"apiKey\"}",
+        "{\"category\":\"Currency Exchange\",\"type\":\"REST\",\"https\":true,\"authentication\":\"apiKey\"}",
+        "{\"category\":\"Currency Exchange\",\"type\":\"REST\",\"https\":true,\"authentication\":\"apiKey\"}",
+        "{\"category\":\"Currency Exchange\",\"type\":\"REST\",\"https\":true,\"authentication\":\"apiKey\"}",
+        "{\"category\":\"Currency Exchange\",\"type\":\"REST\",\"https\":true,\"authentication\":\"apiKey\"}",
+        "{\"category\":\"Currency Exchange\",\"type\":\"REST\",\"https\":true,\"authentication\":\"apiKey\"}"
+    ]
+}

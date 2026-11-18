@@ -1,0 +1,16 @@
+{
+    "query": "API for package tracking real-time",
+    "distinctResponseCount": 5,
+    "responses": [
+        "{\n  \"category\": \"Tracking\"\n}",
+        "{\n  \"category\": \"Tracking\",\n  \"description\": {\n    \"$regex\": \"real-time\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"category\": \"Tracking\",\n  \"$or\": [\n    {\n      \"description\": {\n        \"$regex\": \"package\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$in\": [\n          \"package\",\n          \"parcel\",\n          \"real-time\"\n        ]\n      }\n    }\n  ]\n}",
+        "{\n  \"category\": \"Tracking\",\n  \"$or\": [\n    {\n      \"description\": {\n        \"$regex\": \"package\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$regex\": \"package\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"category\": \"Tracking\"\n}",
+        "{\n  \"category\": \"Tracking\"\n}",
+        "{\n  \"category\": \"Tracking\"\n}",
+        "{\n  \"category\": \"Tracking\",\n  \"description\": {\n    \"$regex\": \"real-?time\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"category\": \"Tracking\"\n}",
+        "{\n  \"category\": \"Tracking\",\n  \"description\": {\n    \"$regex\": \"real-time\",\n    \"$options\": \"i\"\n  }\n}"
+    ]
+}

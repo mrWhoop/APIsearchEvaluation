@@ -1,0 +1,16 @@
+{
+    "query": "Mailgun",
+    "distinctResponseCount": 5,
+    "responses": [
+        "{\"name\":{\"$regex\":\"Mailgun\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"Mailgun\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"Mailgun\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"mailgun\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"Mailgun\",\"$options\":\"i\"}}",
+        "{\"name\":\"Mailgun\"}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"mailgun\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"mailgun\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"mailgun\",\"$options\":\"i\"}}]}",
+        "{\"name\":\"Mailgun\"}",
+        "{\"name\":{\"$regex\":\"mailgun\",\"$options\":\"i\"}}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"mailgun\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"mailgun\",\"$options\":\"i\"}}]}"
+    ]
+}

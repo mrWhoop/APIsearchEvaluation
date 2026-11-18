@@ -1,0 +1,16 @@
+{
+    "query": "security",
+    "distinctResponseCount": 2,
+    "responses": [
+        "{\"category\": \"Security\"}",
+        "{\"category\": \"Security\"}",
+        "{\"category\": \"Security\"}",
+        "{\"category\": \"Security\"}",
+        "{\n  \"category\": \"Security\"\n}",
+        "{\"category\": \"Security\"}",
+        "{\n  \"category\": \"Security\"\n}",
+        "{\n  \"category\": \"Security\"\n}",
+        "{\"category\": \"Security\"}",
+        "{\n  \"category\": \"Security\"\n}"
+    ]
+}

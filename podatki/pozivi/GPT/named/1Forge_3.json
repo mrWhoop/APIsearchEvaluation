@@ -1,0 +1,16 @@
+{
+    "query": "1Forge",
+    "distinctResponseCount": 3,
+    "responses": [
+        "{\"$or\":[{\"name\":{\"$regex\":\"1Forge\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"1Forge\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"1Forge\",\"$options\":\"i\"}}]}",
+        "{\"name\":{\"$regex\":\"1Forge\",\"$options\":\"i\"}}",
+        "{\"name\":\"1Forge\"}",
+        "{\"name\":{\"$regex\":\"1Forge\",\"$options\":\"i\"}}",
+        "{\"name\":\"1Forge\"}",
+        "{\"name\":{\"$regex\":\"1Forge\",\"$options\":\"i\"}}",
+        "{\"name\":\"1Forge\"}",
+        "{\"name\":{\"$regex\":\"1Forge\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"1Forge\",\"$options\":\"i\"}}",
+        "{\"name\":\"1Forge\"}"
+    ]
+}

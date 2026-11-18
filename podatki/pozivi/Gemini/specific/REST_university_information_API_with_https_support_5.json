@@ -1,0 +1,16 @@
+{
+    "query": "REST university information API with https support",
+    "distinctResponseCount": 5,
+    "responses": [
+        "{\n  \"type\": \"REST\",\n  \"https\": true,\n  \"description\": {\n    \"$regex\": \"university\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"type\": \"REST\",\n  \"https\": true,\n  \"description\": {\n    \"$regex\": \"university\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"type\": \"REST\",\n  \"https\": true,\n  \"$or\": [\n    { \"name\": { \"$regex\": \"university\", \"$options\": \"i\" } },\n    { \"description\": { \"$regex\": \"university\", \"$options\": \"i\" } },\n    { \"api_keywords\": { \"$regex\": \"university\", \"$options\": \"i\" } }\n  ]\n}",
+        "{\n  \"type\": \"REST\",\n  \"https\": true,\n  \"$or\": [\n    {\n      \"name\": {\n        \"$regex\": \"university\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"description\": {\n        \"$regex\": \"university\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$regex\": \"university\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"type\": \"REST\",\n  \"https\": true,\n  \"description\": {\n    \"$regex\": \"university\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"https\": true,\n  \"type\": \"REST\",\n  \"$or\": [\n    {\n      \"name\": {\n        \"$regex\": \"university\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"description\": {\n        \"$regex\": \"university\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$regex\": \"university\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"type\": \"REST\",\n  \"https\": true,\n  \"$or\": [\n    { \"name\": { \"$regex\": \"university\", \"$options\": \"i\" } },\n    { \"description\": { \"$regex\": \"university\", \"$options\": \"i\" } },\n    { \"api_keywords\": { \"$regex\": \"university\", \"$options\": \"i\" } }\n  ]\n}",
+        "{\n  \"https\": true,\n  \"type\": \"REST\",\n  \"$or\": [\n    {\n      \"name\": {\n        \"$regex\": \"university\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"description\": {\n        \"$regex\": \"university\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$regex\": \"university\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"type\": \"REST\",\n  \"https\": true,\n  \"$or\": [\n    {\n      \"name\": {\n        \"$regex\": \"university\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"description\": {\n        \"$regex\": \"university\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$regex\": \"university\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"https\": true,\n  \"type\": \"REST\",\n  \"$or\": [\n    { \"name\": { \"$regex\": \"university\", \"$options\": \"i\" } },\n    { \"description\": { \"$regex\": \"university\", \"$options\": \"i\" } },\n    { \"api_keywords\": { \"$regex\": \"university\", \"$options\": \"i\" } }\n  ]\n}"
+    ]
+}

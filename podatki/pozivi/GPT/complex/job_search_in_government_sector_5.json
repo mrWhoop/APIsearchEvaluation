@@ -1,0 +1,16 @@
+{
+    "query": "job search in government sector",
+    "distinctResponseCount": 5,
+    "responses": [
+        "{\"category\":\"Jobs\",\"$or\":[{\"name\":{\"$regex\":\"government\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"government\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"government\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"category\":\"Jobs\"},{\"name\":{\"$regex\":\"government\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"government\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"government\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Jobs\",\"$or\":[{\"name\":{\"$regex\":\"government\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"government\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"government\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Jobs\",\"$or\":[{\"name\":{\"$regex\":\"government\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"government\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"government\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Jobs\",\"$or\":[{\"name\":{\"$regex\":\"government\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"government\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"government\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Jobs\",\"$or\":[{\"name\":{\"$regex\":\"government|public sector|federal|state|municipal\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"government|public sector|federal|state|municipal\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"government|public sector|federal|state|municipal\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Jobs\",\"$or\":[{\"name\":{\"$regex\":\"government|public sector\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"government|public sector\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"government|public sector\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Jobs\",\"$or\":[{\"name\":{\"$regex\":\"government\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"government\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"government\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Jobs\",\"$or\":[{\"name\":{\"$regex\":\"government|federal|public sector\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"government|federal|public sector\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"government|federal|public sector\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Jobs\",\"$or\":[{\"name\":{\"$regex\":\"government|public sector|federal|state|municipal\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"government|public sector|federal|state|municipal\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"government|public sector|federal|state|municipal\",\"$options\":\"i\"}}]}"
+    ]
+}

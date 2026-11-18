@@ -1,0 +1,16 @@
+{
+    "query": "websocket cryptocurrency API with https",
+    "distinctResponseCount": 1,
+    "responses": [
+        "{\"type\":\"WebSocket\",\"category\":\"Cryptocurrency\",\"https\":true}",
+        "{\"type\":\"WebSocket\",\"category\":\"Cryptocurrency\",\"https\":true}",
+        "{\"type\":\"WebSocket\",\"category\":\"Cryptocurrency\",\"https\":true}",
+        "{\"type\":\"WebSocket\",\"category\":\"Cryptocurrency\",\"https\":true}",
+        "{\"type\":\"WebSocket\",\"category\":\"Cryptocurrency\",\"https\":true}",
+        "{\"type\":\"WebSocket\",\"category\":\"Cryptocurrency\",\"https\":true}",
+        "{\"type\":\"WebSocket\",\"category\":\"Cryptocurrency\",\"https\":true}",
+        "{\"type\":\"WebSocket\",\"category\":\"Cryptocurrency\",\"https\":true}",
+        "{\"type\":\"WebSocket\",\"category\":\"Cryptocurrency\",\"https\":true}",
+        "{\"type\":\"WebSocket\",\"category\":\"Cryptocurrency\",\"https\":true}"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "query": "fraud prevention",
+    "distinctResponseCount": 2,
+    "responses": [
+        "{\"category\": \"Fraud Prevention\"}",
+        "{\"category\": \"Fraud Prevention\"}",
+        "{\n  \"category\": \"Fraud Prevention\"\n}",
+        "{\n  \"category\": \"Fraud Prevention\"\n}",
+        "{\n  \"category\": \"Fraud Prevention\"\n}",
+        "{\"category\": \"Fraud Prevention\"}",
+        "{\"category\": \"Fraud Prevention\"}",
+        "{\n  \"category\": \"Fraud Prevention\"\n}",
+        "{\"category\": \"Fraud Prevention\"}",
+        "{\n  \"category\": \"Fraud Prevention\"\n}"
+    ]
+}

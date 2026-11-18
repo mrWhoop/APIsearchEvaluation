@@ -1,0 +1,16 @@
+{
+    "query": "convert text to speech",
+    "distinctResponseCount": 9,
+    "responses": [
+        "{\"$or\":[{\"name\":{\"$regex\":\"text to speech\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"text to speech\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"text to speech\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"text.?to.?speech|text-to-speech|tts\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"text.?to.?speech|text-to-speech|tts\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"text.?to.?speech|text-to-speech|tts\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"text.to.speech|speech synthesis|text.?speech\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"text.to.speech|speech synthesis|convert.*text.*speech|text.*to.*audio\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"text.to.speech|speech synthesis|text.?speech\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"text.?to.?speech\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"text.?to.?speech\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"text.?to.?speech\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"speech synthesis\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"text to speech\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"text to speech\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"text to speech\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"text[- ]to[- ]speech|speech synthesis|TTS\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"text[- ]to[- ]speech|speech synthesis|TTS\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"text[- ]to[- ]speech|speech synthesis|TTS\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"text.?to.?speech|text.?speech|speech synthesis\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"text.?to.?speech|text.?speech|speech synthesis\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"text.?to.?speech|text.?speech|speech synthesis\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"text.?to.?speech|speech synthesis|text.?to.?voice|tts\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"text.?to.?speech|speech synthesis|text.?to.?voice|tts\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"text.?to.?speech|speech synthesis|text.?to.?voice|tts\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"text.?to.?speech\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"text.?to.?speech\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"text.?to.?speech\",\"$options\":\"i\"}},{\"name\":{\"$regex\":\"speech synthesis\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"speech synthesis\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"speech synthesis\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"text[- ]to[- ]speech|speech synthesis\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"text[- ]to[- ]speech|speech synthesis\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"text[- ]to[- ]speech|speech synthesis\",\"$options\":\"i\"}}]}"
+    ]
+}

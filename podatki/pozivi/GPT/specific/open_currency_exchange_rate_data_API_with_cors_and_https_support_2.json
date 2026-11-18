@@ -1,0 +1,16 @@
+{
+    "query": "open currency exchange rate data API with cors and https support",
+    "distinctResponseCount": 2,
+    "responses": [
+        "{\"category\":\"Currency Exchange\",\"cors\":true,\"https\":true,\"authentication\":null}",
+        "{\"category\":\"Currency Exchange\",\"cors\":true,\"https\":true,\"authentication\":null}",
+        "{\"category\":\"Currency Exchange\",\"cors\":true,\"https\":true,\"authentication\":null}",
+        "{\"category\":\"Currency Exchange\",\"cors\":true,\"https\":true,\"authentication\":null,\"$or\":[{\"name\":{\"$regex\":\"currency|exchange rate\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"currency|exchange rate\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"currency|exchange rate\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Currency Exchange\",\"cors\":true,\"https\":true,\"authentication\":null}",
+        "{\"category\":\"Currency Exchange\",\"cors\":true,\"https\":true,\"authentication\":null}",
+        "{\"category\":\"Currency Exchange\",\"cors\":true,\"https\":true,\"authentication\":null}",
+        "{\"category\":\"Currency Exchange\",\"cors\":true,\"https\":true,\"authentication\":null}",
+        "{\"category\":\"Currency Exchange\",\"cors\":true,\"https\":true,\"authentication\":null}",
+        "{\"category\":\"Currency Exchange\",\"cors\":true,\"https\":true,\"authentication\":null}"
+    ]
+}

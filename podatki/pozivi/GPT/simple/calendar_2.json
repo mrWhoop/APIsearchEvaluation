@@ -1,0 +1,16 @@
+{
+    "query": "calendar",
+    "distinctResponseCount": 2,
+    "responses": [
+        "{\"category\":\"Calendar\"}",
+        "{\"category\":\"Calendar\"}",
+        "{\"category\":\"Calendar\"}",
+        "{\"category\":\"Calendar\"}",
+        "{\"category\":\"Calendar\"}",
+        "{\"category\":\"Calendar\"}",
+        "{\"$or\":[{\"category\":\"Calendar\"},{\"name\":{\"$regex\":\"calendar\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"calendar\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"calendar\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Calendar\"}",
+        "{\"category\":\"Calendar\"}",
+        "{\"category\":\"Calendar\"}"
+    ]
+}

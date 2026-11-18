@@ -1,0 +1,16 @@
+{
+    "query": "music streaming REST API with OAuth method of authentication",
+    "distinctResponseCount": 3,
+    "responses": [
+        "{\n  \"category\": \"Music\",\n  \"type\": \"REST\",\n  \"authentication\": \"OAuth\",\n  \"description\": {\n    \"$regex\": \"streaming\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"category\": \"Music\",\n  \"type\": \"REST\",\n  \"authentication\": \"OAuth\",\n  \"description\": {\n    \"$regex\": \"streaming\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"category\": \"Music\",\n  \"type\": \"REST\",\n  \"authentication\": \"OAuth\",\n  \"$or\": [\n    {\n      \"description\": {\n        \"$regex\": \"streaming\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$regex\": \"streaming\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"category\": \"Music\",\n  \"type\": \"REST\",\n  \"authentication\": \"OAuth\",\n  \"description\": {\n    \"$regex\": \"streaming\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"category\": \"Music\",\n  \"type\": \"REST\",\n  \"authentication\": \"OAuth\",\n  \"$or\": [\n    {\n      \"description\": {\n        \"$regex\": \"streaming\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$regex\": \"streaming\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"category\": \"Music\",\n  \"type\": \"REST\",\n  \"authentication\": \"OAuth\",\n  \"$or\": [\n    {\n      \"description\": {\n        \"$regex\": \"streaming\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$regex\": \"streaming\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"category\": \"Music\",\n  \"authentication\": \"OAuth\",\n  \"type\": \"REST\",\n  \"description\": {\n    \"$regex\": \"streaming\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"category\": \"Music\",\n  \"type\": \"REST\",\n  \"authentication\": \"OAuth\",\n  \"$or\": [\n    {\n      \"description\": {\n        \"$regex\": \"streaming\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$regex\": \"streaming\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"category\": \"Music\",\n  \"type\": \"REST\",\n  \"authentication\": \"OAuth\",\n  \"description\": {\n    \"$regex\": \"streaming\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"category\": \"Music\",\n  \"type\": \"REST\",\n  \"authentication\": \"OAuth\",\n  \"description\": {\n    \"$regex\": \"streaming\",\n    \"$options\": \"i\"\n  }\n}"
+    ]
+}

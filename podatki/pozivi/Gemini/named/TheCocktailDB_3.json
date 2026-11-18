@@ -1,0 +1,16 @@
+{
+    "query": "TheCocktailDB",
+    "distinctResponseCount": 3,
+    "responses": [
+        "{\"name\": {\"$regex\": \"TheCocktailDB\", \"$options\": \"i\"}}",
+        "{\"name\": {\"$regex\": \"TheCocktailDB\", \"$options\": \"i\"}}",
+        "{\"name\": {\"$regex\": \"TheCocktailDB\", \"$options\": \"i\"}}",
+        "{\"name\": {\"$regex\": \"TheCocktailDB\", \"$options\": \"i\"}}",
+        "{\n  \"name\": {\n    \"$regex\": \"TheCocktailDB\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"TheCocktailDB\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\"name\": {\"$regex\": \"TheCocktailDB\", \"$options\": \"i\"}}",
+        "{\n  \"name\": {\n    \"$regex\": \"TheCocktailDB\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"TheCocktailDB\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": \"TheCocktailDB\"\n}"
+    ]
+}

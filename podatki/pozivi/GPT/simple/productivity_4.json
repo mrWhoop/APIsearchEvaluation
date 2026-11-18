@@ -1,0 +1,16 @@
+{
+    "query": "productivity",
+    "distinctResponseCount": 4,
+    "responses": [
+        "{\"$or\":[{\"name\":{\"$regex\":\"productivity\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"productivity\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"productivity\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"productivity\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"category\":{\"$regex\":\"productivity\",\"$options\":\"i\"}},{\"name\":{\"$regex\":\"productivity\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"productivity\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"productivity\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"category\":{\"$regex\":\"productivity\",\"$options\":\"i\"}},{\"name\":{\"$regex\":\"productivity\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"productivity\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"productivity\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Documents & Productivity\"}",
+        "{\"$or\":[{\"category\":{\"$regex\":\"productivity\",\"$options\":\"i\"}},{\"name\":{\"$regex\":\"productivity\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"productivity\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"productivity\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"category\":{\"$regex\":\"productivity\",\"$options\":\"i\"}},{\"name\":{\"$regex\":\"productivity\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"productivity\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"productivity\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"productivity\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"productivity\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"productivity\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"productivity\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Documents & Productivity\"}",
+        "{\"category\":{\"$regex\":\"productivity\",\"$options\":\"i\"}}",
+        "{\"$or\":[{\"category\":{\"$regex\":\"productivity\",\"$options\":\"i\"}},{\"name\":{\"$regex\":\"productivity\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"productivity\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"productivity\",\"$options\":\"i\"}}]}"
+    ]
+}

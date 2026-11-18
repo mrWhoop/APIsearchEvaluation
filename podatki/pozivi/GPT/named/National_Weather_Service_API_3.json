@@ -1,0 +1,16 @@
+{
+    "query": "National Weather Service API",
+    "distinctResponseCount": 3,
+    "responses": [
+        "{\"name\":{\"$regex\":\"National Weather Service\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"National Weather Service\",\"$options\":\"i\"}}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"National Weather Service\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"National Weather Service\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"National Weather Service\",\"$options\":\"i\"}}]}",
+        "{\"name\":{\"$regex\":\"National Weather Service\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"National Weather Service\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"National Weather Service\",\"$options\":\"i\"}}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"National Weather Service\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"National Weather Service\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"National Weather Service\",\"$options\":\"i\"}}]}",
+        "{\"name\":{\"$regex\":\"National Weather Service\",\"$options\":\"i\"}}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"National Weather Service\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"National Weather Service\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"National Weather Service\",\"$options\":\"i\"}},{\"name\":{\"$regex\":\"\\\\bNWS\\\\b\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"\\\\bNWS\\\\b\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"\\\\bNWS\\\\b\",\"$options\":\"i\"}}]}",
+        "{\"name\":{\"$regex\":\"National Weather Service\",\"$options\":\"i\"}}"
+    ]
+}

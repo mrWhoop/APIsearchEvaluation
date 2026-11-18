@@ -1,0 +1,16 @@
+{
+    "query": "FraudLabs PRO",
+    "distinctResponseCount": 4,
+    "responses": [
+        "{\n  \"name\": {\n    \"$regex\": \"FraudLabs PRO\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": \"FraudLabs PRO\"\n}",
+        "{\"name\": {\"$regex\": \"FraudLabs PRO\", \"$options\": \"i\"}}",
+        "{\"name\": \"FraudLabs PRO\"}",
+        "{\n  \"name\": {\n    \"$regex\": \"FraudLabs PRO\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": \"FraudLabs PRO\"\n}",
+        "{\"name\": \"FraudLabs PRO\"}",
+        "{\"name\": {\"$regex\": \"FraudLabs PRO\", \"$options\": \"i\"}}",
+        "{\"name\": {\"$regex\": \"FraudLabs PRO\", \"$options\": \"i\"}}",
+        "{\"name\": {\"$regex\": \"FraudLabs PRO\", \"$options\": \"i\"}}"
+    ]
+}

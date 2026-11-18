@@ -1,0 +1,16 @@
+{
+    "query": "air quality REST API with apiKey and https support",
+    "distinctResponseCount": 6,
+    "responses": [
+        "{\"$and\":[{\"https\":true},{\"authentication\":\"apiKey\"},{\"type\":\"REST\"},{\"$or\":[{\"name\":{\"$regex\":\"air quality\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"air quality\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"air quality\",\"$options\":\"i\"}}]}]}",
+        "{\"query\":{\"$and\":[{\"$or\":[{\"name\":{\"$regex\":\"air quality\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"air quality\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"air quality\",\"$options\":\"i\"}}]},{\"type\":\"REST\"},{\"authentication\":\"apiKey\"},{\"https\":true}]}}",
+        "{\"$and\":[{\"$or\":[{\"name\":{\"$regex\":\"air quality\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"air quality\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"air quality\",\"$options\":\"i\"}}]},{\"type\":\"REST\"},{\"authentication\":\"apiKey\"},{\"https\":true}]}",
+        "{\"type\":\"REST\",\"authentication\":\"apiKey\",\"https\":true,\"$or\":[{\"name\":{\"$regex\":\"air quality\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"air quality\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"air quality\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"air quality\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"air quality\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"air quality\",\"$options\":\"i\"}}],\"type\":\"REST\",\"authentication\":\"apiKey\",\"https\":true}",
+        "{\"https\":true,\"authentication\":\"apiKey\",\"type\":\"REST\",\"$or\":[{\"name\":{\"$regex\":\"air.*quality\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"air.*quality\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"air.*quality\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"air.*quality\",\"$options\":\"i\"}}]}",
+        "{\"type\":\"REST\",\"authentication\":\"apiKey\",\"https\":true,\"$or\":[{\"name\":{\"$regex\":\"air quality\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"air quality\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"air quality\",\"$options\":\"i\"}}]}",
+        "{\"$and\":[{\"$or\":[{\"name\":{\"$regex\":\"air quality\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"air quality\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"air quality\",\"$options\":\"i\"}}]},{\"type\":\"REST\"},{\"authentication\":\"apiKey\"},{\"https\":true}]}",
+        "{\"type\":\"REST\",\"authentication\":\"apiKey\",\"https\":true,\"$or\":[{\"name\":{\"$regex\":\"air quality\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"air quality\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"air quality\",\"$options\":\"i\"}}]}",
+        "{\"type\":\"REST\",\"authentication\":\"apiKey\",\"https\":true,\"$or\":[{\"name\":{\"$regex\":\"air quality\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"air quality\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"air quality\",\"$options\":\"i\"}}]}"
+    ]
+}

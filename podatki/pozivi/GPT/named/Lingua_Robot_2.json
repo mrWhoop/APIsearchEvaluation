@@ -1,0 +1,16 @@
+{
+    "query": "Lingua Robot",
+    "distinctResponseCount": 2,
+    "responses": [
+        "{\"$or\":[{\"name\":{\"$regex\":\"Lingua Robot\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"Lingua Robot\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"Lingua Robot\",\"$options\":\"i\"}}]}",
+        "{\"name\":{\"$regex\":\"Lingua Robot\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"Lingua Robot\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"Lingua Robot\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"Lingua Robot\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"Lingua Robot\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"Lingua Robot\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"Lingua Robot\",\"$options\":\"i\"}}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"Lingua Robot\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"Lingua Robot\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"Lingua Robot\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"Lingua Robot\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"Lingua Robot\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"Lingua Robot\",\"$options\":\"i\"}}]}"
+    ]
+}

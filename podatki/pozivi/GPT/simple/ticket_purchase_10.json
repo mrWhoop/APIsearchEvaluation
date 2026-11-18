@@ -1,0 +1,16 @@
+{
+    "query": "ticket purchase",
+    "distinctResponseCount": 10,
+    "responses": [
+        "{\"$or\":[{\"name\":{\"$regex\":\"ticket|purchase|booking\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"ticket|purchase|booking\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"ticket|purchase|booking\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"category\":\"Events\"},{\"name\":{\"$regex\":\"ticket|purchase|booking\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"ticket|purchase|booking\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"ticket|purchase|booking\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"ticket|purchase\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"ticket|purchase\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"ticket|purchase\",\"$options\":\"i\"}},{\"category\":{\"$in\":[\"Events\",\"Shopping\"]}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"ticket\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"ticket\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"ticket\",\"$options\":\"i\"}},{\"name\":{\"$regex\":\"purchase\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"purchase\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"purchase\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"ticket|purchase\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"ticket|purchase\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"ticket|purchase\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"Events|Shopping\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Events\",\"$or\":[{\"name\":{\"$regex\":\"ticket|purchase|booking|buy\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"ticket|purchase|booking|buy\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"ticket|purchase|booking|buy\",\"$options\":\"i\"}}]}",
+        "{\"$and\":[{\"$or\":[{\"name\":{\"$regex\":\"ticket\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"ticket\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"ticket\",\"$options\":\"i\"}}]},{\"$or\":[{\"name\":{\"$regex\":\"purchase\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"purchase\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"purchase\",\"$options\":\"i\"}}]}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"ticket purchase\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"ticket purchase\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"ticket purchase\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"ticket purchase\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"ticket\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"ticket\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"ticket\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"ticket|purchase|booking\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"ticket|purchase|booking\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"ticket|purchase|booking\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"Events|Shopping\",\"$options\":\"i\"}}]}"
+    ]
+}

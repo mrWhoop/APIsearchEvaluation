@@ -1,0 +1,16 @@
+{
+    "query": "APIs with an admin field set to true.",
+    "distinctResponseCount": 2,
+    "responses": [
+        "{\n  \"admin\": true\n}",
+        "{\"admin\": true}",
+        "{\"admin\": true}",
+        "{\n  \"admin\": true\n}",
+        "{\n  \"admin\": true\n}",
+        "{\n  \"admin\": true\n}",
+        "{\n  \"admin\": true\n}",
+        "{\n  \"admin\": true\n}",
+        "{\"admin\": true}",
+        "{\"admin\": true}"
+    ]
+}

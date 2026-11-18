@@ -1,0 +1,16 @@
+{
+    "query": "recipes",
+    "distinctResponseCount": 7,
+    "responses": [
+        "{\"$or\":[{\"category\":\"Food & Drink\"},{\"name\":{\"$regex\":\"recipe\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"recipe\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"recipe\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"recipes?\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"recipes?\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"recipes?\",\"$options\":\"i\"}},{\"category\":\"Food & Drink\"}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"recipe\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"recipe\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"recipe\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"recipes\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"recipes\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"recipes\",\"$options\":\"i\"}},{\"category\":\"Food & Drink\"}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"recipes\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"recipes\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"recipes\",\"$options\":\"i\"}},{\"category\":\"Food & Drink\"}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"recipe\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"recipe\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"recipe\",\"$options\":\"i\"}},{\"category\":\"Food & Drink\"}]}",
+        "{\"$or\":[{\"category\":\"Food & Drink\"},{\"name\":{\"$regex\":\"recipes\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"recipes\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"recipes\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"category\":\"Food & Drink\"},{\"name\":{\"$regex\":\"recipe\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"recipe\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"recipe\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"category\":{\"$regex\":\"food|drink\",\"$options\":\"i\"}},{\"name\":{\"$regex\":\"recipe\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"recipe\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"recipe\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"recipe\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"recipe\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"recipe\",\"$options\":\"i\"}}]}"
+    ]
+}

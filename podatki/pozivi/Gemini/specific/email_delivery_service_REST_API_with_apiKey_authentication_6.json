@@ -1,0 +1,16 @@
+{
+    "query": "email delivery service REST API with apiKey authentication",
+    "distinctResponseCount": 6,
+    "responses": [
+        "{\n  \"type\": \"REST\",\n  \"authentication\": \"apiKey\",\n  \"$or\": [\n    {\n      \"description\": {\n        \"$regex\": \"email delivery\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$in\": [\n          \"email delivery\",\n          \"email\"\n        ]\n      }\n    }\n  ]\n}",
+        "{\n  \"type\": \"REST\",\n  \"authentication\": \"apiKey\",\n  \"$or\": [\n    {\n      \"description\": {\n        \"$regex\": \"email\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$regex\": \"email\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"authentication\": \"apiKey\",\n  \"type\": \"REST\",\n  \"description\": {\n    \"$regex\": \"email delivery\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"type\": \"REST\",\n  \"authentication\": \"apiKey\",\n  \"description\": {\n    \"$regex\": \"email delivery\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"type\": \"REST\",\n  \"authentication\": \"apiKey\",\n  \"$or\": [\n    {\n      \"description\": {\n        \"$regex\": \"email delivery\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$regex\": \"email\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"type\": \"REST\",\n  \"authentication\": \"apiKey\",\n  \"$or\": [\n    {\n      \"description\": {\n        \"$regex\": \"email\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$regex\": \"email\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"type\": \"REST\",\n  \"authentication\": \"apiKey\",\n  \"$or\": [\n    {\n      \"description\": {\n        \"$regex\": \"email\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$in\": [\n          \"email\",\n          \"email delivery\"\n        ]\n      }\n    }\n  ]\n}",
+        "{\n  \"type\": \"REST\",\n  \"authentication\": \"apiKey\",\n  \"description\": {\n    \"$regex\": \"email delivery\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"type\": \"REST\",\n  \"authentication\": \"apiKey\",\n  \"description\": {\n    \"$regex\": \"email delivery\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"type\": \"REST\",\n  \"authentication\": \"apiKey\",\n  \"$or\": [\n    {\n      \"description\": {\n        \"$regex\": \"email\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$regex\": \"email\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}"
+    ]
+}

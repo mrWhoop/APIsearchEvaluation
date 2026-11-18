@@ -1,0 +1,16 @@
+{
+    "query": "climate",
+    "distinctResponseCount": 7,
+    "responses": [
+        "{\"$or\":[{\"name\":{\"$regex\":\"climate\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"climate\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"climate\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"climate\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"climate\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"climate\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"climate\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"climate\",\"$options\":\"i\"}},{\"category\":\"Weather\"}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"climate\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"climate\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"climate\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"climate|environment\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"climate\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"climate\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"climate\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"climate\",\"$options\":\"i\"}},{\"category\":\"Environment\"}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"climate\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"climate\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"climate\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"climate|weather|environment\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"climate\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"climate\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"climate\",\"$options\":\"i\"}},{\"category\":\"Weather\"},{\"category\":\"Environment\"}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"climate\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"climate\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"climate\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"climate\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"climate\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"climate\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"climate\",\"$options\":\"i\"}},{\"category\":{\"$in\":[\"Weather\",\"Environment\"]}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"climate\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"climate\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"climate\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"climate\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"climate\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"climate\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"climate\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"climate\",\"$options\":\"i\"}}]}"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "query": "productivity",
+    "distinctResponseCount": 2,
+    "responses": [
+        "{\n  \"category\": \"Documents & Productivity\"\n}",
+        "{\n  \"$or\": [\n    {\n      \"category\": {\n        \"$regex\": \"productivity\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"name\": {\n        \"$regex\": \"productivity\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"description\": {\n        \"$regex\": \"productivity\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$regex\": \"productivity\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"category\": \"Documents & Productivity\"\n}",
+        "{\n  \"category\": \"Documents & Productivity\"\n}",
+        "{\n  \"category\": \"Documents & Productivity\"\n}",
+        "{\n  \"category\": \"Documents & Productivity\"\n}",
+        "{\n  \"category\": \"Documents & Productivity\"\n}",
+        "{\n  \"category\": \"Documents & Productivity\"\n}",
+        "{\n  \"category\": \"Documents & Productivity\"\n}",
+        "{\n  \"category\": \"Documents & Productivity\"\n}"
+    ]
+}

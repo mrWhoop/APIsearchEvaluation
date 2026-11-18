@@ -1,0 +1,16 @@
+{
+    "query": "Remove all APIs that do not use HTTPS.",
+    "distinctResponseCount": 2,
+    "responses": [
+        "{\n  \"https\": false\n}",
+        "{\n  \"https\": false\n}",
+        "{\n  \"https\": false\n}",
+        "{\n  \"https\": false\n}",
+        "{\n  \"https\": false\n}",
+        "{\n  \"https\": false\n}",
+        "{\n  \"https\": false\n}",
+        "{\"https\": false}",
+        "{\n  \"https\": false\n}",
+        "{\n  \"https\": false\n}"
+    ]
+}

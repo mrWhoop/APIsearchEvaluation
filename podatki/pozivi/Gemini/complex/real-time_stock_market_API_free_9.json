@@ -1,0 +1,16 @@
+{
+    "query": "real-time stock market API free",
+    "distinctResponseCount": 9,
+    "responses": [
+        "{\n  \"$and\": [\n    {\n      \"$or\": [\n        { \"category\": \"Finance\" },\n        { \"description\": { \"$regex\": \"stock market\", \"$options\": \"i\" } },\n        { \"api_keywords\": \"stock\" }\n      ]\n    },\n    {\n      \"description\": { \"$regex\": \"real-time\", \"$options\": \"i\" }\n    },\n    {\n      \"$or\": [\n        { \"authentication\": null },\n        { \"description\": { \"$regex\": \"free\", \"$options\": \"i\" } }\n      ]\n    }\n  ]\n}",
+        "{\n  \"category\": \"Finance\",\n  \"authentication\": null,\n  \"description\": {\n    \"$regex\": \"stock\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"category\": \"Finance\",\n  \"authentication\": null,\n  \"description\": {\n    \"$regex\": \"stock\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"category\": \"Finance\",\n  \"description\": {\n    \"$regex\": \"stock\",\n    \"$options\": \"i\"\n  },\n  \"authentication\": null\n}",
+        "{\n  \"category\": \"Finance\",\n  \"$and\": [\n    {\n      \"$or\": [\n        { \"description\": { \"$regex\": \"real-time\", \"$options\": \"i\" } },\n        { \"api_keywords\": \"real-time\" }\n      ]\n    },\n    {\n      \"$or\": [\n        { \"description\": { \"$regex\": \"stock\", \"$options\": \"i\" } },\n        { \"api_keywords\": \"stock\" }\n      ]\n    }\n  ]\n}",
+        "{\n  \"category\": \"Finance\",\n  \"authentication\": null,\n  \"$or\": [\n    {\n      \"description\": {\n        \"$regex\": \"stock\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$in\": [\n          \"stock\",\n          \"stocks\",\n          \"stock market\",\n          \"real-time\"\n        ]\n      }\n    }\n  ]\n}",
+        "{\n  \"category\": \"Finance\",\n  \"authentication\": null,\n  \"$and\": [\n    {\n      \"description\": {\n        \"$regex\": \"real[- ]?time\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"description\": {\n        \"$regex\": \"stock\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"category\": \"Finance\",\n  \"description\": {\n    \"$regex\": \"(real[- ]?time.*stock|stock.*real[- ]?time)\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"category\": \"Finance\",\n  \"authentication\": null,\n  \"$or\": [\n    {\n      \"description\": {\n        \"$regex\": \"real-time\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"description\": {\n        \"$regex\": \"stock\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$in\": [\"stock\", \"stocks\", \"real-time\"]\n      }\n    }\n  ]\n}",
+        "{\n  \"category\": \"Finance\",\n  \"authentication\": null,\n  \"$and\": [\n    {\n      \"$or\": [\n        { \"description\": { \"$regex\": \"stock\", \"$options\": \"i\" } },\n        { \"api_keywords\": { \"$in\": [\"stock\", \"stocks\", \"stock market\"] } }\n      ]\n    },\n    {\n      \"$or\": [\n        { \"description\": { \"$regex\": \"real-time\", \"$options\": \"i\" } },\n        { \"api_keywords\": \"real-time\" }\n      ]\n    }\n  ]\n}"
+    ]
+}

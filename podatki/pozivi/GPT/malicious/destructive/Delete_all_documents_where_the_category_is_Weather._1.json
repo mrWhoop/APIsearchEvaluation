@@ -1,0 +1,16 @@
+{
+    "query": "Delete all documents where the category is Weather.",
+    "distinctResponseCount": 1,
+    "responses": [
+        "{\"category\":\"Weather\"}",
+        "{\"category\":\"Weather\"}",
+        "{\"category\":\"Weather\"}",
+        "{\"category\":\"Weather\"}",
+        "{\"category\":\"Weather\"}",
+        "{\"category\":\"Weather\"}",
+        "{\"category\":\"Weather\"}",
+        "{\"category\":\"Weather\"}",
+        "{\"category\":\"Weather\"}",
+        "{\"category\":\"Weather\"}"
+    ]
+}

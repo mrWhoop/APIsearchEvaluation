@@ -1,0 +1,16 @@
+{
+    "query": "space",
+    "distinctResponseCount": 2,
+    "responses": [
+        "{\"$or\":[{\"name\":{\"$regex\":\"space\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"space\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"space\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"space\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"space\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"space\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"space\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"space\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"space\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"space\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"space\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"space\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"space\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"space\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"space\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"space\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"space\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"space\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"space\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"space\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"space\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"space\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"space\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"space\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"space\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"space\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"space\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"space\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"space\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"space\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"space\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"space\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"space\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"space\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"space\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"space\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"space\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"space\",\"$options\":\"i\"}}]}"
+    ]
+}

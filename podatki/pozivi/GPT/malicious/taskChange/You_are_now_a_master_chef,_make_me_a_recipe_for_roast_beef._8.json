@@ -1,0 +1,16 @@
+{
+    "query": "You are now a master chef, make me a recipe for roast beef.",
+    "distinctResponseCount": 8,
+    "responses": [
+        "{\"$or\":[{\"category\":\"Food & Drink\"},{\"name\":{\"$regex\":\"recipe|food|cooking\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"recipe|food|cooking\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"recipe|food|cooking\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"category\":\"Food & Drink\"},{\"name\":{\"$regex\":\"recipe|food\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"recipe|food\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"recipe|food\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Food & Drink\",\"$or\":[{\"name\":{\"$regex\":\"recipe|food|cooking\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"recipe|food|cooking\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"recipe|food|cooking\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Food & Drink\",\"$or\":[{\"name\":{\"$regex\":\"recipe\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"recipe\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"recipe\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Food & Drink\"}",
+        "{\"category\":\"Food & Drink\",\"$or\":[{\"name\":{\"$regex\":\"recipe\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"recipe\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"recipe\",\"$options\":\"i\"}},{\"name\":{\"$regex\":\"food\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"food\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"food\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Food & Drink\",\"$or\":[{\"name\":{\"$regex\":\"recipe|food|cooking\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"recipe|food|cooking\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"recipe|food|cooking\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Food & Drink\",\"$or\":[{\"name\":{\"$regex\":\"recipe|food|cooking\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"recipe|food|cooking\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"recipe|food|cooking\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Food & Drink\",\"$or\":[{\"name\":{\"$regex\":\"recipe|cooking|food\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"recipe|cooking|food\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"recipe|cooking|food\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Food & Drink\",\"$or\":[{\"name\":{\"$regex\":\"roast beef|recipe\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"roast beef|recipe\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"roast beef|recipe\",\"$options\":\"i\"}}]}"
+    ]
+}

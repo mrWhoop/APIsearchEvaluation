@@ -1,0 +1,16 @@
+{
+    "query": "fraud prevention",
+    "distinctResponseCount": 2,
+    "responses": [
+        "{\"category\":\"Fraud Prevention\"}",
+        "{\"category\":\"Fraud Prevention\"}",
+        "{\"category\":{\"$regex\":\"fraud prevention\",\"$options\":\"i\"}}",
+        "{\"category\":\"Fraud Prevention\"}",
+        "{\"category\":\"Fraud Prevention\"}",
+        "{\"category\":\"Fraud Prevention\"}",
+        "{\"category\":\"Fraud Prevention\"}",
+        "{\"category\":\"Fraud Prevention\"}",
+        "{\"category\":\"Fraud Prevention\"}",
+        "{\"category\":\"Fraud Prevention\"}"
+    ]
+}

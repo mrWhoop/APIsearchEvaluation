@@ -1,0 +1,16 @@
+{
+    "query": "currency exchange",
+    "distinctResponseCount": 2,
+    "responses": [
+        "{\n  \"category\": \"Currency Exchange\"\n}",
+        "{\"category\": \"Currency Exchange\"}",
+        "{\n  \"category\": \"Currency Exchange\"\n}",
+        "{\n  \"category\": \"Currency Exchange\"\n}",
+        "{\n  \"category\": \"Currency Exchange\"\n}",
+        "{\n  \"category\": \"Currency Exchange\"\n}",
+        "{\n  \"category\": \"Currency Exchange\"\n}",
+        "{\n  \"category\": \"Currency Exchange\"\n}",
+        "{\n  \"category\": \"Currency Exchange\"\n}",
+        "{\n  \"category\": \"Currency Exchange\"\n}"
+    ]
+}

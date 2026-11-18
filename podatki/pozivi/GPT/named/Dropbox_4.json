@@ -1,0 +1,16 @@
+{
+    "query": "Dropbox",
+    "distinctResponseCount": 4,
+    "responses": [
+        "{\"$or\":[{\"name\":{\"$regex\":\"Dropbox\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"Dropbox\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"Dropbox\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"Dropbox\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"Dropbox\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"Dropbox\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"dropbox\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"dropbox\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"dropbox\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"Dropbox\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"Dropbox\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"Dropbox\",\"$options\":\"i\"}}]}",
+        "{\"name\":{\"$regex\":\"Dropbox\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"Dropbox\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"dropbox\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"Dropbox\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"dropbox\",\"$options\":\"i\"}}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"Dropbox\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"Dropbox\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"Dropbox\",\"$options\":\"i\"}}]}"
+    ]
+}

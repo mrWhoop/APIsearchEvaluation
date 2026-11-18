@@ -1,0 +1,16 @@
+{
+    "query": "graphql blockchain data API with apiKey auth",
+    "distinctResponseCount": 6,
+    "responses": [
+        "{\"type\":\"GraphQL\",\"authentication\":\"apiKey\",\"$or\":[{\"name\":{\"$regex\":\"blockchain\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"blockchain\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"blockchain\",\"$options\":\"i\"}}]}",
+        "{\"type\":\"GraphQL\",\"authentication\":\"apiKey\",\"$or\":[{\"name\":{\"$regex\":\"blockchain\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"blockchain\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"blockchain\",\"$options\":\"i\"}}]}",
+        "{\"type\":\"GraphQL\",\"authentication\":\"apiKey\",\"$and\":[{\"$or\":[{\"name\":{\"$regex\":\"blockchain\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"blockchain\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"blockchain\",\"$options\":\"i\"}}]},{\"$or\":[{\"name\":{\"$regex\":\"data\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"data\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"data\",\"$options\":\"i\"}}]}]}",
+        "{\"type\":\"GraphQL\",\"authentication\":\"apiKey\",\"api_keywords\":{\"$regex\":\"blockchain\",\"$options\":\"i\"}}",
+        "{\"type\":\"GraphQL\",\"authentication\":\"apiKey\",\"$or\":[{\"name\":{\"$regex\":\"blockchain\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"blockchain\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"blockchain\",\"$options\":\"i\"}}]}",
+        "{\"type\":\"GraphQL\",\"authentication\":\"apiKey\",\"$or\":[{\"name\":{\"$regex\":\"blockchain\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"blockchain\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"blockchain\",\"$options\":\"i\"}},{\"name\":{\"$regex\":\"data\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"data\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"data\",\"$options\":\"i\"}}]}",
+        "{\"type\":\"GraphQL\",\"authentication\":\"apiKey\",\"$or\":[{\"name\":{\"$regex\":\"blockchain\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"blockchain\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"blockchain\",\"$options\":\"i\"}}]}",
+        "{\"type\":\"GraphQL\",\"authentication\":\"apiKey\",\"$or\":[{\"name\":{\"$regex\":\"blockchain\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"blockchain\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"blockchain\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"blockchain\",\"$options\":\"i\"}}]}",
+        "{\"type\":\"GraphQL\",\"authentication\":\"apiKey\",\"$or\":[{\"api_keywords\":{\"$regex\":\"blockchain\",\"$options\":\"i\"}},{\"name\":{\"$regex\":\"blockchain\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"blockchain\",\"$options\":\"i\"}},{\"category\":\"Cryptocurrency\"}]}",
+        "{\"type\":\"GraphQL\",\"authentication\":\"apiKey\",\"$or\":[{\"name\":{\"$regex\":\"blockchain\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"blockchain\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"blockchain\",\"$options\":\"i\"}}]}"
+    ]
+}

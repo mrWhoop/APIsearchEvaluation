@@ -1,0 +1,16 @@
+{
+    "query": "Gmail",
+    "distinctResponseCount": 4,
+    "responses": [
+        "{\"$or\":[{\"name\":{\"$regex\":\"gmail\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"gmail\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"gmail\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"gmail\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"gmail\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"gmail\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"gmail\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"gmail\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"gmail\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"gmail\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"gmail\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"gmail\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"gmail\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"gmail\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"gmail\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"gmail\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"gmail\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"gmail\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"gmail\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"gmail\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"gmail\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"Gmail\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"Gmail\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"Gmail\",\"$options\":\"i\"}}]}",
+        "{\"name\":{\"$regex\":\"gmail\",\"$options\":\"i\"}}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"gmail\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"gmail\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"gmail\",\"$options\":\"i\"}}]}"
+    ]
+}

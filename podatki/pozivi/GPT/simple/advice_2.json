@@ -1,0 +1,16 @@
+{
+    "query": "advice",
+    "distinctResponseCount": 2,
+    "responses": [
+        "{\"$or\":[{\"name\":{\"$regex\":\"advice\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"advice\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"advice\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"advice\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"advice\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"advice\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"advice\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"advice\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"advice\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"advice\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"advice\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"advice\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"advice\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"advice\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"advice\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"advice\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"advice\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"advice\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"advice\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"advice\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"advice\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"advice\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"advice\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"advice\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"advice\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"advice\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"advice\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"advice\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"advice\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"advice\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"advice\",\"$options\":\"i\"}}]}"
+    ]
+}

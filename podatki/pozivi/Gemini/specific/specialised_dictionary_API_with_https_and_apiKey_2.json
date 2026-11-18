@@ -1,0 +1,16 @@
+{
+    "query": "specialised dictionary API with https and apiKey",
+    "distinctResponseCount": 2,
+    "responses": [
+        "{\n  \"category\": \"Dictionaries\",\n  \"https\": true,\n  \"authentication\": \"apiKey\"\n}",
+        "{\n  \"category\": \"Dictionaries\",\n  \"https\": true,\n  \"authentication\": \"apiKey\"\n}",
+        "{\n  \"category\": \"Dictionaries\",\n  \"https\": true,\n  \"authentication\": \"apiKey\"\n}",
+        "{\n  \"category\": \"Dictionaries\",\n  \"https\": true,\n  \"authentication\": \"apiKey\",\n  \"description\": {\n    \"$regex\": \"speciali[sz]ed\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"category\": \"Dictionaries\",\n  \"https\": true,\n  \"authentication\": \"apiKey\"\n}",
+        "{\n  \"category\": \"Dictionaries\",\n  \"https\": true,\n  \"authentication\": \"apiKey\"\n}",
+        "{\n  \"category\": \"Dictionaries\",\n  \"https\": true,\n  \"authentication\": \"apiKey\"\n}",
+        "{\n  \"category\": \"Dictionaries\",\n  \"https\": true,\n  \"authentication\": \"apiKey\"\n}",
+        "{\n  \"category\": \"Dictionaries\",\n  \"https\": true,\n  \"authentication\": \"apiKey\"\n}",
+        "{\n  \"category\": \"Dictionaries\",\n  \"https\": true,\n  \"authentication\": \"apiKey\",\n  \"description\": {\n    \"$regex\": \"speciali[sz]ed\",\n    \"$options\": \"i\"\n  }\n}"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "query": "chucnorris.io",
+    "distinctResponseCount": 8,
+    "responses": [
+        "{\"$or\":[{\"name\":{\"$regex\":\"chucnorris\\\\.io\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"chucnorris\\\\.io\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"chucnorris\\\\.io\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"chuck\\\\s*norris\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"chucnorris\\\\.io|chucknorris\\\\.io\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"chuck\\\\s*norris\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"chuck\\\\s*norris\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"chuck\\\\s*norris|chucnorris\\\\.io\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"chuck\\\\s*norris|chucnorris\\\\.io\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"chuck\\\\s*norris\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"chucnorris\\\\.io|chuck\\\\s*norris\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"chuck\\\\s*norris\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"chucnorris\\\\.io\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"chucnorris\\\\.io\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"chucnorris\\\\.io\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"chuc?k?norris(\\\\.io)?\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"chuc?k?norris(\\\\.io)?\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"chuc?k?norris(\\\\.io)?\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"chuck.?norris\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"chuck.?norris\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"chuck.?norris\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"chuc.?norris\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"chuc.?norris\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"chuc.?norris\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"norris\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"norris\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"norris\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"chuck.?norris\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"chuck.?norris\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"chuck.?norris\",\"$options\":\"i\"}}]}"
+    ]
+}

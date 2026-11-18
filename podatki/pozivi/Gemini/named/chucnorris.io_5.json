@@ -1,0 +1,16 @@
+{
+    "query": "chucnorris.io",
+    "distinctResponseCount": 5,
+    "responses": [
+        "{\n  \"name\": {\n    \"$regex\": \"chuc.*norris\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"chuck?norris\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"$or\": [\n    {\n      \"name\": {\n        \"$regex\": \"chuc.*norris\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"description\": {\n        \"$regex\": \"chuc.*norris\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"chuck?norris(\\\\.io)?\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"$or\": [\n    {\n      \"name\": {\n        \"$regex\": \"chuc.*norris\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"description\": {\n        \"$regex\": \"chuc.*norris\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"$or\": [\n    {\n      \"name\": {\n        \"$regex\": \"chuck?norris\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"description\": {\n        \"$regex\": \"chuck?norris\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$regex\": \"chuck?norris\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"$or\": [\n    {\n      \"name\": {\n        \"$regex\": \"chuc.*norris\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"description\": {\n        \"$regex\": \"chuc.*norris\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"$or\": [\n    {\n      \"name\": {\n        \"$regex\": \"chuc.*norris\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"description\": {\n        \"$regex\": \"chuc.*norris\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"chuck?norris\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"chuc.*norris\",\n    \"$options\": \"i\"\n  }\n}"
+    ]
+}

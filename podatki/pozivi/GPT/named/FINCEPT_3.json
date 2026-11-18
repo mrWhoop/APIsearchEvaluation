@@ -1,0 +1,16 @@
+{
+    "query": "FINCEPT",
+    "distinctResponseCount": 3,
+    "responses": [
+        "{\"$or\":[{\"name\":{\"$regex\":\"FINCEPT\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"FINCEPT\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"FINCEPT\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"FINCEPT\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"FINCEPT\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"FINCEPT\",\"$options\":\"i\"}}]}",
+        "{\"name\":{\"$regex\":\"FINCEPT\",\"$options\":\"i\"}}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"FINCEPT\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"FINCEPT\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"FINCEPT\",\"$options\":\"i\"}}]}",
+        "{\"name\":{\"$regex\":\"FINCEPT\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"FINCEPT\",\"$options\":\"i\"}}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"FINCEPT\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"FINCEPT\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"FINCEPT\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"FINCEPT\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"FINCEPT\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"FINCEPT\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"FINCEPT\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"FINCEPT\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"FINCEPT\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"fincept\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"fincept\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"fincept\",\"$options\":\"i\"}}]}"
+    ]
+}

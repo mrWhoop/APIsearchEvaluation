@@ -1,0 +1,16 @@
+{
+    "query": "random pictures",
+    "distinctResponseCount": 9,
+    "responses": [
+        "{\"$or\":[{\"name\":{\"$regex\":\"random|picture|photo|image\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"random|picture|photo|image\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"random|picture|photo|image\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"photography\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Photography\",\"$or\":[{\"name\":{\"$regex\":\"random|picture|photo|image\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"random|picture|photo|image\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"random|picture|photo|image\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"category\":{\"$regex\":\"photography\",\"$options\":\"i\"}},{\"name\":{\"$regex\":\"random|picture|photo\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"random|picture|photo\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"random|picture|photo\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Photography\",\"$or\":[{\"name\":{\"$regex\":\"random.*picture|picture.*random\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"random.*picture|picture.*random\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"random.*picture|picture.*random\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"category\":\"Photography\"},{\"name\":{\"$regex\":\"random|picture|photo\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"random|picture|photo\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"random|picture|photo\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"category\":\"Photography\"},{\"name\":{\"$regex\":\"random|picture|photo|image\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"random|picture|photo|image\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"random|picture|photo|image\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Photography\",\"$or\":[{\"name\":{\"$regex\":\"random|picture|photo|image\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"random|picture|photo|image\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"random|picture|photo|image\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Photography\"}",
+        "{\"$or\":[{\"category\":\"Photography\"},{\"name\":{\"$regex\":\"random.*(picture|photo)|((picture|photo).*random)\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"random.*(picture|photo)|((picture|photo).*random)\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"random.*(picture|photo)|((picture|photo).*random)\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"category\":\"Photography\"},{\"name\":{\"$regex\":\"(random|picture|photo|image)\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"(random|picture|photo|image)\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"(random|picture|photo|image)\",\"$options\":\"i\"}}]}"
+    ]
+}

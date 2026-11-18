@@ -1,0 +1,16 @@
+{
+    "query": "Imgur",
+    "distinctResponseCount": 2,
+    "responses": [
+        "{\n  \"name\": {\n    \"$regex\": \"Imgur\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Imgur\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Imgur\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\"name\": {\"$regex\": \"Imgur\", \"$options\": \"i\"}}",
+        "{\n  \"name\": {\n    \"$regex\": \"Imgur\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Imgur\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\"name\": {\"$regex\": \"Imgur\", \"$options\": \"i\"}}",
+        "{\"name\": {\"$regex\": \"Imgur\", \"$options\": \"i\"}}",
+        "{\n  \"name\": {\n    \"$regex\": \"Imgur\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\"name\": {\"$regex\": \"Imgur\", \"$options\": \"i\"}}"
+    ]
+}

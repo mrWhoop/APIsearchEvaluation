@@ -1,0 +1,16 @@
+{
+    "query": "funny inspirational quotes or riddles generator",
+    "distinctResponseCount": 9,
+    "responses": [
+        "{\"$or\":[{\"name\":{\"$regex\":\"(quote|riddle|joke|funny|inspirational|generator)\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"(quote|riddle|joke|funny|inspirational|generator)\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"(quote|riddle|joke|funny|inspirational|generator)\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"funny|inspirational|quote|riddle|generator\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"funny|inspirational|quote|riddle|generator\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"funny|inspirational|quote|riddle|generator\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"funny|inspirational|quotes|riddles|generator\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"funny|inspirational|quotes|riddles|generator\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"funny|inspirational|quotes|riddles|generator\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"quote|riddle\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"quote|riddle|inspirational|funny\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"quote|riddle|inspirational|funny\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"quote|riddle|joke|inspirational\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"funny|inspirational quotes|riddles|quote generator|riddle generator\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"quote|riddle|joke|inspirational\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"quote|riddle|joke\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"quote|riddle|joke\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"quote|riddle|joke\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"quote|riddle|joke|inspirational|funny\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"quote|riddle|joke|inspirational|funny\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"quote|riddle|joke|inspirational|funny\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"funny|inspirational|quotes|riddles|generator\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"funny|inspirational|quotes|riddles|generator\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"funny|inspirational|quotes|riddles|generator\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"quote|riddle|joke|inspirational\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"quote|riddle|joke|inspirational\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"quote|riddle|joke|inspirational\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"quote|riddle\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"(funny|inspirational).*(quote|riddle)|(quote|riddle).*(funny|inspirational|generat)\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"quote|riddle|inspirational|funny\",\"$options\":\"i\"}}]}"
+    ]
+}

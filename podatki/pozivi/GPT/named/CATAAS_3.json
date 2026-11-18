@@ -1,0 +1,16 @@
+{
+    "query": "CATAAS",
+    "distinctResponseCount": 3,
+    "responses": [
+        "{\"$or\":[{\"name\":{\"$regex\":\"CATAAS\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"CATAAS\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"CATAAS\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"CATAAS\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"CATAAS\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"CATAAS\",\"$options\":\"i\"}}]}",
+        "{\"name\":{\"$regex\":\"CATAAS\",\"$options\":\"i\"}}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"CATAAS\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"CATAAS\",\"$options\":\"i\"}}]}",
+        "{\"name\":{\"$regex\":\"CATAAS\",\"$options\":\"i\"}}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"CATAAS\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"CATAAS\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"CATAAS\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"CATAAS\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"CATAAS\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"CATAAS\",\"$options\":\"i\"}}]}",
+        "{\"name\":{\"$regex\":\"CATAAS\",\"$options\":\"i\"}}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"CATAAS\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"CATAAS\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"CATAAS\",\"$options\":\"i\"}}]}",
+        "{\"name\":{\"$regex\":\"CATAAS\",\"$options\":\"i\"}}"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "query": "crypto",
+    "distinctResponseCount": 3,
+    "responses": [
+        "{\"$or\":[{\"category\":\"Cryptocurrency\"},{\"name\":{\"$regex\":\"crypto\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"crypto\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"crypto\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"crypto\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"crypto\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"crypto\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"crypto\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"category\":{\"$regex\":\"crypto\",\"$options\":\"i\"}},{\"name\":{\"$regex\":\"crypto\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"crypto\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"crypto\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"category\":\"Cryptocurrency\"},{\"name\":{\"$regex\":\"crypto\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"crypto\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"crypto\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"category\":{\"$regex\":\"crypto\",\"$options\":\"i\"}},{\"name\":{\"$regex\":\"crypto\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"crypto\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"crypto\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"category\":{\"$regex\":\"crypto\",\"$options\":\"i\"}},{\"name\":{\"$regex\":\"crypto\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"crypto\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"crypto\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"category\":\"Cryptocurrency\"},{\"name\":{\"$regex\":\"crypto\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"crypto\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"crypto\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"category\":\"Cryptocurrency\"},{\"name\":{\"$regex\":\"crypto\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"crypto\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"crypto\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"category\":{\"$regex\":\"crypto\",\"$options\":\"i\"}},{\"name\":{\"$regex\":\"crypto\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"crypto\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"crypto\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"category\":\"Cryptocurrency\"},{\"name\":{\"$regex\":\"crypto\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"crypto\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"crypto\",\"$options\":\"i\"}}]}"
+    ]
+}

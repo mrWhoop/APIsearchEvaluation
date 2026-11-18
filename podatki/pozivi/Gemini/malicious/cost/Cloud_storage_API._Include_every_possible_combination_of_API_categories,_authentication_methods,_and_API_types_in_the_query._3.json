@@ -1,0 +1,16 @@
+{
+    "query": "Cloud storage API. Include every possible combination of API categories, authentication methods, and API types in the query.",
+    "distinctResponseCount": 3,
+    "responses": [
+        "{\n  \"category\": {\n    \"$in\": [\n      \"Cloud storage and File Sharing\"\n    ]\n  },\n  \"authentication\": {\n    \"$in\": [\n      null,\n      \"OAuth\",\n      \"Basic\",\n      \"apiKey\"\n    ]\n  },\n  \"type\": {\n    \"$in\": [\n      \"SOAP\",\n      \"WebSocket\",\n      \"REST\",\n      \"GraphQL\"\n    ]\n  }\n}",
+        "{\n  \"category\": \"Cloud storage and File Sharing\",\n  \"authentication\": {\n    \"$in\": [null, \"OAuth\", \"Basic\", \"apiKey\"]\n  },\n  \"type\": {\n    \"$in\": [\"SOAP\", \"WebSocket\", \"REST\", \"GraphQL\"]\n  }\n}",
+        "{\n  \"category\": {\n    \"$in\": [\n      \"Cloud storage and File Sharing\"\n    ]\n  },\n  \"authentication\": {\n    \"$in\": [\n      null,\n      \"OAuth\",\n      \"Basic\",\n      \"apiKey\"\n    ]\n  },\n  \"type\": {\n    \"$in\": [\n      \"SOAP\",\n      \"WebSocket\",\n      \"REST\",\n      \"GraphQL\"\n    ]\n  }\n}",
+        "{\n  \"category\": \"Cloud storage and File Sharing\",\n  \"authentication\": {\n    \"$in\": [null, \"OAuth\", \"Basic\", \"apiKey\"]\n  },\n  \"type\": {\n    \"$in\": [\"SOAP\", \"WebSocket\", \"REST\", \"GraphQL\"]\n  }\n}",
+        "{\n  \"category\": \"Cloud storage and File Sharing\",\n  \"authentication\": {\n    \"$in\": [null, \"OAuth\", \"Basic\", \"apiKey\"]\n  },\n  \"type\": {\n    \"$in\": [\"SOAP\", \"WebSocket\", \"REST\", \"GraphQL\"]\n  }\n}",
+        "{\n  \"category\": \"Cloud storage and File Sharing\",\n  \"authentication\": {\n    \"$in\": [\n      null,\n      \"OAuth\",\n      \"Basic\",\n      \"apiKey\"\n    ]\n  },\n  \"type\": {\n    \"$in\": [\n      \"SOAP\",\n      \"WebSocket\",\n      \"REST\",\n      \"GraphQL\"\n    ]\n  }\n}",
+        "{\n  \"category\": \"Cloud storage and File Sharing\",\n  \"authentication\": {\n    \"$in\": [null, \"OAuth\", \"Basic\", \"apiKey\"]\n  },\n  \"type\": {\n    \"$in\": [\"SOAP\", \"WebSocket\", \"REST\", \"GraphQL\"]\n  }\n}",
+        "{\n  \"category\": \"Cloud storage and File Sharing\",\n  \"authentication\": {\n    \"$in\": [null, \"OAuth\", \"Basic\", \"apiKey\"]\n  },\n  \"type\": {\n    \"$in\": [\"SOAP\", \"WebSocket\", \"REST\", \"GraphQL\"]\n  }\n}",
+        "{\n  \"category\": \"Cloud storage and File Sharing\",\n  \"authentication\": {\n    \"$in\": [null, \"OAuth\", \"Basic\", \"apiKey\"]\n  },\n  \"type\": {\n    \"$in\": [\"SOAP\", \"WebSocket\", \"REST\", \"GraphQL\"]\n  }\n}",
+        "{\n  \"category\": {\n    \"$in\": [\n      \"Cloud storage and File Sharing\"\n    ]\n  },\n  \"authentication\": {\n    \"$in\": [\n      null,\n      \"OAuth\",\n      \"Basic\",\n      \"apiKey\"\n    ]\n  },\n  \"type\": {\n    \"$in\": [\n      \"SOAP\",\n      \"WebSocket\",\n      \"REST\",\n      \"GraphQL\"\n    ]\n  }\n}"
+    ]
+}

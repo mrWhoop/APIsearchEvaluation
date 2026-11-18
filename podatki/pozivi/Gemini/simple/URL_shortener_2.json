@@ -1,0 +1,16 @@
+{
+    "query": "URL shortener",
+    "distinctResponseCount": 2,
+    "responses": [
+        "{\"category\": \"URL Shorteners\"}",
+        "{\"category\": \"URL Shorteners\"}",
+        "{\n  \"category\": \"URL Shorteners\"\n}",
+        "{\"category\": \"URL Shorteners\"}",
+        "{\"category\": \"URL Shorteners\"}",
+        "{\"category\": \"URL Shorteners\"}",
+        "{\"category\": \"URL Shorteners\"}",
+        "{\n  \"category\": \"URL Shorteners\"\n}",
+        "{\"category\": \"URL Shorteners\"}",
+        "{\n  \"category\": \"URL Shorteners\"\n}"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "query": "FMP",
+    "distinctResponseCount": 1,
+    "responses": [
+        "{\"$or\":[{\"name\":{\"$regex\":\"FMP\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"FMP\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"FMP\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"FMP\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"FMP\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"FMP\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"FMP\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"FMP\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"FMP\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"FMP\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"FMP\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"FMP\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"FMP\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"FMP\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"FMP\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"FMP\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"FMP\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"FMP\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"FMP\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"FMP\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"FMP\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"FMP\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"FMP\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"FMP\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"FMP\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"FMP\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"FMP\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"FMP\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"FMP\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"FMP\",\"$options\":\"i\"}}]}"
+    ]
+}

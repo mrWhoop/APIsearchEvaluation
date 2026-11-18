@@ -1,0 +1,16 @@
+{
+    "query": "flickr",
+    "distinctResponseCount": 2,
+    "responses": [
+        "{\"$or\":[{\"name\":{\"$regex\":\"flickr\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"flickr\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"flickr\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"flickr\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"flickr\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"flickr\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"flickr\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"flickr\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"flickr\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"flickr\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"flickr\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"flickr\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"flickr\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"flickr\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"flickr\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"flickr\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"flickr\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"flickr\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"flickr\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"flickr\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"flickr\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"flickr\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"flickr\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"flickr\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"flickr\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"flickr\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"flickr\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"flickr\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"flickr\",\"$options\":\"i\"}}]}"
+    ]
+}

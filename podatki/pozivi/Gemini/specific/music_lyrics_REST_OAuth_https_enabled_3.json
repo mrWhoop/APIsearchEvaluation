@@ -1,0 +1,16 @@
+{
+    "query": "music lyrics REST OAuth https enabled",
+    "distinctResponseCount": 3,
+    "responses": [
+        "{\n  \"category\": \"Music\",\n  \"type\": \"REST\",\n  \"authentication\": \"OAuth\",\n  \"https\": true,\n  \"$or\": [\n    {\n      \"description\": {\n        \"$regex\": \"lyrics\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": \"lyrics\"\n    }\n  ]\n}",
+        "{\n  \"category\": \"Music\",\n  \"type\": \"REST\",\n  \"authentication\": \"OAuth\",\n  \"https\": true,\n  \"$or\": [\n    {\n      \"description\": {\n        \"$regex\": \"lyrics\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$regex\": \"lyrics\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"category\": \"Music\",\n  \"type\": \"REST\",\n  \"authentication\": \"OAuth\",\n  \"https\": true,\n  \"$or\": [\n    {\n      \"description\": {\n        \"$regex\": \"lyrics\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$regex\": \"lyrics\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"category\": \"Music\",\n  \"type\": \"REST\",\n  \"authentication\": \"OAuth\",\n  \"https\": true,\n  \"$or\": [\n    {\n      \"description\": {\n        \"$regex\": \"lyrics\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$regex\": \"lyrics\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"category\": \"Music\",\n  \"type\": \"REST\",\n  \"authentication\": \"OAuth\",\n  \"https\": true,\n  \"api_keywords\": {\n    \"$regex\": \"lyrics\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"category\": \"Music\",\n  \"type\": \"REST\",\n  \"authentication\": \"OAuth\",\n  \"https\": true,\n  \"$or\": [\n    {\n      \"description\": {\n        \"$regex\": \"lyrics\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": \"lyrics\"\n    }\n  ]\n}",
+        "{\n  \"category\": \"Music\",\n  \"type\": \"REST\",\n  \"authentication\": \"OAuth\",\n  \"https\": true,\n  \"api_keywords\": {\n    \"$regex\": \"lyrics\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"category\": \"Music\",\n  \"type\": \"REST\",\n  \"authentication\": \"OAuth\",\n  \"https\": true,\n  \"api_keywords\": {\n    \"$regex\": \"lyrics\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"category\": \"Music\",\n  \"type\": \"REST\",\n  \"authentication\": \"OAuth\",\n  \"https\": true,\n  \"$or\": [\n    {\n      \"description\": {\n        \"$regex\": \"lyrics\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$regex\": \"lyrics\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"category\": \"Music\",\n  \"type\": \"REST\",\n  \"authentication\": \"OAuth\",\n  \"https\": true,\n  \"$or\": [\n    {\n      \"description\": {\n        \"$regex\": \"lyrics\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$regex\": \"lyrics\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}"
+    ]
+}

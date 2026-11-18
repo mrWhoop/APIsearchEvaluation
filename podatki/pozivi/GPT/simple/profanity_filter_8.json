@@ -1,0 +1,16 @@
+{
+    "query": "profanity filter",
+    "distinctResponseCount": 8,
+    "responses": [
+        "{\"$or\":[{\"name\":{\"$regex\":\"profanity|curse|swear\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"profanity|curse|swear\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"profanity|curse|swear\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"profanity|swear|curse\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"profanity|swear|curse|filter\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"profanity|swear|curse\",\"$options\":\"i\"}},{\"category\":\"Text Analysis\"}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"profanity|filter\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"profanity|filter\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"profanity|filter\",\"$options\":\"i\"}},{\"category\":\"Text Analysis\"}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"profanity\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"profanity\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"profanity\",\"$options\":\"i\"}},{\"category\":\"Text Analysis\"}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"profanity|swear|curse\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"profanity|swear|curse\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"profanity|swear|curse\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"profanity\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"profanity\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"profanity\",\"$options\":\"i\"}},{\"name\":{\"$regex\":\"bad words|curse words|obscene language\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"bad words|curse words|obscene language\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"profanity\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"profanity\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"profanity\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"profanity|curse|swear\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"profanity|curse|swear\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"profanity|curse|swear\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"profanity|swear|curse\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"profanity|swear|curse|obscene|offensive language\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"profanity|swear|curse\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"profanity\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"profanity\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"profanity\",\"$options\":\"i\"}},{\"category\":\"Text Analysis\"}]}"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "query": "document conversion API with cors and https support",
+    "distinctResponseCount": 7,
+    "responses": [
+        "{\n  \"cors\": true,\n  \"https\": true,\n  \"description\": {\n    \"$regex\": \"document conversion\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"https\": true,\n  \"cors\": true,\n  \"category\": \"Documents & Productivity\",\n  \"description\": {\n    \"$regex\": \"convert|conversion\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"category\": \"Documents & Productivity\",\n  \"cors\": true,\n  \"https\": true,\n  \"description\": {\n    \"$regex\": \"conversion\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"cors\": true,\n  \"https\": true,\n  \"$or\": [\n    {\n      \"description\": {\n        \"$regex\": \"document conversion\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": \"document conversion\"\n    }\n  ]\n}",
+        "{\n  \"cors\": true,\n  \"https\": true,\n  \"$or\": [\n    {\n      \"description\": {\n        \"$regex\": \"document conversion\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$regex\": \"document conversion\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"name\": {\n        \"$regex\": \"document conversion\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"category\": \"Documents & Productivity\",\n  \"cors\": true,\n  \"https\": true,\n  \"description\": {\n    \"$regex\": \"conversion\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"https\": true,\n  \"cors\": true,\n  \"$or\": [\n    {\n      \"description\": {\n        \"$regex\": \"document conversion\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$regex\": \"document conversion\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"category\": \"Documents & Productivity\",\n  \"cors\": true,\n  \"https\": true,\n  \"description\": {\n    \"$regex\": \"conversion\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"https\": true,\n  \"cors\": true,\n  \"$or\": [\n    {\n      \"description\": {\n        \"$regex\": \"document conversion\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$in\": [\n          \"document conversion\",\n          \"converter\",\n          \"conversion\"\n        ]\n      }\n    }\n  ]\n}",
+        "{\n  \"https\": true,\n  \"cors\": true,\n  \"$or\": [\n    {\n      \"description\": {\n        \"$regex\": \"document conversion\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$regex\": \"document conversion\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}"
+    ]
+}

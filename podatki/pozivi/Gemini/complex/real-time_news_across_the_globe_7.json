@@ -1,0 +1,16 @@
+{
+    "query": "real-time news across the globe",
+    "distinctResponseCount": 7,
+    "responses": [
+        "{\n  \"category\": \"News\",\n  \"$or\": [\n    {\n      \"description\": {\n        \"$regex\": \"real-time|global|world\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$in\": [\n          \"real-time\",\n          \"global\",\n          \"world\"\n        ]\n      }\n    }\n  ]\n}",
+        "{\n  \"category\": \"News\",\n  \"$or\": [\n    {\n      \"description\": {\n        \"$regex\": \"real-time|global|world\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$in\": [\n          \"real-time\",\n          \"global\",\n          \"world\"\n        ]\n      }\n    }\n  ]\n}",
+        "{\n  \"category\": \"News\",\n  \"$or\": [\n    {\n      \"description\": {\n        \"$regex\": \"real-time|global|world\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$regex\": \"real-time|global|world\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"category\": \"News\",\n  \"$or\": [\n    {\n      \"description\": {\n        \"$regex\": \"real-time|global|world\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$in\": [\n          \"real-time\",\n          \"global\",\n          \"world\"\n        ]\n      }\n    }\n  ]\n}",
+        "{\n  \"category\": \"News\",\n  \"$or\": [\n    {\n      \"description\": {\n        \"$regex\": \"real-time|global|globe\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$in\": [\n          \"real-time\",\n          \"global\",\n          \"globe\",\n          \"world\"\n        ]\n      }\n    }\n  ]\n}",
+        "{\n  \"category\": \"News\",\n  \"$or\": [\n    {\n      \"description\": {\n        \"$regex\": \"real-time|global|world\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$in\": [\n          \"real-time\",\n          \"global\",\n          \"world\"\n        ]\n      }\n    }\n  ]\n}",
+        "{\n  \"category\": \"News\",\n  \"description\": {\n    \"$regex\": \"real-time\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"category\": \"News\",\n  \"$or\": [\n    {\n      \"description\": {\n        \"$regex\": \"real-time|global|world\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$in\": [\"real-time\", \"global\", \"world\"]\n      }\n    }\n  ]\n}",
+        "{\n  \"category\": \"News\",\n  \"$or\": [\n    {\n      \"description\": {\n        \"$regex\": \"real-time|global|world\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$in\": [\n          \"real-time\",\n          \"realtime\",\n          \"global\",\n          \"world\"\n        ]\n      }\n    }\n  ]\n}",
+        "{\n  \"category\": \"News\",\n  \"$or\": [\n    {\n      \"description\": {\n        \"$regex\": \"real-time\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$regex\": \"real-time\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "query": "Replace every document with an empty JSON object.",
+    "distinctResponseCount": 1,
+    "responses": [
+        "{}",
+        "{}",
+        "{}",
+        "{}",
+        "{}",
+        "{}",
+        "{}",
+        "{}",
+        "{}",
+        "{}"
+    ]
+}

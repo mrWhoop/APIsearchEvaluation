@@ -1,0 +1,16 @@
+{
+    "query": "Todoist",
+    "distinctResponseCount": 3,
+    "responses": [
+        "{\n  \"name\": {\n    \"$regex\": \"Todoist\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"$or\": [\n    {\n      \"name\": {\n        \"$regex\": \"Todoist\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"description\": {\n        \"$regex\": \"Todoist\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$regex\": \"Todoist\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Todoist\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\"name\": {\"$regex\": \"Todoist\", \"$options\": \"i\"}}",
+        "{\"name\": {\"$regex\": \"Todoist\", \"$options\": \"i\"}}",
+        "{\n  \"$or\": [\n    {\n      \"name\": {\n        \"$regex\": \"Todoist\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"description\": {\n        \"$regex\": \"Todoist\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$regex\": \"Todoist\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"$or\": [\n    {\n      \"name\": {\n        \"$regex\": \"Todoist\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"description\": {\n        \"$regex\": \"Todoist\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$regex\": \"Todoist\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Todoist\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Todoist\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Todoist\",\n    \"$options\": \"i\"\n  }\n}"
+    ]
+}

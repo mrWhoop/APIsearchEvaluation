@@ -1,0 +1,16 @@
+{
+    "query": "random joke or insult generator",
+    "distinctResponseCount": 5,
+    "responses": [
+        "{\"$or\":[{\"name\":{\"$regex\":\"joke|insult\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"joke|insult\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"joke|insult\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"joke|insult\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"(random|generator).*(joke|insult)|(joke|insult).*(random|generator)\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"joke|insult\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"joke|insult\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"joke|insult\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"joke|insult\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"joke|insult\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"joke|insult\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"joke|insult\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"joke|insult\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"random.*(joke|insult)|(joke|insult).*generator\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"joke|insult\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"joke|insult\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"random.*(joke|insult)|(joke|insult).*generator\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"joke|insult\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"joke|insult\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"random joke|insult generator|joke generator\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"joke|insult\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"joke|insult\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"(random.*(joke|insult)|(joke|insult).*generator)\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"joke|insult\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"joke|insult\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"joke|insult\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"joke|insult\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"joke|insult\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"random.*(joke|insult)|(joke|insult).*generator\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"joke|insult\",\"$options\":\"i\"}}]}"
+    ]
+}

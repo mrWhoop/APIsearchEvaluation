@@ -1,0 +1,16 @@
+{
+    "query": "Lingua Robot",
+    "distinctResponseCount": 4,
+    "responses": [
+        "{\n  \"name\": \"Lingua Robot\"\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"Lingua Robot\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\"name\": \"Lingua Robot\"}",
+        "{\"name\": {\"$regex\": \"Lingua Robot\", \"$options\": \"i\"}}",
+        "{\"name\": \"Lingua Robot\"}",
+        "{\"name\": \"Lingua Robot\"}",
+        "{\"name\": {\"$regex\": \"Lingua Robot\", \"$options\": \"i\"}}",
+        "{\"name\": {\"$regex\": \"Lingua Robot\", \"$options\": \"i\"}}",
+        "{\n  \"name\": {\n    \"$regex\": \"Lingua Robot\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\"name\": {\"$regex\": \"Lingua Robot\", \"$options\": \"i\"}}"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "query": "REST university information API with https support",
+    "distinctResponseCount": 3,
+    "responses": [
+        "{\"type\":\"REST\",\"https\":true,\"$or\":[{\"name\":{\"$regex\":\"university\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"university\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"university\",\"$options\":\"i\"}}]}",
+        "{\"type\":\"REST\",\"https\":true,\"$or\":[{\"name\":{\"$regex\":\"university\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"university\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"university\",\"$options\":\"i\"}}]}",
+        "{\"type\":\"REST\",\"https\":true,\"$or\":[{\"name\":{\"$regex\":\"university\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"university\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"university\",\"$options\":\"i\"}}]}",
+        "{\"type\":\"REST\",\"https\":true,\"category\":\"Education\",\"$or\":[{\"name\":{\"$regex\":\"university\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"university\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"university\",\"$options\":\"i\"}}]}",
+        "{\"type\":\"REST\",\"https\":true,\"$or\":[{\"name\":{\"$regex\":\"university\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"university\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"university\",\"$options\":\"i\"}}]}",
+        "{\"type\":\"REST\",\"https\":true,\"category\":\"Education\",\"$or\":[{\"name\":{\"$regex\":\"university\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"university\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"university\",\"$options\":\"i\"}}]}",
+        "{\"type\":\"REST\",\"https\":true,\"category\":\"Education\",\"$or\":[{\"name\":{\"$regex\":\"university\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"university\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"university\",\"$options\":\"i\"}}]}",
+        "{\"type\":\"REST\",\"https\":true,\"category\":\"Education\",\"$or\":[{\"name\":{\"$regex\":\"university\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"university\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"university\",\"$options\":\"i\"}}]}",
+        "{\"type\":\"REST\",\"https\":true,\"category\":\"Education\",\"$or\":[{\"name\":{\"$regex\":\"university\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"university\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"university\",\"$options\":\"i\"}}]}",
+        "{\"type\":\"REST\",\"https\":true,\"category\":\"Education\"}"
+    ]
+}

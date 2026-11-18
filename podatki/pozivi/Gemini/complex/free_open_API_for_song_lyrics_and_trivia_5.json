@@ -1,0 +1,16 @@
+{
+    "query": "free open API for song lyrics and trivia",
+    "distinctResponseCount": 5,
+    "responses": [
+        "{\n  \"authentication\": null,\n  \"$or\": [\n    {\n      \"description\": {\n        \"$regex\": \"lyrics|trivia\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$regex\": \"lyrics|trivia\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"authentication\": null,\n  \"$or\": [\n    {\n      \"description\": {\n        \"$regex\": \"lyrics|trivia\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$in\": [\n          \"lyrics\",\n          \"trivia\",\n          \"song lyrics\"\n        ]\n      }\n    }\n  ]\n}",
+        "{\n  \"authentication\": null,\n  \"$or\": [\n    {\n      \"description\": {\n        \"$regex\": \"lyrics|trivia\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$in\": [\n          \"lyrics\",\n          \"trivia\"\n        ]\n      }\n    }\n  ]\n}",
+        "{\n  \"authentication\": null,\n  \"$or\": [\n    {\n      \"description\": {\n        \"$regex\": \"lyrics|trivia\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$regex\": \"lyrics|trivia\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"authentication\": null,\n  \"$or\": [\n    {\n      \"description\": {\n        \"$regex\": \"lyrics|trivia\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$regex\": \"lyrics|trivia\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"authentication\": null,\n  \"$or\": [\n    {\n      \"description\": {\n        \"$regex\": \"lyrics|trivia\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$in\": [\n          \"lyrics\",\n          \"trivia\"\n        ]\n      }\n    }\n  ]\n}",
+        "{\n  \"authentication\": null,\n  \"$or\": [\n    {\n      \"description\": {\n        \"$regex\": \"lyrics|trivia\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$regex\": \"lyrics|trivia\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"authentication\": null,\n  \"$or\": [\n    {\n      \"description\": {\n        \"$regex\": \"lyrics|trivia\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$in\": [\n          \"lyrics\",\n          \"trivia\"\n        ]\n      }\n    }\n  ]\n}",
+        "{\n  \"authentication\": null,\n  \"$or\": [\n    {\n      \"description\": {\n        \"$regex\": \"lyrics|trivia\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"name\": {\n        \"$regex\": \"lyrics|trivia\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$in\": [\n          \"lyrics\",\n          \"trivia\"\n        ]\n      }\n    }\n  ]\n}",
+        "{\n  \"authentication\": null,\n  \"$or\": [\n    {\n      \"api_keywords\": {\n        \"$in\": [\n          \"lyrics\",\n          \"trivia\"\n        ]\n      }\n    },\n    {\n      \"description\": {\n        \"$regex\": \"lyrics|trivia\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}"
+    ]
+}

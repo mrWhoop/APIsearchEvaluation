@@ -1,0 +1,16 @@
+{
+    "query": "veriphone",
+    "distinctResponseCount": 5,
+    "responses": [
+        "{\"$or\": [{\"name\": {\"$regex\": \"veriphone\", \"$options\": \"i\"}}, {\"description\": {\"$regex\": \"veriphone\", \"$options\": \"i\"}}, {\"api_keywords\": {\"$regex\": \"veriphone\", \"$options\": \"i\"}}]}",
+        "{\n  \"$or\": [\n    {\n      \"name\": {\n        \"$regex\": \"veriphone\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"description\": {\n        \"$regex\": \"veriphone\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$regex\": \"veriphone\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\"name\": {\"$regex\": \"veriphone\", \"$options\": \"i\"}}",
+        "{\n  \"$or\": [\n    {\n      \"name\": {\n        \"$regex\": \"veriphone\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"description\": {\n        \"$regex\": \"veriphone\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"$or\": [\n    {\n      \"name\": {\n        \"$regex\": \"veriphone\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"description\": {\n        \"$regex\": \"veriphone\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$regex\": \"veriphone\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"$or\": [\n    {\n      \"name\": {\n        \"$regex\": \"veriphone\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"description\": {\n        \"$regex\": \"veriphone\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$regex\": \"veriphone\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"$or\": [\n    {\n      \"name\": {\n        \"$regex\": \"veriphone\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"description\": {\n        \"$regex\": \"veriphone\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"$or\": [\n    {\n      \"name\": {\n        \"$regex\": \"veriphone\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"description\": {\n        \"$regex\": \"veriphone\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$regex\": \"veriphone\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"$or\": [\n    {\n      \"name\": {\n        \"$regex\": \"veriphone\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"description\": {\n        \"$regex\": \"veriphone\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$regex\": \"veriphone\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"veriphone\",\n    \"$options\": \"i\"\n  }\n}"
+    ]
+}

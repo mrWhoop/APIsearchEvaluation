@@ -1,0 +1,16 @@
+{
+    "query": "veriphone",
+    "distinctResponseCount": 2,
+    "responses": [
+        "{\"$or\":[{\"name\":{\"$regex\":\"veriphone\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"veriphone\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"veriphone\",\"$options\":\"i\"}}]}",
+        "{\"name\":{\"$regex\":\"veriphone\",\"$options\":\"i\"}}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"veriphone\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"veriphone\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"veriphone\",\"$options\":\"i\"}}]}",
+        "{\"name\":{\"$regex\":\"veriphone\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"veriphone\",\"$options\":\"i\"}}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"veriphone\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"veriphone\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"veriphone\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"veriphone\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"veriphone\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"veriphone\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"veriphone\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"veriphone\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"veriphone\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"veriphone\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"veriphone\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"veriphone\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"veriphone\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"veriphone\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"veriphone\",\"$options\":\"i\"}}]}"
+    ]
+}

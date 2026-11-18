@@ -1,0 +1,16 @@
+{
+    "query": "religion",
+    "distinctResponseCount": 2,
+    "responses": [
+        "{\"$or\":[{\"name\":{\"$regex\":\"religion\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"religion\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"religion\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"religion\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"religion\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"religion\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"religion\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"religion\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"religion\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"religion\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"religion\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"religion\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"religion\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"religion\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"religion\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"religion\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"religion\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"religion\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"religion\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"religion\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"religion\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"religion\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"religion\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"religion\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"religion\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"religion\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"religion\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"religion\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"religion\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"religion\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"religion\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"religion\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"religion\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"religion\",\"$options\":\"i\"}}]}"
+    ]
+}

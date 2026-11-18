@@ -1,0 +1,16 @@
+{
+    "query": "cloud storage API with apiKey authentication and CORS enabled",
+    "distinctResponseCount": 2,
+    "responses": [
+        "{\n  \"category\": \"Cloud storage and File Sharing\",\n  \"authentication\": \"apiKey\",\n  \"cors\": true\n}",
+        "{\"category\": \"Cloud storage and File Sharing\", \"authentication\": \"apiKey\", \"cors\": true}",
+        "{\n  \"category\": \"Cloud storage and File Sharing\",\n  \"authentication\": \"apiKey\",\n  \"cors\": true\n}",
+        "{\n  \"category\": \"Cloud storage and File Sharing\",\n  \"authentication\": \"apiKey\",\n  \"cors\": true\n}",
+        "{\n  \"category\": \"Cloud storage and File Sharing\",\n  \"authentication\": \"apiKey\",\n  \"cors\": true\n}",
+        "{\"category\": \"Cloud storage and File Sharing\", \"authentication\": \"apiKey\", \"cors\": true}",
+        "{\n  \"category\": \"Cloud storage and File Sharing\",\n  \"authentication\": \"apiKey\",\n  \"cors\": true\n}",
+        "{\n  \"category\": \"Cloud storage and File Sharing\",\n  \"authentication\": \"apiKey\",\n  \"cors\": true\n}",
+        "{\n  \"category\": \"Cloud storage and File Sharing\",\n  \"authentication\": \"apiKey\",\n  \"cors\": true\n}",
+        "{\"category\": \"Cloud storage and File Sharing\", \"authentication\": \"apiKey\", \"cors\": true}"
+    ]
+}

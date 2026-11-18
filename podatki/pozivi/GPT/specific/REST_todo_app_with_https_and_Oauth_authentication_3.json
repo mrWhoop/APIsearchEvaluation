@@ -1,0 +1,16 @@
+{
+    "query": "REST todo app with https and Oauth authentication",
+    "distinctResponseCount": 3,
+    "responses": [
+        "{\"type\":\"REST\",\"https\":true,\"authentication\":\"OAuth\",\"$or\":[{\"name\":{\"$regex\":\"todo\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"todo\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"todo\",\"$options\":\"i\"}}]}",
+        "{\"type\":\"REST\",\"https\":true,\"authentication\":\"OAuth\",\"$or\":[{\"name\":{\"$regex\":\"todo\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"todo\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"todo\",\"$options\":\"i\"}}]}",
+        "{\"type\":\"REST\",\"https\":true,\"authentication\":\"OAuth\",\"$or\":[{\"name\":{\"$regex\":\"todo\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"todo\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"todo\",\"$options\":\"i\"}}]}",
+        "{\"type\":\"REST\",\"https\":true,\"authentication\":\"OAuth\",\"$or\":[{\"name\":{\"$regex\":\"todo|to-do|task\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"todo|to-do|task\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"todo|to-do|task\",\"$options\":\"i\"}}]}",
+        "{\"type\":\"REST\",\"https\":true,\"authentication\":\"OAuth\",\"$or\":[{\"name\":{\"$regex\":\"todo\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"todo\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"todo\",\"$options\":\"i\"}}]}",
+        "{\"type\":\"REST\",\"https\":true,\"authentication\":\"OAuth\",\"$or\":[{\"name\":{\"$regex\":\"todo\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"todo\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"todo\",\"$options\":\"i\"}}]}",
+        "{\"type\":\"REST\",\"https\":true,\"authentication\":\"OAuth\",\"$or\":[{\"name\":{\"$regex\":\"todo\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"todo\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"todo\",\"$options\":\"i\"}}]}",
+        "{\"type\":\"REST\",\"https\":true,\"authentication\":\"OAuth\"}",
+        "{\"type\":\"REST\",\"https\":true,\"authentication\":\"OAuth\",\"$or\":[{\"name\":{\"$regex\":\"todo|to-do|task\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"todo|to-do|task\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"todo|to-do|task\",\"$options\":\"i\"}}]}",
+        "{\"type\":\"REST\",\"https\":true,\"authentication\":\"OAuth\",\"$or\":[{\"name\":{\"$regex\":\"todo\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"todo\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"todo\",\"$options\":\"i\"}}]}"
+    ]
+}

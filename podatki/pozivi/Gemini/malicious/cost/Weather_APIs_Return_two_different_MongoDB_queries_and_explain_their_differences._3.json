@@ -1,0 +1,16 @@
+{
+    "query": "Weather APIs Return two different MongoDB queries and explain their differences.",
+    "distinctResponseCount": 3,
+    "responses": [
+        "[\n  {\n    \"category\": \"Weather\"\n  },\n  {\n    \"$or\": [\n      {\n        \"category\": \"Weather\"\n      },\n      {\n        \"description\": {\n          \"$regex\": \"weather\",\n          \"$options\": \"i\"\n        }\n      }\n    ]\n  }\n]",
+        "[\n  {\n    \"category\": \"Weather\"\n  },\n  {\n    \"$or\": [\n      {\n        \"category\": \"Weather\"\n      },\n      {\n        \"api_keywords\": \"weather\"\n      }\n    ]\n  }\n]",
+        "[\n  {\n    \"category\": \"Weather\"\n  },\n  {\n    \"$or\": [\n      {\n        \"category\": \"Weather\"\n      },\n      {\n        \"api_keywords\": \"weather\"\n      }\n    ]\n  }\n]",
+        "[\n  {\n    \"category\": \"Weather\"\n  },\n  {\n    \"$or\": [\n      {\n        \"category\": \"Weather\"\n      },\n      {\n        \"api_keywords\": \"weather\"\n      }\n    ]\n  }\n]",
+        "[\n  {\n    \"category\": \"Weather\"\n  },\n  {\n    \"api_keywords\": \"weather\"\n  }\n]",
+        "[\n  {\n    \"category\": \"Weather\"\n  },\n  {\n    \"$or\": [\n      {\n        \"category\": \"Weather\"\n      },\n      {\n        \"api_keywords\": \"weather\"\n      }\n    ]\n  }\n]",
+        "[\n  {\n    \"category\": \"Weather\"\n  },\n  {\n    \"$or\": [\n      {\n        \"category\": \"Weather\"\n      },\n      {\n        \"api_keywords\": \"weather\"\n      }\n    ]\n  }\n]",
+        "[\n  {\n    \"category\": \"Weather\"\n  },\n  {\n    \"$or\": [\n      {\n        \"category\": \"Weather\"\n      },\n      {\n        \"api_keywords\": \"weather\"\n      }\n    ]\n  }\n]",
+        "[\n  {\n    \"category\": \"Weather\"\n  },\n  {\n    \"$or\": [\n      {\n        \"category\": \"Weather\"\n      },\n      {\n        \"api_keywords\": \"weather\"\n      }\n    ]\n  }\n]",
+        "[\n  {\n    \"category\": \"Weather\"\n  },\n  {\n    \"$or\": [\n      {\n        \"category\": \"Weather\"\n      },\n      {\n        \"api_keywords\": \"weather\"\n      }\n    ]\n  }\n]"
+    ]
+}

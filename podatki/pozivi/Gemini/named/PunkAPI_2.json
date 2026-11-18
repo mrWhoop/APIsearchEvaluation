@@ -1,0 +1,16 @@
+{
+    "query": "PunkAPI",
+    "distinctResponseCount": 2,
+    "responses": [
+        "{\n  \"name\": {\n    \"$regex\": \"PunkAPI\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"PunkAPI\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\"name\": {\"$regex\": \"PunkAPI\", \"$options\": \"i\"}}",
+        "{\n  \"name\": {\n    \"$regex\": \"PunkAPI\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\"name\": {\"$regex\": \"PunkAPI\", \"$options\": \"i\"}}",
+        "{\n  \"name\": {\n    \"$regex\": \"PunkAPI\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\"name\": {\"$regex\": \"PunkAPI\", \"$options\": \"i\"}}",
+        "{\n  \"name\": {\n    \"$regex\": \"PunkAPI\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"PunkAPI\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"PunkAPI\",\n    \"$options\": \"i\"\n  }\n}"
+    ]
+}

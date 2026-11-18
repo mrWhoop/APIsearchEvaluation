@@ -1,0 +1,16 @@
+{
+    "query": "GraphQL Job search API with Oauth authentication",
+    "distinctResponseCount": 7,
+    "responses": [
+        "{\"type\":\"GraphQL\",\"category\":\"Jobs\",\"authentication\":\"OAuth\",\"$or\":[{\"name\":{\"$regex\":\"job|search\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"job|search\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"job|search\",\"$options\":\"i\"}}]}",
+        "{\"type\":\"GraphQL\",\"category\":\"Jobs\",\"authentication\":\"OAuth\"}",
+        "{\"type\":\"GraphQL\",\"authentication\":\"OAuth\",\"category\":\"Jobs\",\"$or\":[{\"name\":{\"$regex\":\"job|employment|career\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"job|employment|career\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"job|employment|career\",\"$options\":\"i\"}}]}",
+        "{\"type\":\"GraphQL\",\"authentication\":\"OAuth\",\"category\":\"Jobs\",\"$or\":[{\"name\":{\"$regex\":\"job search\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"job search\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"job search\",\"$options\":\"i\"}}]}",
+        "{\"type\":\"GraphQL\",\"category\":\"Jobs\",\"authentication\":\"OAuth\"}",
+        "{\"category\":\"Jobs\",\"type\":\"GraphQL\",\"authentication\":\"OAuth\"}",
+        "{\"type\":\"GraphQL\",\"category\":\"Jobs\",\"authentication\":\"OAuth\",\"$or\":[{\"name\":{\"$regex\":\"job search\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"job search\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"job search\",\"$options\":\"i\"}}]}",
+        "{\"type\":\"GraphQL\",\"category\":\"Jobs\",\"authentication\":\"OAuth\",\"$or\":[{\"name\":{\"$regex\":\"job\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"job\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"job\",\"$options\":\"i\"}}]}",
+        "{\"type\":\"GraphQL\",\"category\":\"Jobs\",\"authentication\":\"OAuth\"}",
+        "{\"type\":\"GraphQL\",\"category\":\"Jobs\",\"authentication\":\"OAuth\"}"
+    ]
+}

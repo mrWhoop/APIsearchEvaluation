@@ -1,0 +1,16 @@
+{
+    "query": "Trestle",
+    "distinctResponseCount": 2,
+    "responses": [
+        "{\"$or\":[{\"name\":{\"$regex\":\"Trestle\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"Trestle\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"Trestle\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"Trestle\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"Trestle\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"Trestle\",\"$options\":\"i\"}}]}",
+        "{\"name\":{\"$regex\":\"Trestle\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"Trestle\",\"$options\":\"i\"}}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"Trestle\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"Trestle\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"Trestle\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"Trestle\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"Trestle\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"Trestle\",\"$options\":\"i\"}}]}",
+        "{\"name\":{\"$regex\":\"Trestle\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"Trestle\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"Trestle\",\"$options\":\"i\"}}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"Trestle\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"Trestle\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"Trestle\",\"$options\":\"i\"}}]}"
+    ]
+}

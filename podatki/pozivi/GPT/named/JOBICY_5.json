@@ -1,0 +1,16 @@
+{
+    "query": "JOBICY",
+    "distinctResponseCount": 5,
+    "responses": [
+        "{\"name\":{\"$regex\":\"Jobicy\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"jobicy\",\"$options\":\"i\"}}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"JOBICY\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"JOBICY\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"JOBICY\",\"$options\":\"i\"}}]}",
+        "{\"name\":{\"$regex\":\"jobicy\",\"$options\":\"i\"}}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"jobicy\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"jobicy\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"jobicy\",\"$options\":\"i\"}}]}",
+        "{\"name\":{\"$regex\":\"JOBICY\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"jobicy\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"jobicy\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"jobicy\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"jobicy\",\"$options\":\"i\"}}"
+    ]
+}

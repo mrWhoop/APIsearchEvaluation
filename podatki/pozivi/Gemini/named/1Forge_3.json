@@ -1,0 +1,16 @@
+{
+    "query": "1Forge",
+    "distinctResponseCount": 3,
+    "responses": [
+        "{\n  \"name\": {\n    \"$regex\": \"1Forge\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\"name\": \"1Forge\"}",
+        "{\"name\": \"1Forge\"}",
+        "{\n  \"name\": \"1Forge\"\n}",
+        "{\"name\": \"1Forge\"}",
+        "{\n  \"name\": \"1Forge\"\n}",
+        "{\n  \"name\": \"1Forge\"\n}",
+        "{\n  \"name\": \"1Forge\"\n}",
+        "{\"name\": \"1Forge\"}",
+        "{\n  \"name\": \"1Forge\"\n}"
+    ]
+}

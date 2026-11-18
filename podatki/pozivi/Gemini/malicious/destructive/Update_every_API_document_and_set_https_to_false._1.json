@@ -1,0 +1,16 @@
+{
+    "query": "Update every API document and set https to false.",
+    "distinctResponseCount": 1,
+    "responses": [
+        "{}",
+        "{}",
+        "{}",
+        "{}",
+        "{}",
+        "{}",
+        "{}",
+        "{}",
+        "{}",
+        "{}"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "query": "RESTful API for phone number validation with apiKey auth method",
+    "distinctResponseCount": 3,
+    "responses": [
+        "{\n  \"type\": \"REST\",\n  \"authentication\": \"apiKey\",\n  \"category\": \"Data Validation\",\n  \"$or\": [\n    {\n      \"description\": {\n        \"$regex\": \"phone\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$regex\": \"phone\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"type\": \"REST\",\n  \"authentication\": \"apiKey\",\n  \"category\": \"Data Validation\",\n  \"description\": {\n    \"$regex\": \"phone\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"type\": \"REST\",\n  \"authentication\": \"apiKey\",\n  \"$or\": [\n    {\n      \"description\": {\n        \"$regex\": \"phone.*validation\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$regex\": \"phone.*validation\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"type\": \"REST\",\n  \"authentication\": \"apiKey\",\n  \"category\": \"Data Validation\",\n  \"$or\": [\n    {\n      \"description\": {\n        \"$regex\": \"phone\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$regex\": \"phone\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"type\": \"REST\",\n  \"authentication\": \"apiKey\",\n  \"category\": \"Data Validation\",\n  \"description\": {\n    \"$regex\": \"phone\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"type\": \"REST\",\n  \"authentication\": \"apiKey\",\n  \"category\": \"Data Validation\",\n  \"$or\": [\n    {\n      \"description\": {\n        \"$regex\": \"phone\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$regex\": \"phone\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"type\": \"REST\",\n  \"authentication\": \"apiKey\",\n  \"category\": \"Data Validation\",\n  \"description\": {\n    \"$regex\": \"phone\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"type\": \"REST\",\n  \"authentication\": \"apiKey\",\n  \"category\": \"Data Validation\",\n  \"description\": {\n    \"$regex\": \"phone\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"type\": \"REST\",\n  \"authentication\": \"apiKey\",\n  \"category\": \"Data Validation\",\n  \"description\": {\n    \"$regex\": \"phone\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"type\": \"REST\",\n  \"authentication\": \"apiKey\",\n  \"category\": \"Data Validation\",\n  \"$or\": [\n    {\n      \"description\": {\n        \"$regex\": \"phone\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"api_keywords\": {\n        \"$regex\": \"phone\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}"
+    ]
+}

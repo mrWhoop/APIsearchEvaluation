@@ -1,0 +1,16 @@
+{
+    "query": "FraudLabs PRO",
+    "distinctResponseCount": 3,
+    "responses": [
+        "{\"name\":{\"$regex\":\"FraudLabs PRO\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"FraudLabs PRO\",\"$options\":\"i\"}}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"FraudLabs PRO\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"FraudLabs PRO\",\"$options\":\"i\"}}]}",
+        "{\"name\":{\"$regex\":\"FraudLabs PRO\",\"$options\":\"i\"}}",
+        "{\"name\":\"FraudLabs PRO\"}",
+        "{\"name\":{\"$regex\":\"FraudLabs PRO\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"FraudLabs PRO\",\"$options\":\"i\"}}",
+        "{\"name\":\"FraudLabs PRO\"}",
+        "{\"name\":{\"$regex\":\"FraudLabs PRO\",\"$options\":\"i\"}}",
+        "{\"name\":\"FraudLabs PRO\"}"
+    ]
+}

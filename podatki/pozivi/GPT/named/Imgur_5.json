@@ -1,0 +1,16 @@
+{
+    "query": "Imgur",
+    "distinctResponseCount": 5,
+    "responses": [
+        "{\"name\":{\"$regex\":\"imgur\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"Imgur\",\"$options\":\"i\"}}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"imgur\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"imgur\",\"$options\":\"i\"}}]}",
+        "{\"name\":{\"$regex\":\"Imgur\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"imgur\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"Imgur\",\"$options\":\"i\"}}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"imgur\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"imgur\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"imgur\",\"$options\":\"i\"}}]}",
+        "{\"name\":{\"$regex\":\"Imgur\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"^Imgur$\",\"$options\":\"i\"}}",
+        "{\"name\":{\"$regex\":\"imgur\",\"$options\":\"i\"}}"
+    ]
+}

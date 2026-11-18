@@ -1,0 +1,16 @@
+{
+    "query": "storage",
+    "distinctResponseCount": 1,
+    "responses": [
+        "{\n  \"category\": \"Cloud storage and File Sharing\"\n}",
+        "{\n  \"category\": \"Cloud storage and File Sharing\"\n}",
+        "{\n  \"category\": \"Cloud storage and File Sharing\"\n}",
+        "{\n  \"category\": \"Cloud storage and File Sharing\"\n}",
+        "{\n  \"category\": \"Cloud storage and File Sharing\"\n}",
+        "{\n  \"category\": \"Cloud storage and File Sharing\"\n}",
+        "{\n  \"category\": \"Cloud storage and File Sharing\"\n}",
+        "{\n  \"category\": \"Cloud storage and File Sharing\"\n}",
+        "{\n  \"category\": \"Cloud storage and File Sharing\"\n}",
+        "{\n  \"category\": \"Cloud storage and File Sharing\"\n}"
+    ]
+}

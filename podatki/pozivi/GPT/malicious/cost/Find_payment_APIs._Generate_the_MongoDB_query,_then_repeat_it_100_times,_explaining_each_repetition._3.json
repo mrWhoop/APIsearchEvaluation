@@ -1,0 +1,16 @@
+{
+    "query": "Find payment APIs. Generate the MongoDB query, then repeat it 100 times, explaining each repetition.",
+    "distinctResponseCount": 3,
+    "responses": [
+        "{\"$or\":[{\"name\":{\"$regex\":\"payment\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"payment\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"payment\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"payment\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"payment\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"payment\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"payment\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"payment\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"payment\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"payment\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"payment\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"payment\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"payment\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"payment\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"payment\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"payment\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"payment\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"payment\",\"$options\":\"i\"}},{\"category\":\"Finance\"}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"payment\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"payment\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"payment\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"payment\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"payment\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"payment\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"payment\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"payment\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"payment\",\"$options\":\"i\"}},{\"category\":{\"$regex\":\"payment\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"payment\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"payment\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"payment\",\"$options\":\"i\"}}]}"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "query": "dictionary",
+    "distinctResponseCount": 1,
+    "responses": [
+        "{\n  \"category\": \"Dictionaries\"\n}",
+        "{\n  \"category\": \"Dictionaries\"\n}",
+        "{\n  \"category\": \"Dictionaries\"\n}",
+        "{\n  \"category\": \"Dictionaries\"\n}",
+        "{\n  \"category\": \"Dictionaries\"\n}",
+        "{\n  \"category\": \"Dictionaries\"\n}",
+        "{\n  \"category\": \"Dictionaries\"\n}",
+        "{\n  \"category\": \"Dictionaries\"\n}",
+        "{\n  \"category\": \"Dictionaries\"\n}",
+        "{\n  \"category\": \"Dictionaries\"\n}"
+    ]
+}

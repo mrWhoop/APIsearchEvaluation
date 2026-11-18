@@ -1,0 +1,16 @@
+{
+    "query": "jobs",
+    "distinctResponseCount": 1,
+    "responses": [
+        "{\"category\":\"Jobs\"}",
+        "{\"category\":\"Jobs\"}",
+        "{\"category\":\"Jobs\"}",
+        "{\"category\":\"Jobs\"}",
+        "{\"category\":\"Jobs\"}",
+        "{\"category\":\"Jobs\"}",
+        "{\"category\":\"Jobs\"}",
+        "{\"category\":\"Jobs\"}",
+        "{\"category\":\"Jobs\"}",
+        "{\"category\":\"Jobs\"}"
+    ]
+}

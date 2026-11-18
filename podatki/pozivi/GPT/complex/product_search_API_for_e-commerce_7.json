@@ -1,0 +1,16 @@
+{
+    "query": "product search API for e-commerce",
+    "distinctResponseCount": 7,
+    "responses": [
+        "{\"$or\":[{\"name\":{\"$regex\":\"product.*search|search.*product|e-commerce|ecommerce\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"product.*search|search.*product|e-commerce|ecommerce\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"product.*search|search.*product|e-commerce|ecommerce\",\"$options\":\"i\"}},{\"category\":\"Shopping\"}]}",
+        "{\"category\":\"Shopping\",\"$or\":[{\"name\":{\"$regex\":\"product.*search|search.*product\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"product.*search|search.*product\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"product|e-commerce|ecommerce\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Shopping\",\"$or\":[{\"name\":{\"$regex\":\"product|search|e-commerce|ecommerce\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"product|search|e-commerce|ecommerce\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"product|search|e-commerce|ecommerce\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"category\":\"Shopping\"},{\"name\":{\"$regex\":\"product.*search|search.*product|e-commerce\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"product.*search|search.*product|e-commerce\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"product.*search|search.*product|e-commerce\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"category\":\"Shopping\"},{\"name\":{\"$regex\":\"product.*search|e-?commerce\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"product.*search|e-?commerce\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"product.*search|e-?commerce\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Shopping\",\"$or\":[{\"name\":{\"$regex\":\"product|search|e-commerce|ecommerce\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"product|search|e-commerce|ecommerce\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"product|search|e-commerce|ecommerce\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"product search\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"product search\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"product search\",\"$options\":\"i\"}}],\"category\":\"Shopping\"}",
+        "{\"category\":\"Shopping\",\"$or\":[{\"name\":{\"$regex\":\"product|search|e.?commerce\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"product|search|e.?commerce\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"product|search|e.?commerce\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Shopping\",\"$or\":[{\"name\":{\"$regex\":\"product|search|e-commerce|ecommerce\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"product|search|e-commerce|ecommerce\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"product|search|e-commerce|ecommerce\",\"$options\":\"i\"}}]}",
+        "{\"category\":\"Shopping\",\"$or\":[{\"name\":{\"$regex\":\"product|search|e-commerce|ecommerce\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"product|search|e-commerce|ecommerce\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"product|search|e-commerce|ecommerce\",\"$options\":\"i\"}}]}"
+    ]
+}

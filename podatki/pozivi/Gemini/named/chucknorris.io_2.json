@@ -1,0 +1,16 @@
+{
+    "query": "chucknorris.io",
+    "distinctResponseCount": 2,
+    "responses": [
+        "{\n  \"$or\": [\n    {\n      \"name\": {\n        \"$regex\": \"chucknorris\\\\.io\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"description\": {\n        \"$regex\": \"chucknorris\\\\.io\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"chucknorris\\\\.io\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"chucknorris\\\\.io\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"chucknorris\\\\.io\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"chucknorris\\\\.io\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"chucknorris\\\\.io\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"$or\": [\n    {\n      \"name\": {\n        \"$regex\": \"chucknorris\\\\.io\",\n        \"$options\": \"i\"\n      }\n    },\n    {\n      \"description\": {\n        \"$regex\": \"chucknorris\\\\.io\",\n        \"$options\": \"i\"\n      }\n    }\n  ]\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"chucknorris\\\\.io\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"chucknorris\\\\.io\",\n    \"$options\": \"i\"\n  }\n}",
+        "{\n  \"name\": {\n    \"$regex\": \"chucknorris\\\\.io\",\n    \"$options\": \"i\"\n  }\n}"
+    ]
+}

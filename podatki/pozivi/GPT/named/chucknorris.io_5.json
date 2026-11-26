@@ -1,0 +1,16 @@
+{
+    "query": "chucknorris.io",
+    "distinctResponseCount": 5,
+    "responses": [
+        "{\"$or\":[{\"name\":{\"$regex\":\"chucknorris\\\\.io\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"chucknorris\\\\.io\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"chucknorris\\\\.io\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"chucknorris\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"chucknorris\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"chucknorris\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"chuck\\\\s*norris\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"chuck\\\\s*norris\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"chuck\\\\s*norris\",\"$options\":\"i\"}},{\"name\":{\"$regex\":\"chucknorris\\\\.io\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"chucknorris\\\\.io\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"chucknorris\\\\.io\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"chucknorris\\\\.io\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"chucknorris\\\\.io\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"chucknorris\\\\.io\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"chuck.?norris\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"chuck.?norris\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"chuck.?norris\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"chuck.?norris\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"chuck.?norris\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"chuck.?norris\",\"$options\":\"i\"}}]}",
+        "{\"name\":\"chucknorris.io\"}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"chucknorris\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"chucknorris\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"chucknorris\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"chucknorris\\\\.io\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"chucknorris\\\\.io\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"chucknorris\\\\.io\",\"$options\":\"i\"}}]}",
+        "{\"$or\":[{\"name\":{\"$regex\":\"chuck.?norris\",\"$options\":\"i\"}},{\"description\":{\"$regex\":\"chuck.?norris\",\"$options\":\"i\"}},{\"api_keywords\":{\"$regex\":\"chuck.?norris\",\"$options\":\"i\"}}]}"
+    ]
+}

@@ -3728,315 +3728,6 @@
 },
 {
   "_id": {
-    "$oid": "6ad76af0e635c2d598a69849"
-  },
-  "query": "chucnorris.io",
-  "component": "MeilisearchEmbed",
-  "accepted": [
-    {
-      "id": "6ac5ebd5b3a578a9b0ab7146",
-      "position": 1
-    }
-  ],
-  "marked": {
-    "id": "6ac5ebd5b3a578a9b0ab7146",
-    "position": 1
-  },
-  "rejected": [
-    {
-      "id": "6ac5ebd5b3a578a9b0ab71a7",
-      "position": 2
-    },
-    {
-      "id": "6ac5ebd5b3a578a9b0ab7139",
-      "position": 3
-    },
-    {
-      "id": "6ac5ebd5b3a578a9b0ab712c",
-      "position": 4
-    },
-    {
-      "id": "6ac5ebd5b3a578a9b0ab7197",
-      "position": 5
-    }
-  ],
-  "evaluator": "Evaluator"
-},
-{
-  "_id": {
-    "$oid": "6ad76af0e635c2d598a6984a"
-  },
-  "query": "chucnorris.io",
-  "component": "GeminiDescriptive",
-  "accepted": [
-    {
-      "id": "6ac5ebd5b3a578a9b0ab7146",
-      "position": 1
-    }
-  ],
-  "marked": {
-    "id": "6ac5ebd5b3a578a9b0ab7146",
-    "position": 1
-  },
-  "rejected": [
-    {
-      "id": "6ac5ebd5b3a578a9b0ab7077",
-      "position": 2
-    },
-    {
-      "id": "6ac5ebd5b3a578a9b0ab714b",
-      "position": 3
-    },
-    {
-      "id": "6ac5ebd5b3a578a9b0ab71a7",
-      "position": 4
-    },
-    {
-      "id": "6ac5ebd5b3a578a9b0ab7074",
-      "position": 5
-    }
-  ],
-  "evaluator": "Evaluator"
-},
-{
-  "_id": {
-    "$oid": "6ad76af0e635c2d598a6984b"
-  },
-  "query": "chucnorris.io",
-  "component": "GeminiSimple",
-  "accepted": [
-    {
-      "id": "6ac5ebd5b3a578a9b0ab7146",
-      "position": 1
-    }
-  ],
-  "marked": {
-    "id": "6ac5ebd5b3a578a9b0ab7146",
-    "position": 1
-  },
-  "rejected": [
-    {
-      "id": "6ac5ebd5b3a578a9b0ab7074",
-      "position": 2
-    },
-    {
-      "id": "6ac5ebd5b3a578a9b0ab7079",
-      "position": 3
-    },
-    {
-      "id": "6ac5ebd5b3a578a9b0ab7077",
-      "position": 4
-    },
-    {
-      "id": "6ac5ebd5b3a578a9b0ab7168",
-      "position": 5
-    }
-  ],
-  "evaluator": "Evaluator"
-},
-{
-  "_id": {
-    "$oid": "6ad76af0e635c2d598a6984c"
-  },
-  "query": "chucnorris.io",
-  "component": "OpenAIPrompt",
-  "accepted": [
-    {
-      "id": "6ac5ebd5b3a578a9b0ab7146",
-      "position": 1
-    }
-  ],
-  "marked": {
-    "id": "6ac5ebd5b3a578a9b0ab7146",
-    "position": 1
-  },
-  "rejected": [],
-  "evaluator": "Evaluator"
-},
-{
-  "_id": {
-    "$oid": "6ad76af0e635c2d598a6984d"
-  },
-  "query": "chucnorris.io",
-  "component": "OpenAISimple",
-  "accepted": [
-    {
-      "id": "6ac5ebd5b3a578a9b0ab7146",
-      "position": 1
-    }
-  ],
-  "marked": {
-    "id": "6ac5ebd5b3a578a9b0ab7146",
-    "position": 1
-  },
-  "rejected": [
-    {
-      "id": "6ac5ebd5b3a578a9b0ab7179",
-      "position": 2
-    },
-    {
-      "id": "6ac5ebd5b3a578a9b0ab714c",
-      "position": 3
-    },
-    {
-      "id": "6ac5ebd5b3a578a9b0ab714b",
-      "position": 4
-    },
-    {
-      "id": "6ac5ebd5b3a578a9b0ab714f",
-      "position": 5
-    }
-  ],
-  "evaluator": "Evaluator"
-},
-{
-  "_id": {
-    "$oid": "6ad76af0e635c2d598a6984e"
-  },
-  "query": "chucnorris.io",
-  "component": "Meilisearch",
-  "accepted": [
-    {
-      "id": "6ac5ebd5b3a578a9b0ab7146",
-      "position": 1
-    }
-  ],
-  "marked": {
-    "id": "6ac5ebd5b3a578a9b0ab7146",
-    "position": 1
-  },
-  "rejected": [],
-  "evaluator": "Evaluator"
-},
-{
-  "_id": {
-    "$oid": "6ad76af0e635c2d598a6984f"
-  },
-  "query": "chucnorris.io",
-  "component": "OpenAIStructured",
-  "accepted": [
-    {
-      "id": "6ac5ebd5b3a578a9b0ab7146",
-      "position": 1
-    }
-  ],
-  "marked": {
-    "id": "6ac5ebd5b3a578a9b0ab7146",
-    "position": 1
-  },
-  "rejected": [
-    {
-      "id": "6ac5ebd5b3a578a9b0ab714f",
-      "position": 2
-    },
-    {
-      "id": "6ac5ebd5b3a578a9b0ab714b",
-      "position": 3
-    },
-    {
-      "id": "6ac5ebd5b3a578a9b0ab718e",
-      "position": 4
-    },
-    {
-      "id": "6ac5ebd5b3a578a9b0ab7179",
-      "position": 5
-    }
-  ],
-  "evaluator": "Evaluator"
-},
-{
-  "_id": {
-    "$oid": "6ad76af0e635c2d598a69850"
-  },
-  "query": "chucnorris.io",
-  "component": "GeminiStructured",
-  "accepted": [
-    {
-      "id": "6ac5ebd5b3a578a9b0ab7146",
-      "position": 1
-    }
-  ],
-  "marked": {
-    "id": "6ac5ebd5b3a578a9b0ab7146",
-    "position": 1
-  },
-  "rejected": [
-    {
-      "id": "6ac5ebd5b3a578a9b0ab7077",
-      "position": 2
-    },
-    {
-      "id": "6ac5ebd5b3a578a9b0ab7079",
-      "position": 3
-    },
-    {
-      "id": "6ac5ebd5b3a578a9b0ab7175",
-      "position": 4
-    },
-    {
-      "id": "6ac5ebd5b3a578a9b0ab7078",
-      "position": 5
-    }
-  ],
-  "evaluator": "Evaluator"
-},
-{
-  "_id": {
-    "$oid": "6ad76af0e635c2d598a69851"
-  },
-  "query": "chucnorris.io",
-  "component": "GeminiPrompt",
-  "accepted": [
-    {
-      "id": "6ac5ebd5b3a578a9b0ab7146",
-      "position": 1
-    }
-  ],
-  "marked": {
-    "id": "6ac5ebd5b3a578a9b0ab7146",
-    "position": 1
-  },
-  "rejected": [],
-  "evaluator": "Evaluator"
-},
-{
-  "_id": {
-    "$oid": "6ad76af0e635c2d598a69852"
-  },
-  "query": "chucnorris.io",
-  "component": "OpenAIDescriptive",
-  "accepted": [
-    {
-      "id": "6ac5ebd5b3a578a9b0ab7146",
-      "position": 1
-    }
-  ],
-  "marked": {
-    "id": "6ac5ebd5b3a578a9b0ab7146",
-    "position": 1
-  },
-  "rejected": [
-    {
-      "id": "6ac5ebd5b3a578a9b0ab714b",
-      "position": 2
-    },
-    {
-      "id": "6ac5ebd5b3a578a9b0ab71a7",
-      "position": 3
-    },
-    {
-      "id": "6ac5ebd5b3a578a9b0ab7194",
-      "position": 4
-    },
-    {
-      "id": "6ac5ebd5b3a578a9b0ab714f",
-      "position": 5
-    }
-  ],
-  "evaluator": "Evaluator"
-},
-{
-  "_id": {
     "$oid": "6ad76b45e635c2d598a69853"
   },
   "query": "PASTEBIN",
@@ -9152,5 +8843,314 @@
       "position": 5
     }
   ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6b005a25fb66fa31435dc5a0"
+  },
+  "query": "chucknorris.io",
+  "component": "OpenAIStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7146",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab7146",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab714f",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab714b",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7179",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab718e",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6b005a25fb66fa31435dc5a1"
+  },
+  "query": "chucknorris.io",
+  "component": "MeilisearchEmbed",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7146",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab7146",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7141",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab714b",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7109",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7134",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6b005a25fb66fa31435dc5a2"
+  },
+  "query": "chucknorris.io",
+  "component": "OpenAIPrompt",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7146",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab7146",
+    "position": 1
+  },
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6b005a25fb66fa31435dc5a3"
+  },
+  "query": "chucknorris.io",
+  "component": "GeminiSimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7146",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab7146",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70fa",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7151",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7079",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab714f",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6b005a25fb66fa31435dc5a4"
+  },
+  "query": "chucknorris.io",
+  "component": "Meilisearch",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7146",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab7146",
+    "position": 1
+  },
+  "rejected": [],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6b005a25fb66fa31435dc5a5"
+  },
+  "query": "chucknorris.io",
+  "component": "GeminiStructured",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7146",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab7146",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7079",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab714c",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7175",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7150",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6b005a25fb66fa31435dc5a6"
+  },
+  "query": "chucknorris.io",
+  "component": "OpenAISimple",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7146",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab7146",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7179",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab714b",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7177",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab714f",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6b005a25fb66fa31435dc5a7"
+  },
+  "query": "chucknorris.io",
+  "component": "GeminiDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7146",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab7146",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab714c",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7149",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7151",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab70fa",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6b005a25fb66fa31435dc5a8"
+  },
+  "query": "chucknorris.io",
+  "component": "OpenAIDescriptive",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7146",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab7146",
+    "position": 1
+  },
+  "rejected": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab714b",
+      "position": 2
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7179",
+      "position": 3
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab718e",
+      "position": 4
+    },
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7141",
+      "position": 5
+    }
+  ],
+  "evaluator": "Evaluator"
+},
+{
+  "_id": {
+    "$oid": "6b005a25fb66fa31435dc5a9"
+  },
+  "query": "chucknorris.io",
+  "component": "GeminiPrompt",
+  "accepted": [
+    {
+      "id": "6ac5ebd5b3a578a9b0ab7146",
+      "position": 1
+    }
+  ],
+  "marked": {
+    "id": "6ac5ebd5b3a578a9b0ab7146",
+    "position": 1
+  },
+  "rejected": [],
   "evaluator": "Evaluator"
 }]
